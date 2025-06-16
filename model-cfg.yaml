@@ -1,0 +1,4 @@
+package: mangadex
+generate:
+  models: true
+output: models.gen.go
