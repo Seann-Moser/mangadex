@@ -1,0 +1,59 @@
+name: Update oapi-codegen Generated Code
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Every Sunday at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  regenerate-and-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache: 'true'
+
+      - name: Install oapi-codegen
+        run: |
+          go install github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen@latest
+          echo "${HOME}/go/bin" >> $GITHUB_PATH
+
+      - name: Download latest OpenAPI spec
+        run: curl -sSL -o api.yaml https://your-api.com/path/to/openapi.yaml
+
+      - name: Run oapi-codegen
+        run: |
+          oapi-codegen --config=model-cfg.yaml api.yaml
+          oapi-codegen --config=cfg.yaml api.yaml
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "chore: update generated code via oapi-codegen"
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.commit.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: update generated code via oapi-codegen"
+          title: "chore: regenerate code (weekly)"
+          body: "This PR contains the latest generated code using oapi-codegen."
+          branch: "chore/oapi-codegen-update"
+          delete-branch: true
