@@ -38,15 +38,15 @@ type Client struct {
 	// https://api.deepmap.com for example. This can contain a path relative
 	// to the server, such as https://api.deepmap.com/dev-test, and all the
 	// paths in the swagger spec will be appended to the server.
-	Server string
+	Server string `json:"-"`
 
 	// Doer for performing requests, typically a *http.Client with any
 	// customized settings, such as certificate chains.
-	Client HttpRequestDoer
+	Client HttpRequestDoer `json:"-"`
 
 	// A list of callbacks for modifying requests which are generated before sending over
 	// the network.
-	RequestEditors []RequestEditorFn
+	RequestEditors []RequestEditorFn `json:"-"`
 }
 
 // ClientOption allows setting custom parameters during construction
@@ -9778,7 +9778,7 @@ func (c *Client) applyEditors(ctx context.Context, req *http.Request, additional
 
 // ClientWithResponses builds on ClientInterface to offer response payloads
 type ClientWithResponses struct {
-	ClientInterface
+	ClientInterface `json:"-"`
 }
 
 // NewClientWithResponses creates a new ClientWithResponses, which wraps
@@ -10209,8 +10209,8 @@ type ClientWithResponsesInterface interface {
 }
 
 type GetAtHomeServerChapterIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		// BaseUrl The base URL to construct final image URLs from.
 		// The URL returned is valid for the requested chapter only, and for a duration of 15 minutes from the time of the response.
@@ -10242,8 +10242,8 @@ func (r GetAtHomeServerChapterIdResponse) StatusCode() int {
 }
 
 type GetAuthCheckResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CheckResponse
 }
 
@@ -10264,8 +10264,8 @@ func (r GetAuthCheckResponse) StatusCode() int {
 }
 
 type PostAuthLoginResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *LoginResponse
 	JSON400      *ErrorResponse
 	JSON401      *ErrorResponse
@@ -10288,8 +10288,8 @@ func (r PostAuthLoginResponse) StatusCode() int {
 }
 
 type PostAuthLogoutResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *LogoutResponse
 	JSON503      *ErrorResponse
 }
@@ -10311,8 +10311,8 @@ func (r PostAuthLogoutResponse) StatusCode() int {
 }
 
 type PostAuthRefreshResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *RefreshResponse
 	JSON400      *ErrorResponse
 	JSON401      *ErrorResponse
@@ -10336,8 +10336,8 @@ func (r PostAuthRefreshResponse) StatusCode() int {
 }
 
 type GetAuthorResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *AuthorList
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10360,8 +10360,8 @@ func (r GetAuthorResponse) StatusCode() int {
 }
 
 type PostAuthorResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *AuthorResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10384,8 +10384,8 @@ func (r PostAuthorResponse) StatusCode() int {
 }
 
 type DeleteAuthorIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -10408,8 +10408,8 @@ func (r DeleteAuthorIdResponse) StatusCode() int {
 }
 
 type GetAuthorIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *AuthorResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -10432,8 +10432,8 @@ func (r GetAuthorIdResponse) StatusCode() int {
 }
 
 type PutAuthorIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *AuthorResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10457,8 +10457,8 @@ func (r PutAuthorIdResponse) StatusCode() int {
 }
 
 type PostCaptchaSolveResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *PostCaptchaSolve200Result `json:"result,omitempty"`
 	}
@@ -10483,8 +10483,8 @@ func (r PostCaptchaSolveResponse) StatusCode() int {
 }
 
 type GetChapterResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ChapterList
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10507,8 +10507,8 @@ func (r GetChapterResponse) StatusCode() int {
 }
 
 type DeleteChapterIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10532,8 +10532,8 @@ func (r DeleteChapterIdResponse) StatusCode() int {
 }
 
 type GetChapterIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ChapterResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -10556,8 +10556,8 @@ func (r GetChapterIdResponse) StatusCode() int {
 }
 
 type PutChapterIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ChapterResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10581,8 +10581,8 @@ func (r PutChapterIdResponse) StatusCode() int {
 }
 
 type GetListApiclientsResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ApiClientList
 }
 
@@ -10603,8 +10603,8 @@ func (r GetListApiclientsResponse) StatusCode() int {
 }
 
 type PostCreateApiclientResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ApiClientResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10627,8 +10627,8 @@ func (r PostCreateApiclientResponse) StatusCode() int {
 }
 
 type DeleteApiclientResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *string `json:"result,omitempty"`
 	}
@@ -10653,8 +10653,8 @@ func (r DeleteApiclientResponse) StatusCode() int {
 }
 
 type GetApiclientResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ApiClientResponse
 	JSON404      *ErrorResponse
 }
@@ -10676,8 +10676,8 @@ func (r GetApiclientResponse) StatusCode() int {
 }
 
 type PostEditApiclientResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ApiClientResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10701,8 +10701,8 @@ func (r PostEditApiclientResponse) StatusCode() int {
 }
 
 type GetApiclientSecretResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Data   *string                      `json:"data,omitempty"`
 		Result *GetApiclientSecret200Result `json:"result,omitempty"`
@@ -10728,8 +10728,8 @@ func (r GetApiclientSecretResponse) StatusCode() int {
 }
 
 type PostRegenerateApiclientSecretResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Data   *string                                 `json:"data,omitempty"`
 		Result *PostRegenerateApiclientSecret200Result `json:"result,omitempty"`
@@ -10755,8 +10755,8 @@ func (r PostRegenerateApiclientSecretResponse) StatusCode() int {
 }
 
 type GetCoverResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CoverList
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10779,8 +10779,8 @@ func (r GetCoverResponse) StatusCode() int {
 }
 
 type DeleteCoverResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10803,8 +10803,8 @@ func (r DeleteCoverResponse) StatusCode() int {
 }
 
 type GetCoverIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CoverResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10828,8 +10828,8 @@ func (r GetCoverIdResponse) StatusCode() int {
 }
 
 type UploadCoverResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CoverResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10852,8 +10852,8 @@ func (r UploadCoverResponse) StatusCode() int {
 }
 
 type EditCoverResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CoverResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10876,8 +10876,8 @@ func (r EditCoverResponse) StatusCode() int {
 }
 
 type ForumsThreadCreateResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ForumsThreadResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -10900,8 +10900,8 @@ func (r ForumsThreadCreateResponse) StatusCode() int {
 }
 
 type GetSearchGroupResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ScanlationGroupList
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10924,8 +10924,8 @@ func (r GetSearchGroupResponse) StatusCode() int {
 }
 
 type PostGroupResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ScanlationGroupResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -10948,8 +10948,8 @@ func (r PostGroupResponse) StatusCode() int {
 }
 
 type DeleteGroupIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -10972,8 +10972,8 @@ func (r DeleteGroupIdResponse) StatusCode() int {
 }
 
 type GetGroupIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ScanlationGroupResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -10996,8 +10996,8 @@ func (r GetGroupIdResponse) StatusCode() int {
 }
 
 type PutGroupIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ScanlationGroupResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -11021,8 +11021,8 @@ func (r PutGroupIdResponse) StatusCode() int {
 }
 
 type DeleteGroupIdFollowResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *ErrorResponse
 }
@@ -11044,8 +11044,8 @@ func (r DeleteGroupIdFollowResponse) StatusCode() int {
 }
 
 type PostGroupIdFollowResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *ErrorResponse
 }
@@ -11067,8 +11067,8 @@ func (r PostGroupIdFollowResponse) StatusCode() int {
 }
 
 type PostLegacyMappingResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MappingIdResponse
 	JSON400      *ErrorResponse
 }
@@ -11090,8 +11090,8 @@ func (r PostLegacyMappingResponse) StatusCode() int {
 }
 
 type PostListResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CustomListResponse
 	JSON400      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11114,8 +11114,8 @@ func (r PostListResponse) StatusCode() int {
 }
 
 type DeleteListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11138,8 +11138,8 @@ func (r DeleteListIdResponse) StatusCode() int {
 }
 
 type GetListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CustomListResponse
 	JSON404      *ErrorResponse
 }
@@ -11161,8 +11161,8 @@ func (r GetListIdResponse) StatusCode() int {
 }
 
 type PutListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CustomListResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -11186,8 +11186,8 @@ func (r PutListIdResponse) StatusCode() int {
 }
 
 type GetListIdFeedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ChapterList
 	JSON400      *ErrorResponse
 	JSON401      *ErrorResponse
@@ -11212,8 +11212,8 @@ func (r GetListIdFeedResponse) StatusCode() int {
 }
 
 type UnfollowListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *UnfollowListId200Result `json:"result,omitempty"`
 	}
@@ -11239,8 +11239,8 @@ func (r UnfollowListIdResponse) StatusCode() int {
 }
 
 type FollowListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *FollowListId200Result `json:"result,omitempty"`
 	}
@@ -11267,8 +11267,8 @@ func (r FollowListIdResponse) StatusCode() int {
 }
 
 type GetSearchMangaResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaList
 	JSON400      *ErrorResponse
 }
@@ -11290,8 +11290,8 @@ func (r GetSearchMangaResponse) StatusCode() int {
 }
 
 type PostMangaResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -11314,8 +11314,8 @@ func (r PostMangaResponse) StatusCode() int {
 }
 
 type GetMangaDraftsResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11338,8 +11338,8 @@ func (r GetMangaDraftsResponse) StatusCode() int {
 }
 
 type GetMangaIdDraftResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11362,8 +11362,8 @@ func (r GetMangaIdDraftResponse) StatusCode() int {
 }
 
 type CommitMangaDraftResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON201      *MangaResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -11387,8 +11387,8 @@ func (r CommitMangaDraftResponse) StatusCode() int {
 }
 
 type GetMangaRandomResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaResponse
 }
 
@@ -11409,8 +11409,8 @@ func (r GetMangaRandomResponse) StatusCode() int {
 }
 
 type GetMangaChapterReadmarkers2Response struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Data   *GetMangaChapterReadmarkers2_200_Data `json:"data,omitempty"`
 		Result *GetMangaChapterReadmarkers2200Result `json:"result,omitempty"`
@@ -11419,7 +11419,7 @@ type GetMangaChapterReadmarkers2Response struct {
 type GetMangaChapterReadmarkers2200Data0 = []openapi_types.UUID
 type GetMangaChapterReadmarkers2200Data1 map[string][]openapi_types.UUID
 type GetMangaChapterReadmarkers2_200_Data struct {
-	union json.RawMessage
+	union json.RawMessage `json:"-"`
 }
 type GetMangaChapterReadmarkers2200Result string
 
@@ -11440,8 +11440,8 @@ func (r GetMangaChapterReadmarkers2Response) StatusCode() int {
 }
 
 type GetMangaStatusResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result   *string                               `json:"result,omitempty"`
 		Statuses *map[string]GetMangaStatus200Statuses `json:"statuses,omitempty"`
@@ -11466,8 +11466,8 @@ func (r GetMangaStatusResponse) StatusCode() int {
 }
 
 type GetMangaTagResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *TagResponse
 }
 
@@ -11488,8 +11488,8 @@ func (r GetMangaTagResponse) StatusCode() int {
 }
 
 type DeleteMangaIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11512,8 +11512,8 @@ func (r DeleteMangaIdResponse) StatusCode() int {
 }
 
 type GetMangaIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaResponse
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11536,8 +11536,8 @@ func (r GetMangaIdResponse) StatusCode() int {
 }
 
 type PutMangaIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -11561,8 +11561,8 @@ func (r PutMangaIdResponse) StatusCode() int {
 }
 
 type GetMangaAggregateResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result  *string `json:"result,omitempty"`
 		Volumes *map[string]struct {
@@ -11595,8 +11595,8 @@ func (r GetMangaAggregateResponse) StatusCode() int {
 }
 
 type GetMangaIdFeedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ChapterList
 	JSON400      *ErrorResponse
 }
@@ -11618,8 +11618,8 @@ func (r GetMangaIdFeedResponse) StatusCode() int {
 }
 
 type DeleteMangaIdFollowResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *ErrorResponse
 }
@@ -11641,8 +11641,8 @@ func (r DeleteMangaIdFollowResponse) StatusCode() int {
 }
 
 type PostMangaIdFollowResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *ErrorResponse
 }
@@ -11664,8 +11664,8 @@ func (r PostMangaIdFollowResponse) StatusCode() int {
 }
 
 type DeleteMangaIdListListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11688,8 +11688,8 @@ func (r DeleteMangaIdListListIdResponse) StatusCode() int {
 }
 
 type PostMangaIdListListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11712,8 +11712,8 @@ func (r PostMangaIdListListIdResponse) StatusCode() int {
 }
 
 type GetMangaChapterReadmarkersResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Data   *[]openapi_types.UUID                `json:"data,omitempty"`
 		Result *GetMangaChapterReadmarkers200Result `json:"result,omitempty"`
@@ -11738,8 +11738,8 @@ func (r GetMangaChapterReadmarkersResponse) StatusCode() int {
 }
 
 type PostMangaChapterReadmarkersResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *PostMangaChapterReadmarkers200Result `json:"result,omitempty"`
 	}
@@ -11763,8 +11763,8 @@ func (r PostMangaChapterReadmarkersResponse) StatusCode() int {
 }
 
 type GetMangaIdStatusResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *string                    `json:"result,omitempty"`
 		Status *GetMangaIdStatus200Status `json:"status,omitempty"`
@@ -11791,8 +11791,8 @@ func (r GetMangaIdStatusResponse) StatusCode() int {
 }
 
 type PostMangaIdStatusResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON400      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11815,8 +11815,8 @@ func (r PostMangaIdStatusResponse) StatusCode() int {
 }
 
 type GetMangaRelationResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaRelationList
 	JSON400      *ErrorResponse
 }
@@ -11838,8 +11838,8 @@ func (r GetMangaRelationResponse) StatusCode() int {
 }
 
 type PostMangaRelationResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaRelationResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -11862,8 +11862,8 @@ func (r PostMangaRelationResponse) StatusCode() int {
 }
 
 type DeleteMangaRelationIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11886,8 +11886,8 @@ func (r DeleteMangaRelationIdResponse) StatusCode() int {
 }
 
 type GetPingResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 }
 
 // Status returns HTTPResponse.Status
@@ -11907,8 +11907,8 @@ func (r GetPingResponse) StatusCode() int {
 }
 
 type GetRatingResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Ratings *map[string]struct {
 			CreatedAt *time.Time `json:"createdAt,omitempty"`
@@ -11937,8 +11937,8 @@ func (r GetRatingResponse) StatusCode() int {
 }
 
 type DeleteRatingMangaIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11961,8 +11961,8 @@ func (r DeleteRatingMangaIdResponse) StatusCode() int {
 }
 
 type PostRatingMangaIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -11985,8 +11985,8 @@ func (r PostRatingMangaIdResponse) StatusCode() int {
 }
 
 type GetReportsResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ReportListResponse
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -12009,8 +12009,8 @@ func (r GetReportsResponse) StatusCode() int {
 }
 
 type PostReportResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON201      *Response
 	JSON400      *ErrorResponse
 	JSON403      *ErrorResponse
@@ -12034,8 +12034,8 @@ func (r PostReportResponse) StatusCode() int {
 }
 
 type GetReportReasonsByCategoryResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Data *[]struct {
 			Attributes *struct {
@@ -12076,8 +12076,8 @@ func (r GetReportReasonsByCategoryResponse) StatusCode() int {
 }
 
 type GetSettingsResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *string `json:"result,omitempty"`
 
@@ -12109,8 +12109,8 @@ func (r GetSettingsResponse) StatusCode() int {
 }
 
 type PostSettingsResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result *string `json:"result,omitempty"`
 
@@ -12142,8 +12142,8 @@ func (r PostSettingsResponse) StatusCode() int {
 }
 
 type GetSettingsTemplateResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *map[string]interface{}
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -12166,8 +12166,8 @@ func (r GetSettingsTemplateResponse) StatusCode() int {
 }
 
 type PostSettingsTemplateResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *map[string]interface{}
 	JSON403      *ErrorResponse
 }
@@ -12189,8 +12189,8 @@ func (r PostSettingsTemplateResponse) StatusCode() int {
 }
 
 type GetSettingsTemplateVersionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *map[string]interface{}
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -12213,8 +12213,8 @@ func (r GetSettingsTemplateVersionResponse) StatusCode() int {
 }
 
 type GetStatisticsChaptersResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result     *string `json:"result,omitempty"`
 		Statistics *map[string]struct {
@@ -12242,8 +12242,8 @@ func (r GetStatisticsChaptersResponse) StatusCode() int {
 }
 
 type GetStatisticsChapterUuidResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result     *string `json:"result,omitempty"`
 		Statistics *map[string]struct {
@@ -12271,8 +12271,8 @@ func (r GetStatisticsChapterUuidResponse) StatusCode() int {
 }
 
 type GetStatisticsGroupsResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result     *string `json:"result,omitempty"`
 		Statistics *map[string]struct {
@@ -12300,8 +12300,8 @@ func (r GetStatisticsGroupsResponse) StatusCode() int {
 }
 
 type GetStatisticsGroupUuidResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result     *string `json:"result,omitempty"`
 		Statistics *map[string]struct {
@@ -12329,8 +12329,8 @@ func (r GetStatisticsGroupUuidResponse) StatusCode() int {
 }
 
 type GetStatisticsMangaResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result     *string `json:"result,omitempty"`
 		Statistics *map[string]struct {
@@ -12366,8 +12366,8 @@ func (r GetStatisticsMangaResponse) StatusCode() int {
 }
 
 type GetStatisticsMangaUuidResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Result     *string `json:"result,omitempty"`
 		Statistics *map[string]struct {
@@ -12416,8 +12416,8 @@ func (r GetStatisticsMangaUuidResponse) StatusCode() int {
 }
 
 type GetUploadSessionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UploadSession
 	JSON403      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -12440,8 +12440,8 @@ func (r GetUploadSessionResponse) StatusCode() int {
 }
 
 type BeginUploadSessionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UploadSession
 }
 
@@ -12462,8 +12462,8 @@ func (r BeginUploadSessionResponse) StatusCode() int {
 }
 
 type BeginEditSessionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UploadSession
 	JSON400      *ErrorResponse
 	JSON401      *ErrorResponse
@@ -12486,8 +12486,8 @@ func (r BeginEditSessionResponse) StatusCode() int {
 }
 
 type UploadCheckApprovalRequiredResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		RequiresApproval *bool                                 `json:"requiresApproval,omitempty"`
 		Result           *UploadCheckApprovalRequired200Result `json:"result,omitempty"`
@@ -12513,8 +12513,8 @@ func (r UploadCheckApprovalRequiredResponse) StatusCode() int {
 }
 
 type AbandonUploadSessionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 }
 
@@ -12535,8 +12535,8 @@ func (r AbandonUploadSessionResponse) StatusCode() int {
 }
 
 type PutUploadSessionFileResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Data   *[]UploadSessionFile           `json:"data,omitempty"`
 		Errors *[]Error                       `json:"errors,omitempty"`
@@ -12563,8 +12563,8 @@ func (r PutUploadSessionFileResponse) StatusCode() int {
 }
 
 type DeleteUploadedSessionFilesResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 }
 
@@ -12585,8 +12585,8 @@ func (r DeleteUploadedSessionFilesResponse) StatusCode() int {
 }
 
 type CommitUploadSessionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Chapter
 }
 
@@ -12607,8 +12607,8 @@ func (r CommitUploadSessionResponse) StatusCode() int {
 }
 
 type DeleteUploadedSessionFileResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 }
 
@@ -12629,8 +12629,8 @@ func (r DeleteUploadedSessionFileResponse) StatusCode() int {
 }
 
 type GetUserResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UserList
 }
 
@@ -12651,8 +12651,8 @@ func (r GetUserResponse) StatusCode() int {
 }
 
 type PostUserDeleteCodeResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 }
 
@@ -12673,8 +12673,8 @@ func (r PostUserDeleteCodeResponse) StatusCode() int {
 }
 
 type GetUserFollowsGroupResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ScanlationGroupList
 }
 
@@ -12695,8 +12695,8 @@ func (r GetUserFollowsGroupResponse) StatusCode() int {
 }
 
 type GetUserFollowsGroupIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *Response
 }
@@ -12718,8 +12718,8 @@ func (r GetUserFollowsGroupIdResponse) StatusCode() int {
 }
 
 type GetUserFollowsListResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CustomListList
 }
 
@@ -12740,8 +12740,8 @@ func (r GetUserFollowsListResponse) StatusCode() int {
 }
 
 type GetUserFollowsListIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *Response
 }
@@ -12763,8 +12763,8 @@ func (r GetUserFollowsListIdResponse) StatusCode() int {
 }
 
 type GetUserFollowsMangaResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *MangaList
 }
 
@@ -12785,8 +12785,8 @@ func (r GetUserFollowsMangaResponse) StatusCode() int {
 }
 
 type GetUserFollowsMangaFeedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *ChapterList
 	JSON400      *ErrorResponse
 	JSON404      *ErrorResponse
@@ -12809,8 +12809,8 @@ func (r GetUserFollowsMangaFeedResponse) StatusCode() int {
 }
 
 type GetUserFollowsMangaIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *Response
 }
@@ -12832,8 +12832,8 @@ func (r GetUserFollowsMangaIdResponse) StatusCode() int {
 }
 
 type GetUserFollowsUserResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UserList
 }
 
@@ -12854,8 +12854,8 @@ func (r GetUserFollowsUserResponse) StatusCode() int {
 }
 
 type GetUserFollowsUserIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 	JSON404      *Response
 }
@@ -12877,8 +12877,8 @@ func (r GetUserFollowsUserIdResponse) StatusCode() int {
 }
 
 type GetReadingHistoryResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *struct {
 		Ratings *[]struct {
 			ChapterId *string    `json:"chapterId,omitempty"`
@@ -12907,8 +12907,8 @@ func (r GetReadingHistoryResponse) StatusCode() int {
 }
 
 type GetUserListResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CustomListList
 }
 
@@ -12929,8 +12929,8 @@ func (r GetUserListResponse) StatusCode() int {
 }
 
 type GetUserMeResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UserResponse
 }
 
@@ -12951,8 +12951,8 @@ func (r GetUserMeResponse) StatusCode() int {
 }
 
 type DeleteUserIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *Response
 }
 
@@ -12973,8 +12973,8 @@ func (r DeleteUserIdResponse) StatusCode() int {
 }
 
 type GetUserIdResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *UserResponse
 }
 
@@ -12995,8 +12995,8 @@ func (r GetUserIdResponse) StatusCode() int {
 }
 
 type GetUserIdListResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
+	Body         []byte         `json:"-"`
+	HTTPResponse *http.Response `json:"-"`
 	JSON200      *CustomListList
 }
 

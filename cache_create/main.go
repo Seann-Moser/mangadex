@@ -247,4 +247,74 @@ func main() {
 		log.Fatalf("writing output: %v", err)
 	}
 	fmt.Printf("Generated %s successfully.\n", *outPath)
+
+	err = AddJSONDashTag(*inPath)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func AddJSONDashTag(path string) error {
+	fset := token.NewFileSet()
+	node, err := parser.ParseFile(fset, path, nil, parser.ParseComments)
+	if err != nil {
+		return fmt.Errorf("parsing %s: %w", path, err)
+	}
+
+	ast.Inspect(node, func(n ast.Node) bool {
+		ts, ok := n.(*ast.TypeSpec)
+		if !ok {
+			return true
+		}
+		st, ok := ts.Type.(*ast.StructType)
+		if !ok {
+			return true
+		}
+
+		for _, field := range st.Fields.List {
+			// Skip any field named JSON* (e.g. JSONData)
+			skip := false
+			for _, name := range field.Names {
+				if strings.HasPrefix(name.Name, "JSON") {
+					skip = true
+					break
+				}
+			}
+			if skip {
+				continue
+			}
+
+			// If there's no tag at all, create one.
+			if field.Tag == nil && !skip {
+				field.Tag = &ast.BasicLit{
+					Kind:  token.STRING,
+					Value: "`json:\"-\"`",
+				}
+				continue
+			}
+
+			// Strip backticks and check existing tag content.
+			tagText := strings.Trim(field.Tag.Value, "`")
+			// If there's already a json: tag, skip.
+			if strings.Contains(tagText, "json:") {
+				continue
+			}
+
+			// Otherwise, append json:"-"
+			field.Tag.Value = fmt.Sprintf("`%s json:\"-\"`", tagText)
+
+		}
+		return true
+	})
+
+	var buf bytes.Buffer
+	if err := format.Node(&buf, fset, node); err != nil {
+		return fmt.Errorf("formatting modified AST: %w", err)
+	}
+
+	if err := os.WriteFile(path, buf.Bytes(), 0644); err != nil {
+		return fmt.Errorf("writing file %s: %w", path, err)
+	}
+
+	return nil
 }
