@@ -102,10 +102,10 @@ func (h *HybridCache) Set(key string, value interface{}) {
 
 // HybridCache tries the local cache first, then falls back to Redis.
 type LocalCache struct {
-	Local goCache.Cache
+	Local *goCache.Cache
 }
 
-func NewLocalCache(local goCache.Cache) Cache {
+func NewLocalCache(local *goCache.Cache) Cache {
 	return &LocalCache{Local: local}
 }
 
