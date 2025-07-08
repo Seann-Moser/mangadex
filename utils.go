@@ -1,0 +1,5 @@
+package mangadex
+
+func ChapterPages() {
+
+}
