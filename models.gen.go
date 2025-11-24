@@ -23,10 +23,10 @@ const (
 
 // Defines values for ApiClientAttributesState.
 const (
-	ApiClientAttributesStateApproved     ApiClientAttributesState = "approved"
-	ApiClientAttributesStateAutoapproved ApiClientAttributesState = "autoapproved"
-	ApiClientAttributesStateRejected     ApiClientAttributesState = "rejected"
-	ApiClientAttributesStateRequested    ApiClientAttributesState = "requested"
+	ApiClientAttributesStateApproved	ApiClientAttributesState	= "approved"
+	ApiClientAttributesStateAutoapproved	ApiClientAttributesState	= "autoapproved"
+	ApiClientAttributesStateRejected	ApiClientAttributesState	= "rejected"
+	ApiClientAttributesStateRequested	ApiClientAttributesState	= "requested"
 )
 
 // Defines values for ApiClientCreateProfile.
@@ -46,8 +46,8 @@ const (
 
 // Defines values for ChapterResponseResult.
 const (
-	ChapterResponseResultError ChapterResponseResult = "error"
-	ChapterResponseResultOk    ChapterResponseResult = "ok"
+	ChapterResponseResultError	ChapterResponseResult	= "error"
+	ChapterResponseResultOk		ChapterResponseResult	= "ok"
 )
 
 // Defines values for CoverType.
@@ -62,38 +62,38 @@ const (
 
 // Defines values for CustomListAttributesVisibility.
 const (
-	CustomListAttributesVisibilityPrivate CustomListAttributesVisibility = "private"
-	CustomListAttributesVisibilityPublic  CustomListAttributesVisibility = "public"
+	CustomListAttributesVisibilityPrivate	CustomListAttributesVisibility	= "private"
+	CustomListAttributesVisibilityPublic	CustomListAttributesVisibility	= "public"
 )
 
 // Defines values for CustomListCreateVisibility.
 const (
-	CustomListCreateVisibilityPrivate CustomListCreateVisibility = "private"
-	CustomListCreateVisibilityPublic  CustomListCreateVisibility = "public"
+	CustomListCreateVisibilityPrivate	CustomListCreateVisibility	= "private"
+	CustomListCreateVisibilityPublic	CustomListCreateVisibility	= "public"
 )
 
 // Defines values for CustomListEditVisibility.
 const (
-	Private CustomListEditVisibility = "private"
-	Public  CustomListEditVisibility = "public"
+	Private	CustomListEditVisibility	= "private"
+	Public	CustomListEditVisibility	= "public"
 )
 
 // Defines values for CustomListResponseResult.
 const (
-	CustomListResponseResultError CustomListResponseResult = "error"
-	CustomListResponseResultOk    CustomListResponseResult = "ok"
+	CustomListResponseResultError	CustomListResponseResult	= "error"
+	CustomListResponseResultOk	CustomListResponseResult	= "ok"
 )
 
 // Defines values for LoginResponseResult.
 const (
-	LoginResponseResultError LoginResponseResult = "error"
-	LoginResponseResultOk    LoginResponseResult = "ok"
+	LoginResponseResultError	LoginResponseResult	= "error"
+	LoginResponseResultOk		LoginResponseResult	= "ok"
 )
 
 // Defines values for LogoutResponseResult.
 const (
-	LogoutResponseResultError LogoutResponseResult = "error"
-	LogoutResponseResultOk    LogoutResponseResult = "ok"
+	LogoutResponseResultError	LogoutResponseResult	= "error"
+	LogoutResponseResultOk		LogoutResponseResult	= "ok"
 )
 
 // Defines values for MangaType.
@@ -103,82 +103,82 @@ const (
 
 // Defines values for MangaAttributesContentRating.
 const (
-	MangaAttributesContentRatingErotica      MangaAttributesContentRating = "erotica"
-	MangaAttributesContentRatingPornographic MangaAttributesContentRating = "pornographic"
-	MangaAttributesContentRatingSafe         MangaAttributesContentRating = "safe"
-	MangaAttributesContentRatingSuggestive   MangaAttributesContentRating = "suggestive"
+	MangaAttributesContentRatingErotica		MangaAttributesContentRating	= "erotica"
+	MangaAttributesContentRatingPornographic	MangaAttributesContentRating	= "pornographic"
+	MangaAttributesContentRatingSafe		MangaAttributesContentRating	= "safe"
+	MangaAttributesContentRatingSuggestive		MangaAttributesContentRating	= "suggestive"
 )
 
 // Defines values for MangaAttributesPublicationDemographic.
 const (
-	MangaAttributesPublicationDemographicJosei   MangaAttributesPublicationDemographic = "josei"
-	MangaAttributesPublicationDemographicSeinen  MangaAttributesPublicationDemographic = "seinen"
-	MangaAttributesPublicationDemographicShoujo  MangaAttributesPublicationDemographic = "shoujo"
-	MangaAttributesPublicationDemographicShounen MangaAttributesPublicationDemographic = "shounen"
+	MangaAttributesPublicationDemographicJosei	MangaAttributesPublicationDemographic	= "josei"
+	MangaAttributesPublicationDemographicSeinen	MangaAttributesPublicationDemographic	= "seinen"
+	MangaAttributesPublicationDemographicShoujo	MangaAttributesPublicationDemographic	= "shoujo"
+	MangaAttributesPublicationDemographicShounen	MangaAttributesPublicationDemographic	= "shounen"
 )
 
 // Defines values for MangaAttributesState.
 const (
-	MangaAttributesStateDraft     MangaAttributesState = "draft"
-	MangaAttributesStatePublished MangaAttributesState = "published"
-	MangaAttributesStateRejected  MangaAttributesState = "rejected"
-	MangaAttributesStateSubmitted MangaAttributesState = "submitted"
+	MangaAttributesStateDraft	MangaAttributesState	= "draft"
+	MangaAttributesStatePublished	MangaAttributesState	= "published"
+	MangaAttributesStateRejected	MangaAttributesState	= "rejected"
+	MangaAttributesStateSubmitted	MangaAttributesState	= "submitted"
 )
 
 // Defines values for MangaAttributesStatus.
 const (
-	MangaAttributesStatusCancelled MangaAttributesStatus = "cancelled"
-	MangaAttributesStatusCompleted MangaAttributesStatus = "completed"
-	MangaAttributesStatusHiatus    MangaAttributesStatus = "hiatus"
-	MangaAttributesStatusOngoing   MangaAttributesStatus = "ongoing"
+	MangaAttributesStatusCancelled	MangaAttributesStatus	= "cancelled"
+	MangaAttributesStatusCompleted	MangaAttributesStatus	= "completed"
+	MangaAttributesStatusHiatus	MangaAttributesStatus	= "hiatus"
+	MangaAttributesStatusOngoing	MangaAttributesStatus	= "ongoing"
 )
 
 // Defines values for MangaCreateContentRating.
 const (
-	MangaCreateContentRatingErotica      MangaCreateContentRating = "erotica"
-	MangaCreateContentRatingPornographic MangaCreateContentRating = "pornographic"
-	MangaCreateContentRatingSafe         MangaCreateContentRating = "safe"
-	MangaCreateContentRatingSuggestive   MangaCreateContentRating = "suggestive"
+	MangaCreateContentRatingErotica		MangaCreateContentRating	= "erotica"
+	MangaCreateContentRatingPornographic	MangaCreateContentRating	= "pornographic"
+	MangaCreateContentRatingSafe		MangaCreateContentRating	= "safe"
+	MangaCreateContentRatingSuggestive	MangaCreateContentRating	= "suggestive"
 )
 
 // Defines values for MangaCreatePublicationDemographic.
 const (
-	MangaCreatePublicationDemographicJosei   MangaCreatePublicationDemographic = "josei"
-	MangaCreatePublicationDemographicSeinen  MangaCreatePublicationDemographic = "seinen"
-	MangaCreatePublicationDemographicShoujo  MangaCreatePublicationDemographic = "shoujo"
-	MangaCreatePublicationDemographicShounen MangaCreatePublicationDemographic = "shounen"
+	MangaCreatePublicationDemographicJosei		MangaCreatePublicationDemographic	= "josei"
+	MangaCreatePublicationDemographicSeinen		MangaCreatePublicationDemographic	= "seinen"
+	MangaCreatePublicationDemographicShoujo		MangaCreatePublicationDemographic	= "shoujo"
+	MangaCreatePublicationDemographicShounen	MangaCreatePublicationDemographic	= "shounen"
 )
 
 // Defines values for MangaCreateStatus.
 const (
-	MangaCreateStatusCancelled MangaCreateStatus = "cancelled"
-	MangaCreateStatusCompleted MangaCreateStatus = "completed"
-	MangaCreateStatusHiatus    MangaCreateStatus = "hiatus"
-	MangaCreateStatusOngoing   MangaCreateStatus = "ongoing"
+	MangaCreateStatusCancelled	MangaCreateStatus	= "cancelled"
+	MangaCreateStatusCompleted	MangaCreateStatus	= "completed"
+	MangaCreateStatusHiatus		MangaCreateStatus	= "hiatus"
+	MangaCreateStatusOngoing	MangaCreateStatus	= "ongoing"
 )
 
 // Defines values for MangaEditContentRating.
 const (
-	MangaEditContentRatingErotica      MangaEditContentRating = "erotica"
-	MangaEditContentRatingPornographic MangaEditContentRating = "pornographic"
-	MangaEditContentRatingSafe         MangaEditContentRating = "safe"
-	MangaEditContentRatingSuggestive   MangaEditContentRating = "suggestive"
+	MangaEditContentRatingErotica		MangaEditContentRating	= "erotica"
+	MangaEditContentRatingPornographic	MangaEditContentRating	= "pornographic"
+	MangaEditContentRatingSafe		MangaEditContentRating	= "safe"
+	MangaEditContentRatingSuggestive	MangaEditContentRating	= "suggestive"
 )
 
 // Defines values for MangaEditPublicationDemographic.
 const (
-	MangaEditPublicationDemographicJosei   MangaEditPublicationDemographic = "josei"
-	MangaEditPublicationDemographicSeinen  MangaEditPublicationDemographic = "seinen"
-	MangaEditPublicationDemographicShoujo  MangaEditPublicationDemographic = "shoujo"
-	MangaEditPublicationDemographicShounen MangaEditPublicationDemographic = "shounen"
+	MangaEditPublicationDemographicJosei	MangaEditPublicationDemographic	= "josei"
+	MangaEditPublicationDemographicSeinen	MangaEditPublicationDemographic	= "seinen"
+	MangaEditPublicationDemographicShoujo	MangaEditPublicationDemographic	= "shoujo"
+	MangaEditPublicationDemographicShounen	MangaEditPublicationDemographic	= "shounen"
 )
 
 // Defines values for MangaEditStatus.
 const (
-	MangaEditStatusCancelled MangaEditStatus = "cancelled"
-	MangaEditStatusCompleted MangaEditStatus = "completed"
-	MangaEditStatusHiatus    MangaEditStatus = "hiatus"
-	MangaEditStatusOngoing   MangaEditStatus = "ongoing"
+	MangaEditStatusCancelled	MangaEditStatus	= "cancelled"
+	MangaEditStatusCompleted	MangaEditStatus	= "completed"
+	MangaEditStatusHiatus		MangaEditStatus	= "hiatus"
+	MangaEditStatusOngoing		MangaEditStatus	= "ongoing"
 )
 
 // Defines values for MangaRelationType.
@@ -188,98 +188,98 @@ const (
 
 // Defines values for MangaRelationAttributesRelation.
 const (
-	MangaRelationAttributesRelationAdaptedFrom      MangaRelationAttributesRelation = "adapted_from"
-	MangaRelationAttributesRelationAlternateStory   MangaRelationAttributesRelation = "alternate_story"
-	MangaRelationAttributesRelationAlternateVersion MangaRelationAttributesRelation = "alternate_version"
-	MangaRelationAttributesRelationBasedOn          MangaRelationAttributesRelation = "based_on"
-	MangaRelationAttributesRelationColored          MangaRelationAttributesRelation = "colored"
-	MangaRelationAttributesRelationDoujinshi        MangaRelationAttributesRelation = "doujinshi"
-	MangaRelationAttributesRelationMainStory        MangaRelationAttributesRelation = "main_story"
-	MangaRelationAttributesRelationMonochrome       MangaRelationAttributesRelation = "monochrome"
-	MangaRelationAttributesRelationPrequel          MangaRelationAttributesRelation = "prequel"
-	MangaRelationAttributesRelationPreserialization MangaRelationAttributesRelation = "preserialization"
-	MangaRelationAttributesRelationSameFranchise    MangaRelationAttributesRelation = "same_franchise"
-	MangaRelationAttributesRelationSequel           MangaRelationAttributesRelation = "sequel"
-	MangaRelationAttributesRelationSerialization    MangaRelationAttributesRelation = "serialization"
-	MangaRelationAttributesRelationSharedUniverse   MangaRelationAttributesRelation = "shared_universe"
-	MangaRelationAttributesRelationSideStory        MangaRelationAttributesRelation = "side_story"
-	MangaRelationAttributesRelationSpinOff          MangaRelationAttributesRelation = "spin_off"
+	MangaRelationAttributesRelationAdaptedFrom	MangaRelationAttributesRelation	= "adapted_from"
+	MangaRelationAttributesRelationAlternateStory	MangaRelationAttributesRelation	= "alternate_story"
+	MangaRelationAttributesRelationAlternateVersion	MangaRelationAttributesRelation	= "alternate_version"
+	MangaRelationAttributesRelationBasedOn		MangaRelationAttributesRelation	= "based_on"
+	MangaRelationAttributesRelationColored		MangaRelationAttributesRelation	= "colored"
+	MangaRelationAttributesRelationDoujinshi	MangaRelationAttributesRelation	= "doujinshi"
+	MangaRelationAttributesRelationMainStory	MangaRelationAttributesRelation	= "main_story"
+	MangaRelationAttributesRelationMonochrome	MangaRelationAttributesRelation	= "monochrome"
+	MangaRelationAttributesRelationPrequel		MangaRelationAttributesRelation	= "prequel"
+	MangaRelationAttributesRelationPreserialization	MangaRelationAttributesRelation	= "preserialization"
+	MangaRelationAttributesRelationSameFranchise	MangaRelationAttributesRelation	= "same_franchise"
+	MangaRelationAttributesRelationSequel		MangaRelationAttributesRelation	= "sequel"
+	MangaRelationAttributesRelationSerialization	MangaRelationAttributesRelation	= "serialization"
+	MangaRelationAttributesRelationSharedUniverse	MangaRelationAttributesRelation	= "shared_universe"
+	MangaRelationAttributesRelationSideStory	MangaRelationAttributesRelation	= "side_story"
+	MangaRelationAttributesRelationSpinOff		MangaRelationAttributesRelation	= "spin_off"
 )
 
 // Defines values for MangaRelationCreateRelation.
 const (
-	MangaRelationCreateRelationAdaptedFrom      MangaRelationCreateRelation = "adapted_from"
-	MangaRelationCreateRelationAlternateStory   MangaRelationCreateRelation = "alternate_story"
-	MangaRelationCreateRelationAlternateVersion MangaRelationCreateRelation = "alternate_version"
-	MangaRelationCreateRelationBasedOn          MangaRelationCreateRelation = "based_on"
-	MangaRelationCreateRelationColored          MangaRelationCreateRelation = "colored"
-	MangaRelationCreateRelationDoujinshi        MangaRelationCreateRelation = "doujinshi"
-	MangaRelationCreateRelationMainStory        MangaRelationCreateRelation = "main_story"
-	MangaRelationCreateRelationMonochrome       MangaRelationCreateRelation = "monochrome"
-	MangaRelationCreateRelationPrequel          MangaRelationCreateRelation = "prequel"
-	MangaRelationCreateRelationPreserialization MangaRelationCreateRelation = "preserialization"
-	MangaRelationCreateRelationSameFranchise    MangaRelationCreateRelation = "same_franchise"
-	MangaRelationCreateRelationSequel           MangaRelationCreateRelation = "sequel"
-	MangaRelationCreateRelationSerialization    MangaRelationCreateRelation = "serialization"
-	MangaRelationCreateRelationSharedUniverse   MangaRelationCreateRelation = "shared_universe"
-	MangaRelationCreateRelationSideStory        MangaRelationCreateRelation = "side_story"
-	MangaRelationCreateRelationSpinOff          MangaRelationCreateRelation = "spin_off"
+	MangaRelationCreateRelationAdaptedFrom		MangaRelationCreateRelation	= "adapted_from"
+	MangaRelationCreateRelationAlternateStory	MangaRelationCreateRelation	= "alternate_story"
+	MangaRelationCreateRelationAlternateVersion	MangaRelationCreateRelation	= "alternate_version"
+	MangaRelationCreateRelationBasedOn		MangaRelationCreateRelation	= "based_on"
+	MangaRelationCreateRelationColored		MangaRelationCreateRelation	= "colored"
+	MangaRelationCreateRelationDoujinshi		MangaRelationCreateRelation	= "doujinshi"
+	MangaRelationCreateRelationMainStory		MangaRelationCreateRelation	= "main_story"
+	MangaRelationCreateRelationMonochrome		MangaRelationCreateRelation	= "monochrome"
+	MangaRelationCreateRelationPrequel		MangaRelationCreateRelation	= "prequel"
+	MangaRelationCreateRelationPreserialization	MangaRelationCreateRelation	= "preserialization"
+	MangaRelationCreateRelationSameFranchise	MangaRelationCreateRelation	= "same_franchise"
+	MangaRelationCreateRelationSequel		MangaRelationCreateRelation	= "sequel"
+	MangaRelationCreateRelationSerialization	MangaRelationCreateRelation	= "serialization"
+	MangaRelationCreateRelationSharedUniverse	MangaRelationCreateRelation	= "shared_universe"
+	MangaRelationCreateRelationSideStory		MangaRelationCreateRelation	= "side_story"
+	MangaRelationCreateRelationSpinOff		MangaRelationCreateRelation	= "spin_off"
 )
 
 // Defines values for MangaRelationRequestRelation.
 const (
-	MangaRelationRequestRelationAdaptedFrom      MangaRelationRequestRelation = "adapted_from"
-	MangaRelationRequestRelationAlternateStory   MangaRelationRequestRelation = "alternate_story"
-	MangaRelationRequestRelationAlternateVersion MangaRelationRequestRelation = "alternate_version"
-	MangaRelationRequestRelationBasedOn          MangaRelationRequestRelation = "based_on"
-	MangaRelationRequestRelationColored          MangaRelationRequestRelation = "colored"
-	MangaRelationRequestRelationDoujinshi        MangaRelationRequestRelation = "doujinshi"
-	MangaRelationRequestRelationMainStory        MangaRelationRequestRelation = "main_story"
-	MangaRelationRequestRelationMonochrome       MangaRelationRequestRelation = "monochrome"
-	MangaRelationRequestRelationPrequel          MangaRelationRequestRelation = "prequel"
-	MangaRelationRequestRelationPreserialization MangaRelationRequestRelation = "preserialization"
-	MangaRelationRequestRelationSameFranchise    MangaRelationRequestRelation = "same_franchise"
-	MangaRelationRequestRelationSequel           MangaRelationRequestRelation = "sequel"
-	MangaRelationRequestRelationSerialization    MangaRelationRequestRelation = "serialization"
-	MangaRelationRequestRelationSharedUniverse   MangaRelationRequestRelation = "shared_universe"
-	MangaRelationRequestRelationSideStory        MangaRelationRequestRelation = "side_story"
-	MangaRelationRequestRelationSpinOff          MangaRelationRequestRelation = "spin_off"
+	MangaRelationRequestRelationAdaptedFrom		MangaRelationRequestRelation	= "adapted_from"
+	MangaRelationRequestRelationAlternateStory	MangaRelationRequestRelation	= "alternate_story"
+	MangaRelationRequestRelationAlternateVersion	MangaRelationRequestRelation	= "alternate_version"
+	MangaRelationRequestRelationBasedOn		MangaRelationRequestRelation	= "based_on"
+	MangaRelationRequestRelationColored		MangaRelationRequestRelation	= "colored"
+	MangaRelationRequestRelationDoujinshi		MangaRelationRequestRelation	= "doujinshi"
+	MangaRelationRequestRelationMainStory		MangaRelationRequestRelation	= "main_story"
+	MangaRelationRequestRelationMonochrome		MangaRelationRequestRelation	= "monochrome"
+	MangaRelationRequestRelationPrequel		MangaRelationRequestRelation	= "prequel"
+	MangaRelationRequestRelationPreserialization	MangaRelationRequestRelation	= "preserialization"
+	MangaRelationRequestRelationSameFranchise	MangaRelationRequestRelation	= "same_franchise"
+	MangaRelationRequestRelationSequel		MangaRelationRequestRelation	= "sequel"
+	MangaRelationRequestRelationSerialization	MangaRelationRequestRelation	= "serialization"
+	MangaRelationRequestRelationSharedUniverse	MangaRelationRequestRelation	= "shared_universe"
+	MangaRelationRequestRelationSideStory		MangaRelationRequestRelation	= "side_story"
+	MangaRelationRequestRelationSpinOff		MangaRelationRequestRelation	= "spin_off"
 )
 
 // Defines values for MangaRelationResponseResult.
 const (
-	MangaRelationResponseResultError MangaRelationResponseResult = "error"
-	MangaRelationResponseResultOk    MangaRelationResponseResult = "ok"
+	MangaRelationResponseResultError	MangaRelationResponseResult	= "error"
+	MangaRelationResponseResultOk		MangaRelationResponseResult	= "ok"
 )
 
 // Defines values for MangaRequestContentRating.
 const (
-	MangaRequestContentRatingErotica      MangaRequestContentRating = "erotica"
-	MangaRequestContentRatingPornographic MangaRequestContentRating = "pornographic"
-	MangaRequestContentRatingSafe         MangaRequestContentRating = "safe"
-	MangaRequestContentRatingSuggestive   MangaRequestContentRating = "suggestive"
+	MangaRequestContentRatingErotica	MangaRequestContentRating	= "erotica"
+	MangaRequestContentRatingPornographic	MangaRequestContentRating	= "pornographic"
+	MangaRequestContentRatingSafe		MangaRequestContentRating	= "safe"
+	MangaRequestContentRatingSuggestive	MangaRequestContentRating	= "suggestive"
 )
 
 // Defines values for MangaRequestPublicationDemographic.
 const (
-	MangaRequestPublicationDemographicJosei   MangaRequestPublicationDemographic = "josei"
-	MangaRequestPublicationDemographicSeinen  MangaRequestPublicationDemographic = "seinen"
-	MangaRequestPublicationDemographicShoujo  MangaRequestPublicationDemographic = "shoujo"
-	MangaRequestPublicationDemographicShounen MangaRequestPublicationDemographic = "shounen"
+	MangaRequestPublicationDemographicJosei		MangaRequestPublicationDemographic	= "josei"
+	MangaRequestPublicationDemographicSeinen	MangaRequestPublicationDemographic	= "seinen"
+	MangaRequestPublicationDemographicShoujo	MangaRequestPublicationDemographic	= "shoujo"
+	MangaRequestPublicationDemographicShounen	MangaRequestPublicationDemographic	= "shounen"
 )
 
 // Defines values for MangaRequestStatus.
 const (
-	MangaRequestStatusCancelled MangaRequestStatus = "cancelled"
-	MangaRequestStatusCompleted MangaRequestStatus = "completed"
-	MangaRequestStatusHiatus    MangaRequestStatus = "hiatus"
-	MangaRequestStatusOngoing   MangaRequestStatus = "ongoing"
+	MangaRequestStatusCancelled	MangaRequestStatus	= "cancelled"
+	MangaRequestStatusCompleted	MangaRequestStatus	= "completed"
+	MangaRequestStatusHiatus	MangaRequestStatus	= "hiatus"
+	MangaRequestStatusOngoing	MangaRequestStatus	= "ongoing"
 )
 
 // Defines values for MangaResponseResult.
 const (
-	MangaResponseResultError MangaResponseResult = "error"
-	MangaResponseResultOk    MangaResponseResult = "ok"
+	MangaResponseResultError	MangaResponseResult	= "error"
+	MangaResponseResultOk		MangaResponseResult	= "ok"
 )
 
 // Defines values for MappingIdType.
@@ -289,44 +289,44 @@ const (
 
 // Defines values for MappingIdAttributesType.
 const (
-	MappingIdAttributesTypeChapter MappingIdAttributesType = "chapter"
-	MappingIdAttributesTypeGroup   MappingIdAttributesType = "group"
-	MappingIdAttributesTypeManga   MappingIdAttributesType = "manga"
-	MappingIdAttributesTypeTag     MappingIdAttributesType = "tag"
+	MappingIdAttributesTypeChapter	MappingIdAttributesType	= "chapter"
+	MappingIdAttributesTypeGroup	MappingIdAttributesType	= "group"
+	MappingIdAttributesTypeManga	MappingIdAttributesType	= "manga"
+	MappingIdAttributesTypeTag	MappingIdAttributesType	= "tag"
 )
 
 // Defines values for MappingIdBodyType.
 const (
-	MappingIdBodyTypeChapter MappingIdBodyType = "chapter"
-	MappingIdBodyTypeGroup   MappingIdBodyType = "group"
-	MappingIdBodyTypeManga   MappingIdBodyType = "manga"
-	MappingIdBodyTypeTag     MappingIdBodyType = "tag"
+	MappingIdBodyTypeChapter	MappingIdBodyType	= "chapter"
+	MappingIdBodyTypeGroup		MappingIdBodyType	= "group"
+	MappingIdBodyTypeManga		MappingIdBodyType	= "manga"
+	MappingIdBodyTypeTag		MappingIdBodyType	= "tag"
 )
 
 // Defines values for RefreshResponseResult.
 const (
-	RefreshResponseResultError RefreshResponseResult = "error"
-	RefreshResponseResultOk    RefreshResponseResult = "ok"
+	RefreshResponseResultError	RefreshResponseResult	= "error"
+	RefreshResponseResultOk		RefreshResponseResult	= "ok"
 )
 
 // Defines values for RelationshipRelated.
 const (
-	RelationshipRelatedAdaptedFrom      RelationshipRelated = "adapted_from"
-	RelationshipRelatedAlternateStory   RelationshipRelated = "alternate_story"
-	RelationshipRelatedAlternateVersion RelationshipRelated = "alternate_version"
-	RelationshipRelatedBasedOn          RelationshipRelated = "based_on"
-	RelationshipRelatedColored          RelationshipRelated = "colored"
-	RelationshipRelatedDoujinshi        RelationshipRelated = "doujinshi"
-	RelationshipRelatedMainStory        RelationshipRelated = "main_story"
-	RelationshipRelatedMonochrome       RelationshipRelated = "monochrome"
-	RelationshipRelatedPrequel          RelationshipRelated = "prequel"
-	RelationshipRelatedPreserialization RelationshipRelated = "preserialization"
-	RelationshipRelatedSameFranchise    RelationshipRelated = "same_franchise"
-	RelationshipRelatedSequel           RelationshipRelated = "sequel"
-	RelationshipRelatedSerialization    RelationshipRelated = "serialization"
-	RelationshipRelatedSharedUniverse   RelationshipRelated = "shared_universe"
-	RelationshipRelatedSideStory        RelationshipRelated = "side_story"
-	RelationshipRelatedSpinOff          RelationshipRelated = "spin_off"
+	RelationshipRelatedAdaptedFrom		RelationshipRelated	= "adapted_from"
+	RelationshipRelatedAlternateStory	RelationshipRelated	= "alternate_story"
+	RelationshipRelatedAlternateVersion	RelationshipRelated	= "alternate_version"
+	RelationshipRelatedBasedOn		RelationshipRelated	= "based_on"
+	RelationshipRelatedColored		RelationshipRelated	= "colored"
+	RelationshipRelatedDoujinshi		RelationshipRelated	= "doujinshi"
+	RelationshipRelatedMainStory		RelationshipRelated	= "main_story"
+	RelationshipRelatedMonochrome		RelationshipRelated	= "monochrome"
+	RelationshipRelatedPrequel		RelationshipRelated	= "prequel"
+	RelationshipRelatedPreserialization	RelationshipRelated	= "preserialization"
+	RelationshipRelatedSameFranchise	RelationshipRelated	= "same_franchise"
+	RelationshipRelatedSequel		RelationshipRelated	= "sequel"
+	RelationshipRelatedSerialization	RelationshipRelated	= "serialization"
+	RelationshipRelatedSharedUniverse	RelationshipRelated	= "shared_universe"
+	RelationshipRelatedSideStory		RelationshipRelated	= "side_story"
+	RelationshipRelatedSpinOff		RelationshipRelated	= "spin_off"
 )
 
 // Defines values for ReportType.
@@ -336,22 +336,22 @@ const (
 
 // Defines values for ReportAttributesStatus.
 const (
-	ReportAttributesStatusAccepted     ReportAttributesStatus = "accepted"
-	ReportAttributesStatusAutoresolved ReportAttributesStatus = "autoresolved"
-	ReportAttributesStatusRefused      ReportAttributesStatus = "refused"
-	ReportAttributesStatusWaiting      ReportAttributesStatus = "waiting"
+	ReportAttributesStatusAccepted		ReportAttributesStatus	= "accepted"
+	ReportAttributesStatusAutoresolved	ReportAttributesStatus	= "autoresolved"
+	ReportAttributesStatusRefused		ReportAttributesStatus	= "refused"
+	ReportAttributesStatusWaiting		ReportAttributesStatus	= "waiting"
 )
 
 // Defines values for ReportListResponseResult.
 const (
-	ReportListResponseResultError ReportListResponseResult = "error"
-	ReportListResponseResultOk    ReportListResponseResult = "ok"
+	ReportListResponseResultError	ReportListResponseResult	= "error"
+	ReportListResponseResultOk	ReportListResponseResult	= "ok"
 )
 
 // Defines values for ResponseResult.
 const (
-	ResponseResultError ResponseResult = "error"
-	ResponseResultOk    ResponseResult = "ok"
+	ResponseResultError	ResponseResult	= "error"
+	ResponseResultOk	ResponseResult	= "ok"
 )
 
 // Defines values for ScanlationGroupType.
@@ -371,20 +371,20 @@ const (
 
 // Defines values for TagAttributesGroup.
 const (
-	Content TagAttributesGroup = "content"
-	Format  TagAttributesGroup = "format"
-	Genre   TagAttributesGroup = "genre"
-	Theme   TagAttributesGroup = "theme"
+	Content	TagAttributesGroup	= "content"
+	Format	TagAttributesGroup	= "format"
+	Genre	TagAttributesGroup	= "genre"
+	Theme	TagAttributesGroup	= "theme"
 )
 
 // Defines values for UpdateMangaStatusStatus.
 const (
-	UpdateMangaStatusStatusCompleted  UpdateMangaStatusStatus = "completed"
-	UpdateMangaStatusStatusDropped    UpdateMangaStatusStatus = "dropped"
-	UpdateMangaStatusStatusOnHold     UpdateMangaStatusStatus = "on_hold"
-	UpdateMangaStatusStatusPlanToRead UpdateMangaStatusStatus = "plan_to_read"
-	UpdateMangaStatusStatusReReading  UpdateMangaStatusStatus = "re_reading"
-	UpdateMangaStatusStatusReading    UpdateMangaStatusStatus = "reading"
+	UpdateMangaStatusStatusCompleted	UpdateMangaStatusStatus	= "completed"
+	UpdateMangaStatusStatusDropped		UpdateMangaStatusStatus	= "dropped"
+	UpdateMangaStatusStatusOnHold		UpdateMangaStatusStatus	= "on_hold"
+	UpdateMangaStatusStatusPlanToRead	UpdateMangaStatusStatus	= "plan_to_read"
+	UpdateMangaStatusStatusReReading	UpdateMangaStatusStatus	= "re_reading"
+	UpdateMangaStatusStatusReading		UpdateMangaStatusStatus	= "reading"
 )
 
 // Defines values for UploadSessionType.
@@ -399,8 +399,8 @@ const (
 
 // Defines values for UploadSessionFileAttributesSource.
 const (
-	Local  UploadSessionFileAttributesSource = "local"
-	Remote UploadSessionFileAttributesSource = "remote"
+	Local	UploadSessionFileAttributesSource	= "local"
+	Remote	UploadSessionFileAttributesSource	= "remote"
 )
 
 // Defines values for UserType.
@@ -415,244 +415,244 @@ const (
 
 // Defines values for GetAuthorParamsOrderName.
 const (
-	GetAuthorParamsOrderNameAsc  GetAuthorParamsOrderName = "asc"
-	GetAuthorParamsOrderNameDesc GetAuthorParamsOrderName = "desc"
+	GetAuthorParamsOrderNameAsc	GetAuthorParamsOrderName	= "asc"
+	GetAuthorParamsOrderNameDesc	GetAuthorParamsOrderName	= "desc"
 )
 
 // Defines values for GetChapterParamsContentRating.
 const (
-	GetChapterParamsContentRatingErotica      GetChapterParamsContentRating = "erotica"
-	GetChapterParamsContentRatingPornographic GetChapterParamsContentRating = "pornographic"
-	GetChapterParamsContentRatingSafe         GetChapterParamsContentRating = "safe"
-	GetChapterParamsContentRatingSuggestive   GetChapterParamsContentRating = "suggestive"
+	GetChapterParamsContentRatingErotica		GetChapterParamsContentRating	= "erotica"
+	GetChapterParamsContentRatingPornographic	GetChapterParamsContentRating	= "pornographic"
+	GetChapterParamsContentRatingSafe		GetChapterParamsContentRating	= "safe"
+	GetChapterParamsContentRatingSuggestive		GetChapterParamsContentRating	= "suggestive"
 )
 
 // Defines values for GetChapterParamsIncludeFutureUpdates.
 const (
-	GetChapterParamsIncludeFutureUpdatesN0 GetChapterParamsIncludeFutureUpdates = "0"
-	GetChapterParamsIncludeFutureUpdatesN1 GetChapterParamsIncludeFutureUpdates = "1"
+	GetChapterParamsIncludeFutureUpdatesN0	GetChapterParamsIncludeFutureUpdates	= "0"
+	GetChapterParamsIncludeFutureUpdatesN1	GetChapterParamsIncludeFutureUpdates	= "1"
 )
 
 // Defines values for GetChapterParamsIncludeEmptyPages.
 const (
-	GetChapterParamsIncludeEmptyPagesN0 GetChapterParamsIncludeEmptyPages = 0
-	GetChapterParamsIncludeEmptyPagesN1 GetChapterParamsIncludeEmptyPages = 1
+	GetChapterParamsIncludeEmptyPagesN0	GetChapterParamsIncludeEmptyPages	= 0
+	GetChapterParamsIncludeEmptyPagesN1	GetChapterParamsIncludeEmptyPages	= 1
 )
 
 // Defines values for GetChapterParamsIncludeFuturePublishAt.
 const (
-	GetChapterParamsIncludeFuturePublishAtN0 GetChapterParamsIncludeFuturePublishAt = 0
-	GetChapterParamsIncludeFuturePublishAtN1 GetChapterParamsIncludeFuturePublishAt = 1
+	GetChapterParamsIncludeFuturePublishAtN0	GetChapterParamsIncludeFuturePublishAt	= 0
+	GetChapterParamsIncludeFuturePublishAtN1	GetChapterParamsIncludeFuturePublishAt	= 1
 )
 
 // Defines values for GetChapterParamsIncludeExternalUrl.
 const (
-	GetChapterParamsIncludeExternalUrlN0 GetChapterParamsIncludeExternalUrl = 0
-	GetChapterParamsIncludeExternalUrlN1 GetChapterParamsIncludeExternalUrl = 1
+	GetChapterParamsIncludeExternalUrlN0	GetChapterParamsIncludeExternalUrl	= 0
+	GetChapterParamsIncludeExternalUrlN1	GetChapterParamsIncludeExternalUrl	= 1
 )
 
 // Defines values for GetChapterParamsIncludeUnavailable.
 const (
-	GetChapterParamsIncludeUnavailableN0 GetChapterParamsIncludeUnavailable = "0"
-	GetChapterParamsIncludeUnavailableN1 GetChapterParamsIncludeUnavailable = "1"
+	GetChapterParamsIncludeUnavailableN0	GetChapterParamsIncludeUnavailable	= "0"
+	GetChapterParamsIncludeUnavailableN1	GetChapterParamsIncludeUnavailable	= "1"
 )
 
 // Defines values for GetChapterParamsOrderChapter.
 const (
-	GetChapterParamsOrderChapterAsc  GetChapterParamsOrderChapter = "asc"
-	GetChapterParamsOrderChapterDesc GetChapterParamsOrderChapter = "desc"
+	GetChapterParamsOrderChapterAsc		GetChapterParamsOrderChapter	= "asc"
+	GetChapterParamsOrderChapterDesc	GetChapterParamsOrderChapter	= "desc"
 )
 
 // Defines values for GetChapterParamsOrderCreatedAt.
 const (
-	GetChapterParamsOrderCreatedAtAsc  GetChapterParamsOrderCreatedAt = "asc"
-	GetChapterParamsOrderCreatedAtDesc GetChapterParamsOrderCreatedAt = "desc"
+	GetChapterParamsOrderCreatedAtAsc	GetChapterParamsOrderCreatedAt	= "asc"
+	GetChapterParamsOrderCreatedAtDesc	GetChapterParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetChapterParamsOrderPublishAt.
 const (
-	GetChapterParamsOrderPublishAtAsc  GetChapterParamsOrderPublishAt = "asc"
-	GetChapterParamsOrderPublishAtDesc GetChapterParamsOrderPublishAt = "desc"
+	GetChapterParamsOrderPublishAtAsc	GetChapterParamsOrderPublishAt	= "asc"
+	GetChapterParamsOrderPublishAtDesc	GetChapterParamsOrderPublishAt	= "desc"
 )
 
 // Defines values for GetChapterParamsOrderReadableAt.
 const (
-	GetChapterParamsOrderReadableAtAsc  GetChapterParamsOrderReadableAt = "asc"
-	GetChapterParamsOrderReadableAtDesc GetChapterParamsOrderReadableAt = "desc"
+	GetChapterParamsOrderReadableAtAsc	GetChapterParamsOrderReadableAt	= "asc"
+	GetChapterParamsOrderReadableAtDesc	GetChapterParamsOrderReadableAt	= "desc"
 )
 
 // Defines values for GetChapterParamsOrderUpdatedAt.
 const (
-	GetChapterParamsOrderUpdatedAtAsc  GetChapterParamsOrderUpdatedAt = "asc"
-	GetChapterParamsOrderUpdatedAtDesc GetChapterParamsOrderUpdatedAt = "desc"
+	GetChapterParamsOrderUpdatedAtAsc	GetChapterParamsOrderUpdatedAt	= "asc"
+	GetChapterParamsOrderUpdatedAtDesc	GetChapterParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetChapterParamsOrderVolume.
 const (
-	GetChapterParamsOrderVolumeAsc  GetChapterParamsOrderVolume = "asc"
-	GetChapterParamsOrderVolumeDesc GetChapterParamsOrderVolume = "desc"
+	GetChapterParamsOrderVolumeAsc	GetChapterParamsOrderVolume	= "asc"
+	GetChapterParamsOrderVolumeDesc	GetChapterParamsOrderVolume	= "desc"
 )
 
 // Defines values for GetChapterParamsIncludes.
 const (
-	GetChapterParamsIncludesManga           GetChapterParamsIncludes = "manga"
-	GetChapterParamsIncludesScanlationGroup GetChapterParamsIncludes = "scanlation_group"
-	GetChapterParamsIncludesUser            GetChapterParamsIncludes = "user"
+	GetChapterParamsIncludesManga		GetChapterParamsIncludes	= "manga"
+	GetChapterParamsIncludesScanlationGroup	GetChapterParamsIncludes	= "scanlation_group"
+	GetChapterParamsIncludesUser		GetChapterParamsIncludes	= "user"
 )
 
 // Defines values for GetListApiclientsParamsState.
 const (
-	Approved     GetListApiclientsParamsState = "approved"
-	Autoapproved GetListApiclientsParamsState = "autoapproved"
-	Rejected     GetListApiclientsParamsState = "rejected"
-	Requested    GetListApiclientsParamsState = "requested"
+	Approved	GetListApiclientsParamsState	= "approved"
+	Autoapproved	GetListApiclientsParamsState	= "autoapproved"
+	Rejected	GetListApiclientsParamsState	= "rejected"
+	Requested	GetListApiclientsParamsState	= "requested"
 )
 
 // Defines values for GetListApiclientsParamsOrderCreatedAt.
 const (
-	GetListApiclientsParamsOrderCreatedAtAsc  GetListApiclientsParamsOrderCreatedAt = "asc"
-	GetListApiclientsParamsOrderCreatedAtDesc GetListApiclientsParamsOrderCreatedAt = "desc"
+	GetListApiclientsParamsOrderCreatedAtAsc	GetListApiclientsParamsOrderCreatedAt	= "asc"
+	GetListApiclientsParamsOrderCreatedAtDesc	GetListApiclientsParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetListApiclientsParamsOrderName.
 const (
-	GetListApiclientsParamsOrderNameAsc  GetListApiclientsParamsOrderName = "asc"
-	GetListApiclientsParamsOrderNameDesc GetListApiclientsParamsOrderName = "desc"
+	GetListApiclientsParamsOrderNameAsc	GetListApiclientsParamsOrderName	= "asc"
+	GetListApiclientsParamsOrderNameDesc	GetListApiclientsParamsOrderName	= "desc"
 )
 
 // Defines values for GetListApiclientsParamsOrderUpdatedAt.
 const (
-	GetListApiclientsParamsOrderUpdatedAtAsc  GetListApiclientsParamsOrderUpdatedAt = "asc"
-	GetListApiclientsParamsOrderUpdatedAtDesc GetListApiclientsParamsOrderUpdatedAt = "desc"
+	GetListApiclientsParamsOrderUpdatedAtAsc	GetListApiclientsParamsOrderUpdatedAt	= "asc"
+	GetListApiclientsParamsOrderUpdatedAtDesc	GetListApiclientsParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetCoverParamsOrderCreatedAt.
 const (
-	GetCoverParamsOrderCreatedAtAsc  GetCoverParamsOrderCreatedAt = "asc"
-	GetCoverParamsOrderCreatedAtDesc GetCoverParamsOrderCreatedAt = "desc"
+	GetCoverParamsOrderCreatedAtAsc		GetCoverParamsOrderCreatedAt	= "asc"
+	GetCoverParamsOrderCreatedAtDesc	GetCoverParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetCoverParamsOrderUpdatedAt.
 const (
-	GetCoverParamsOrderUpdatedAtAsc  GetCoverParamsOrderUpdatedAt = "asc"
-	GetCoverParamsOrderUpdatedAtDesc GetCoverParamsOrderUpdatedAt = "desc"
+	GetCoverParamsOrderUpdatedAtAsc		GetCoverParamsOrderUpdatedAt	= "asc"
+	GetCoverParamsOrderUpdatedAtDesc	GetCoverParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetCoverParamsOrderVolume.
 const (
-	GetCoverParamsOrderVolumeAsc  GetCoverParamsOrderVolume = "asc"
-	GetCoverParamsOrderVolumeDesc GetCoverParamsOrderVolume = "desc"
+	GetCoverParamsOrderVolumeAsc	GetCoverParamsOrderVolume	= "asc"
+	GetCoverParamsOrderVolumeDesc	GetCoverParamsOrderVolume	= "desc"
 )
 
 // Defines values for ForumsThreadCreateJSONBodyType.
 const (
-	ForumsThreadCreateJSONBodyTypeChapter ForumsThreadCreateJSONBodyType = "chapter"
-	ForumsThreadCreateJSONBodyTypeGroup   ForumsThreadCreateJSONBodyType = "group"
-	ForumsThreadCreateJSONBodyTypeManga   ForumsThreadCreateJSONBodyType = "manga"
+	ForumsThreadCreateJSONBodyTypeChapter	ForumsThreadCreateJSONBodyType	= "chapter"
+	ForumsThreadCreateJSONBodyTypeGroup	ForumsThreadCreateJSONBodyType	= "group"
+	ForumsThreadCreateJSONBodyTypeManga	ForumsThreadCreateJSONBodyType	= "manga"
 )
 
 // Defines values for GetSearchGroupParamsOrderCreatedAt.
 const (
-	GetSearchGroupParamsOrderCreatedAtAsc  GetSearchGroupParamsOrderCreatedAt = "asc"
-	GetSearchGroupParamsOrderCreatedAtDesc GetSearchGroupParamsOrderCreatedAt = "desc"
+	GetSearchGroupParamsOrderCreatedAtAsc	GetSearchGroupParamsOrderCreatedAt	= "asc"
+	GetSearchGroupParamsOrderCreatedAtDesc	GetSearchGroupParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetSearchGroupParamsOrderFollowedCount.
 const (
-	GetSearchGroupParamsOrderFollowedCountAsc  GetSearchGroupParamsOrderFollowedCount = "asc"
-	GetSearchGroupParamsOrderFollowedCountDesc GetSearchGroupParamsOrderFollowedCount = "desc"
+	GetSearchGroupParamsOrderFollowedCountAsc	GetSearchGroupParamsOrderFollowedCount	= "asc"
+	GetSearchGroupParamsOrderFollowedCountDesc	GetSearchGroupParamsOrderFollowedCount	= "desc"
 )
 
 // Defines values for GetSearchGroupParamsOrderName.
 const (
-	GetSearchGroupParamsOrderNameAsc  GetSearchGroupParamsOrderName = "asc"
-	GetSearchGroupParamsOrderNameDesc GetSearchGroupParamsOrderName = "desc"
+	GetSearchGroupParamsOrderNameAsc	GetSearchGroupParamsOrderName	= "asc"
+	GetSearchGroupParamsOrderNameDesc	GetSearchGroupParamsOrderName	= "desc"
 )
 
 // Defines values for GetSearchGroupParamsOrderRelevance.
 const (
-	GetSearchGroupParamsOrderRelevanceAsc  GetSearchGroupParamsOrderRelevance = "asc"
-	GetSearchGroupParamsOrderRelevanceDesc GetSearchGroupParamsOrderRelevance = "desc"
+	GetSearchGroupParamsOrderRelevanceAsc	GetSearchGroupParamsOrderRelevance	= "asc"
+	GetSearchGroupParamsOrderRelevanceDesc	GetSearchGroupParamsOrderRelevance	= "desc"
 )
 
 // Defines values for GetSearchGroupParamsOrderUpdatedAt.
 const (
-	GetSearchGroupParamsOrderUpdatedAtAsc  GetSearchGroupParamsOrderUpdatedAt = "asc"
-	GetSearchGroupParamsOrderUpdatedAtDesc GetSearchGroupParamsOrderUpdatedAt = "desc"
+	GetSearchGroupParamsOrderUpdatedAtAsc	GetSearchGroupParamsOrderUpdatedAt	= "asc"
+	GetSearchGroupParamsOrderUpdatedAtDesc	GetSearchGroupParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsContentRating.
 const (
-	GetListIdFeedParamsContentRatingErotica      GetListIdFeedParamsContentRating = "erotica"
-	GetListIdFeedParamsContentRatingPornographic GetListIdFeedParamsContentRating = "pornographic"
-	GetListIdFeedParamsContentRatingSafe         GetListIdFeedParamsContentRating = "safe"
-	GetListIdFeedParamsContentRatingSuggestive   GetListIdFeedParamsContentRating = "suggestive"
+	GetListIdFeedParamsContentRatingErotica		GetListIdFeedParamsContentRating	= "erotica"
+	GetListIdFeedParamsContentRatingPornographic	GetListIdFeedParamsContentRating	= "pornographic"
+	GetListIdFeedParamsContentRatingSafe		GetListIdFeedParamsContentRating	= "safe"
+	GetListIdFeedParamsContentRatingSuggestive	GetListIdFeedParamsContentRating	= "suggestive"
 )
 
 // Defines values for GetListIdFeedParamsIncludeFutureUpdates.
 const (
-	GetListIdFeedParamsIncludeFutureUpdatesN0 GetListIdFeedParamsIncludeFutureUpdates = "0"
-	GetListIdFeedParamsIncludeFutureUpdatesN1 GetListIdFeedParamsIncludeFutureUpdates = "1"
+	GetListIdFeedParamsIncludeFutureUpdatesN0	GetListIdFeedParamsIncludeFutureUpdates	= "0"
+	GetListIdFeedParamsIncludeFutureUpdatesN1	GetListIdFeedParamsIncludeFutureUpdates	= "1"
 )
 
 // Defines values for GetListIdFeedParamsOrderChapter.
 const (
-	GetListIdFeedParamsOrderChapterAsc  GetListIdFeedParamsOrderChapter = "asc"
-	GetListIdFeedParamsOrderChapterDesc GetListIdFeedParamsOrderChapter = "desc"
+	GetListIdFeedParamsOrderChapterAsc	GetListIdFeedParamsOrderChapter	= "asc"
+	GetListIdFeedParamsOrderChapterDesc	GetListIdFeedParamsOrderChapter	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsOrderCreatedAt.
 const (
-	GetListIdFeedParamsOrderCreatedAtAsc  GetListIdFeedParamsOrderCreatedAt = "asc"
-	GetListIdFeedParamsOrderCreatedAtDesc GetListIdFeedParamsOrderCreatedAt = "desc"
+	GetListIdFeedParamsOrderCreatedAtAsc	GetListIdFeedParamsOrderCreatedAt	= "asc"
+	GetListIdFeedParamsOrderCreatedAtDesc	GetListIdFeedParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsOrderPublishAt.
 const (
-	GetListIdFeedParamsOrderPublishAtAsc  GetListIdFeedParamsOrderPublishAt = "asc"
-	GetListIdFeedParamsOrderPublishAtDesc GetListIdFeedParamsOrderPublishAt = "desc"
+	GetListIdFeedParamsOrderPublishAtAsc	GetListIdFeedParamsOrderPublishAt	= "asc"
+	GetListIdFeedParamsOrderPublishAtDesc	GetListIdFeedParamsOrderPublishAt	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsOrderReadableAt.
 const (
-	GetListIdFeedParamsOrderReadableAtAsc  GetListIdFeedParamsOrderReadableAt = "asc"
-	GetListIdFeedParamsOrderReadableAtDesc GetListIdFeedParamsOrderReadableAt = "desc"
+	GetListIdFeedParamsOrderReadableAtAsc	GetListIdFeedParamsOrderReadableAt	= "asc"
+	GetListIdFeedParamsOrderReadableAtDesc	GetListIdFeedParamsOrderReadableAt	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsOrderUpdatedAt.
 const (
-	GetListIdFeedParamsOrderUpdatedAtAsc  GetListIdFeedParamsOrderUpdatedAt = "asc"
-	GetListIdFeedParamsOrderUpdatedAtDesc GetListIdFeedParamsOrderUpdatedAt = "desc"
+	GetListIdFeedParamsOrderUpdatedAtAsc	GetListIdFeedParamsOrderUpdatedAt	= "asc"
+	GetListIdFeedParamsOrderUpdatedAtDesc	GetListIdFeedParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsOrderVolume.
 const (
-	GetListIdFeedParamsOrderVolumeAsc  GetListIdFeedParamsOrderVolume = "asc"
-	GetListIdFeedParamsOrderVolumeDesc GetListIdFeedParamsOrderVolume = "desc"
+	GetListIdFeedParamsOrderVolumeAsc	GetListIdFeedParamsOrderVolume	= "asc"
+	GetListIdFeedParamsOrderVolumeDesc	GetListIdFeedParamsOrderVolume	= "desc"
 )
 
 // Defines values for GetListIdFeedParamsIncludeEmptyPages.
 const (
-	GetListIdFeedParamsIncludeEmptyPagesN0 GetListIdFeedParamsIncludeEmptyPages = 0
-	GetListIdFeedParamsIncludeEmptyPagesN1 GetListIdFeedParamsIncludeEmptyPages = 1
+	GetListIdFeedParamsIncludeEmptyPagesN0	GetListIdFeedParamsIncludeEmptyPages	= 0
+	GetListIdFeedParamsIncludeEmptyPagesN1	GetListIdFeedParamsIncludeEmptyPages	= 1
 )
 
 // Defines values for GetListIdFeedParamsIncludeFuturePublishAt.
 const (
-	GetListIdFeedParamsIncludeFuturePublishAtN0 GetListIdFeedParamsIncludeFuturePublishAt = 0
-	GetListIdFeedParamsIncludeFuturePublishAtN1 GetListIdFeedParamsIncludeFuturePublishAt = 1
+	GetListIdFeedParamsIncludeFuturePublishAtN0	GetListIdFeedParamsIncludeFuturePublishAt	= 0
+	GetListIdFeedParamsIncludeFuturePublishAtN1	GetListIdFeedParamsIncludeFuturePublishAt	= 1
 )
 
 // Defines values for GetListIdFeedParamsIncludeExternalUrl.
 const (
-	GetListIdFeedParamsIncludeExternalUrlN0 GetListIdFeedParamsIncludeExternalUrl = 0
-	GetListIdFeedParamsIncludeExternalUrlN1 GetListIdFeedParamsIncludeExternalUrl = 1
+	GetListIdFeedParamsIncludeExternalUrlN0	GetListIdFeedParamsIncludeExternalUrl	= 0
+	GetListIdFeedParamsIncludeExternalUrlN1	GetListIdFeedParamsIncludeExternalUrl	= 1
 )
 
 // Defines values for GetListIdFeedParamsIncludeUnavailable.
 const (
-	GetListIdFeedParamsIncludeUnavailableN0 GetListIdFeedParamsIncludeUnavailable = "0"
-	GetListIdFeedParamsIncludeUnavailableN1 GetListIdFeedParamsIncludeUnavailable = "1"
+	GetListIdFeedParamsIncludeUnavailableN0	GetListIdFeedParamsIncludeUnavailable	= "0"
+	GetListIdFeedParamsIncludeUnavailableN1	GetListIdFeedParamsIncludeUnavailable	= "1"
 )
 
 // Defines values for GetSearchMangaParamsYear1.
@@ -662,373 +662,373 @@ const (
 
 // Defines values for GetSearchMangaParamsIncludedTagsMode.
 const (
-	GetSearchMangaParamsIncludedTagsModeAND GetSearchMangaParamsIncludedTagsMode = "AND"
-	GetSearchMangaParamsIncludedTagsModeOR  GetSearchMangaParamsIncludedTagsMode = "OR"
+	GetSearchMangaParamsIncludedTagsModeAND	GetSearchMangaParamsIncludedTagsMode	= "AND"
+	GetSearchMangaParamsIncludedTagsModeOR	GetSearchMangaParamsIncludedTagsMode	= "OR"
 )
 
 // Defines values for GetSearchMangaParamsExcludedTagsMode.
 const (
-	GetSearchMangaParamsExcludedTagsModeAND GetSearchMangaParamsExcludedTagsMode = "AND"
-	GetSearchMangaParamsExcludedTagsModeOR  GetSearchMangaParamsExcludedTagsMode = "OR"
+	GetSearchMangaParamsExcludedTagsModeAND	GetSearchMangaParamsExcludedTagsMode	= "AND"
+	GetSearchMangaParamsExcludedTagsModeOR	GetSearchMangaParamsExcludedTagsMode	= "OR"
 )
 
 // Defines values for GetSearchMangaParamsStatus.
 const (
-	GetSearchMangaParamsStatusCancelled GetSearchMangaParamsStatus = "cancelled"
-	GetSearchMangaParamsStatusCompleted GetSearchMangaParamsStatus = "completed"
-	GetSearchMangaParamsStatusHiatus    GetSearchMangaParamsStatus = "hiatus"
-	GetSearchMangaParamsStatusOngoing   GetSearchMangaParamsStatus = "ongoing"
+	GetSearchMangaParamsStatusCancelled	GetSearchMangaParamsStatus	= "cancelled"
+	GetSearchMangaParamsStatusCompleted	GetSearchMangaParamsStatus	= "completed"
+	GetSearchMangaParamsStatusHiatus	GetSearchMangaParamsStatus	= "hiatus"
+	GetSearchMangaParamsStatusOngoing	GetSearchMangaParamsStatus	= "ongoing"
 )
 
 // Defines values for GetSearchMangaParamsPublicationDemographic.
 const (
-	GetSearchMangaParamsPublicationDemographicJosei   GetSearchMangaParamsPublicationDemographic = "josei"
-	GetSearchMangaParamsPublicationDemographicNone    GetSearchMangaParamsPublicationDemographic = "none"
-	GetSearchMangaParamsPublicationDemographicSeinen  GetSearchMangaParamsPublicationDemographic = "seinen"
-	GetSearchMangaParamsPublicationDemographicShoujo  GetSearchMangaParamsPublicationDemographic = "shoujo"
-	GetSearchMangaParamsPublicationDemographicShounen GetSearchMangaParamsPublicationDemographic = "shounen"
+	GetSearchMangaParamsPublicationDemographicJosei		GetSearchMangaParamsPublicationDemographic	= "josei"
+	GetSearchMangaParamsPublicationDemographicNone		GetSearchMangaParamsPublicationDemographic	= "none"
+	GetSearchMangaParamsPublicationDemographicSeinen	GetSearchMangaParamsPublicationDemographic	= "seinen"
+	GetSearchMangaParamsPublicationDemographicShoujo	GetSearchMangaParamsPublicationDemographic	= "shoujo"
+	GetSearchMangaParamsPublicationDemographicShounen	GetSearchMangaParamsPublicationDemographic	= "shounen"
 )
 
 // Defines values for GetSearchMangaParamsContentRating.
 const (
-	GetSearchMangaParamsContentRatingErotica      GetSearchMangaParamsContentRating = "erotica"
-	GetSearchMangaParamsContentRatingPornographic GetSearchMangaParamsContentRating = "pornographic"
-	GetSearchMangaParamsContentRatingSafe         GetSearchMangaParamsContentRating = "safe"
-	GetSearchMangaParamsContentRatingSuggestive   GetSearchMangaParamsContentRating = "suggestive"
+	GetSearchMangaParamsContentRatingErotica	GetSearchMangaParamsContentRating	= "erotica"
+	GetSearchMangaParamsContentRatingPornographic	GetSearchMangaParamsContentRating	= "pornographic"
+	GetSearchMangaParamsContentRatingSafe		GetSearchMangaParamsContentRating	= "safe"
+	GetSearchMangaParamsContentRatingSuggestive	GetSearchMangaParamsContentRating	= "suggestive"
 )
 
 // Defines values for GetSearchMangaParamsOrderCreatedAt.
 const (
-	GetSearchMangaParamsOrderCreatedAtAsc  GetSearchMangaParamsOrderCreatedAt = "asc"
-	GetSearchMangaParamsOrderCreatedAtDesc GetSearchMangaParamsOrderCreatedAt = "desc"
+	GetSearchMangaParamsOrderCreatedAtAsc	GetSearchMangaParamsOrderCreatedAt	= "asc"
+	GetSearchMangaParamsOrderCreatedAtDesc	GetSearchMangaParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderFollowedCount.
 const (
-	GetSearchMangaParamsOrderFollowedCountAsc  GetSearchMangaParamsOrderFollowedCount = "asc"
-	GetSearchMangaParamsOrderFollowedCountDesc GetSearchMangaParamsOrderFollowedCount = "desc"
+	GetSearchMangaParamsOrderFollowedCountAsc	GetSearchMangaParamsOrderFollowedCount	= "asc"
+	GetSearchMangaParamsOrderFollowedCountDesc	GetSearchMangaParamsOrderFollowedCount	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderLatestUploadedChapter.
 const (
-	GetSearchMangaParamsOrderLatestUploadedChapterAsc  GetSearchMangaParamsOrderLatestUploadedChapter = "asc"
-	GetSearchMangaParamsOrderLatestUploadedChapterDesc GetSearchMangaParamsOrderLatestUploadedChapter = "desc"
+	GetSearchMangaParamsOrderLatestUploadedChapterAsc	GetSearchMangaParamsOrderLatestUploadedChapter	= "asc"
+	GetSearchMangaParamsOrderLatestUploadedChapterDesc	GetSearchMangaParamsOrderLatestUploadedChapter	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderRating.
 const (
-	GetSearchMangaParamsOrderRatingAsc  GetSearchMangaParamsOrderRating = "asc"
-	GetSearchMangaParamsOrderRatingDesc GetSearchMangaParamsOrderRating = "desc"
+	GetSearchMangaParamsOrderRatingAsc	GetSearchMangaParamsOrderRating	= "asc"
+	GetSearchMangaParamsOrderRatingDesc	GetSearchMangaParamsOrderRating	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderRelevance.
 const (
-	GetSearchMangaParamsOrderRelevanceAsc  GetSearchMangaParamsOrderRelevance = "asc"
-	GetSearchMangaParamsOrderRelevanceDesc GetSearchMangaParamsOrderRelevance = "desc"
+	GetSearchMangaParamsOrderRelevanceAsc	GetSearchMangaParamsOrderRelevance	= "asc"
+	GetSearchMangaParamsOrderRelevanceDesc	GetSearchMangaParamsOrderRelevance	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderTitle.
 const (
-	GetSearchMangaParamsOrderTitleAsc  GetSearchMangaParamsOrderTitle = "asc"
-	GetSearchMangaParamsOrderTitleDesc GetSearchMangaParamsOrderTitle = "desc"
+	GetSearchMangaParamsOrderTitleAsc	GetSearchMangaParamsOrderTitle	= "asc"
+	GetSearchMangaParamsOrderTitleDesc	GetSearchMangaParamsOrderTitle	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderUpdatedAt.
 const (
-	GetSearchMangaParamsOrderUpdatedAtAsc  GetSearchMangaParamsOrderUpdatedAt = "asc"
-	GetSearchMangaParamsOrderUpdatedAtDesc GetSearchMangaParamsOrderUpdatedAt = "desc"
+	GetSearchMangaParamsOrderUpdatedAtAsc	GetSearchMangaParamsOrderUpdatedAt	= "asc"
+	GetSearchMangaParamsOrderUpdatedAtDesc	GetSearchMangaParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsOrderYear.
 const (
-	GetSearchMangaParamsOrderYearAsc  GetSearchMangaParamsOrderYear = "asc"
-	GetSearchMangaParamsOrderYearDesc GetSearchMangaParamsOrderYear = "desc"
+	GetSearchMangaParamsOrderYearAsc	GetSearchMangaParamsOrderYear	= "asc"
+	GetSearchMangaParamsOrderYearDesc	GetSearchMangaParamsOrderYear	= "desc"
 )
 
 // Defines values for GetSearchMangaParamsHasAvailableChapters.
 const (
-	GetSearchMangaParamsHasAvailableChaptersFalse GetSearchMangaParamsHasAvailableChapters = "false"
-	GetSearchMangaParamsHasAvailableChaptersN0    GetSearchMangaParamsHasAvailableChapters = "0"
-	GetSearchMangaParamsHasAvailableChaptersN1    GetSearchMangaParamsHasAvailableChapters = "1"
-	GetSearchMangaParamsHasAvailableChaptersTrue  GetSearchMangaParamsHasAvailableChapters = "true"
+	GetSearchMangaParamsHasAvailableChaptersFalse	GetSearchMangaParamsHasAvailableChapters	= "false"
+	GetSearchMangaParamsHasAvailableChaptersN0	GetSearchMangaParamsHasAvailableChapters	= "0"
+	GetSearchMangaParamsHasAvailableChaptersN1	GetSearchMangaParamsHasAvailableChapters	= "1"
+	GetSearchMangaParamsHasAvailableChaptersTrue	GetSearchMangaParamsHasAvailableChapters	= "true"
 )
 
 // Defines values for GetSearchMangaParamsHasUnavailableChapters.
 const (
-	GetSearchMangaParamsHasUnavailableChaptersN0 GetSearchMangaParamsHasUnavailableChapters = "0"
-	GetSearchMangaParamsHasUnavailableChaptersN1 GetSearchMangaParamsHasUnavailableChapters = "1"
+	GetSearchMangaParamsHasUnavailableChaptersN0	GetSearchMangaParamsHasUnavailableChapters	= "0"
+	GetSearchMangaParamsHasUnavailableChaptersN1	GetSearchMangaParamsHasUnavailableChapters	= "1"
 )
 
 // Defines values for OrderCreatedAt.
 const (
-	OrderCreatedAtAsc  OrderCreatedAt = "asc"
-	OrderCreatedAtDesc OrderCreatedAt = "desc"
+	OrderCreatedAtAsc	OrderCreatedAt	= "asc"
+	OrderCreatedAtDesc	OrderCreatedAt	= "desc"
 )
 
 // Defines values for OrderTitle.
 const (
-	OrderTitleAsc  OrderTitle = "asc"
-	OrderTitleDesc OrderTitle = "desc"
+	OrderTitleAsc	OrderTitle	= "asc"
+	OrderTitleDesc	OrderTitle	= "desc"
 )
 
 // Defines values for OrderUpdatedAt.
 const (
-	OrderUpdatedAtAsc  OrderUpdatedAt = "asc"
-	OrderUpdatedAtDesc OrderUpdatedAt = "desc"
+	OrderUpdatedAtAsc	OrderUpdatedAt	= "asc"
+	OrderUpdatedAtDesc	OrderUpdatedAt	= "desc"
 )
 
 // Defines values for OrderYear.
 const (
-	OrderYearAsc  OrderYear = "asc"
-	OrderYearDesc OrderYear = "desc"
+	OrderYearAsc	OrderYear	= "asc"
+	OrderYearDesc	OrderYear	= "desc"
 )
 
 // Defines values for GetMangaRandomParamsContentRating.
 const (
-	GetMangaRandomParamsContentRatingErotica      GetMangaRandomParamsContentRating = "erotica"
-	GetMangaRandomParamsContentRatingPornographic GetMangaRandomParamsContentRating = "pornographic"
-	GetMangaRandomParamsContentRatingSafe         GetMangaRandomParamsContentRating = "safe"
-	GetMangaRandomParamsContentRatingSuggestive   GetMangaRandomParamsContentRating = "suggestive"
+	GetMangaRandomParamsContentRatingErotica	GetMangaRandomParamsContentRating	= "erotica"
+	GetMangaRandomParamsContentRatingPornographic	GetMangaRandomParamsContentRating	= "pornographic"
+	GetMangaRandomParamsContentRatingSafe		GetMangaRandomParamsContentRating	= "safe"
+	GetMangaRandomParamsContentRatingSuggestive	GetMangaRandomParamsContentRating	= "suggestive"
 )
 
 // Defines values for GetMangaRandomParamsIncludedTagsMode.
 const (
-	GetMangaRandomParamsIncludedTagsModeAND GetMangaRandomParamsIncludedTagsMode = "AND"
-	GetMangaRandomParamsIncludedTagsModeOR  GetMangaRandomParamsIncludedTagsMode = "OR"
+	GetMangaRandomParamsIncludedTagsModeAND	GetMangaRandomParamsIncludedTagsMode	= "AND"
+	GetMangaRandomParamsIncludedTagsModeOR	GetMangaRandomParamsIncludedTagsMode	= "OR"
 )
 
 // Defines values for GetMangaRandomParamsExcludedTagsMode.
 const (
-	GetMangaRandomParamsExcludedTagsModeAND GetMangaRandomParamsExcludedTagsMode = "AND"
-	GetMangaRandomParamsExcludedTagsModeOR  GetMangaRandomParamsExcludedTagsMode = "OR"
+	GetMangaRandomParamsExcludedTagsModeAND	GetMangaRandomParamsExcludedTagsMode	= "AND"
+	GetMangaRandomParamsExcludedTagsModeOR	GetMangaRandomParamsExcludedTagsMode	= "OR"
 )
 
 // Defines values for GetMangaStatusParamsStatus.
 const (
-	GetMangaStatusParamsStatusCompleted  GetMangaStatusParamsStatus = "completed"
-	GetMangaStatusParamsStatusDropped    GetMangaStatusParamsStatus = "dropped"
-	GetMangaStatusParamsStatusOnHold     GetMangaStatusParamsStatus = "on_hold"
-	GetMangaStatusParamsStatusPlanToRead GetMangaStatusParamsStatus = "plan_to_read"
-	GetMangaStatusParamsStatusReReading  GetMangaStatusParamsStatus = "re_reading"
-	GetMangaStatusParamsStatusReading    GetMangaStatusParamsStatus = "reading"
+	GetMangaStatusParamsStatusCompleted	GetMangaStatusParamsStatus	= "completed"
+	GetMangaStatusParamsStatusDropped	GetMangaStatusParamsStatus	= "dropped"
+	GetMangaStatusParamsStatusOnHold	GetMangaStatusParamsStatus	= "on_hold"
+	GetMangaStatusParamsStatusPlanToRead	GetMangaStatusParamsStatus	= "plan_to_read"
+	GetMangaStatusParamsStatusReReading	GetMangaStatusParamsStatus	= "re_reading"
+	GetMangaStatusParamsStatusReading	GetMangaStatusParamsStatus	= "reading"
 )
 
 // Defines values for PutMangaIdJSONBodyContentRating.
 const (
-	PutMangaIdJSONBodyContentRatingErotica      PutMangaIdJSONBodyContentRating = "erotica"
-	PutMangaIdJSONBodyContentRatingPornographic PutMangaIdJSONBodyContentRating = "pornographic"
-	PutMangaIdJSONBodyContentRatingSafe         PutMangaIdJSONBodyContentRating = "safe"
-	PutMangaIdJSONBodyContentRatingSuggestive   PutMangaIdJSONBodyContentRating = "suggestive"
+	PutMangaIdJSONBodyContentRatingErotica		PutMangaIdJSONBodyContentRating	= "erotica"
+	PutMangaIdJSONBodyContentRatingPornographic	PutMangaIdJSONBodyContentRating	= "pornographic"
+	PutMangaIdJSONBodyContentRatingSafe		PutMangaIdJSONBodyContentRating	= "safe"
+	PutMangaIdJSONBodyContentRatingSuggestive	PutMangaIdJSONBodyContentRating	= "suggestive"
 )
 
 // Defines values for PutMangaIdJSONBodyPublicationDemographic.
 const (
-	Josei   PutMangaIdJSONBodyPublicationDemographic = "josei"
-	Seinen  PutMangaIdJSONBodyPublicationDemographic = "seinen"
-	Shoujo  PutMangaIdJSONBodyPublicationDemographic = "shoujo"
-	Shounen PutMangaIdJSONBodyPublicationDemographic = "shounen"
+	Josei	PutMangaIdJSONBodyPublicationDemographic	= "josei"
+	Seinen	PutMangaIdJSONBodyPublicationDemographic	= "seinen"
+	Shoujo	PutMangaIdJSONBodyPublicationDemographic	= "shoujo"
+	Shounen	PutMangaIdJSONBodyPublicationDemographic	= "shounen"
 )
 
 // Defines values for PutMangaIdJSONBodyStatus.
 const (
-	PutMangaIdJSONBodyStatusCancelled PutMangaIdJSONBodyStatus = "cancelled"
-	PutMangaIdJSONBodyStatusCompleted PutMangaIdJSONBodyStatus = "completed"
-	PutMangaIdJSONBodyStatusHiatus    PutMangaIdJSONBodyStatus = "hiatus"
-	PutMangaIdJSONBodyStatusOngoing   PutMangaIdJSONBodyStatus = "ongoing"
+	PutMangaIdJSONBodyStatusCancelled	PutMangaIdJSONBodyStatus	= "cancelled"
+	PutMangaIdJSONBodyStatusCompleted	PutMangaIdJSONBodyStatus	= "completed"
+	PutMangaIdJSONBodyStatusHiatus		PutMangaIdJSONBodyStatus	= "hiatus"
+	PutMangaIdJSONBodyStatusOngoing		PutMangaIdJSONBodyStatus	= "ongoing"
 )
 
 // Defines values for GetMangaIdFeedParamsContentRating.
 const (
-	GetMangaIdFeedParamsContentRatingErotica      GetMangaIdFeedParamsContentRating = "erotica"
-	GetMangaIdFeedParamsContentRatingPornographic GetMangaIdFeedParamsContentRating = "pornographic"
-	GetMangaIdFeedParamsContentRatingSafe         GetMangaIdFeedParamsContentRating = "safe"
-	GetMangaIdFeedParamsContentRatingSuggestive   GetMangaIdFeedParamsContentRating = "suggestive"
+	GetMangaIdFeedParamsContentRatingErotica	GetMangaIdFeedParamsContentRating	= "erotica"
+	GetMangaIdFeedParamsContentRatingPornographic	GetMangaIdFeedParamsContentRating	= "pornographic"
+	GetMangaIdFeedParamsContentRatingSafe		GetMangaIdFeedParamsContentRating	= "safe"
+	GetMangaIdFeedParamsContentRatingSuggestive	GetMangaIdFeedParamsContentRating	= "suggestive"
 )
 
 // Defines values for GetMangaIdFeedParamsIncludeFutureUpdates.
 const (
-	GetMangaIdFeedParamsIncludeFutureUpdatesN0 GetMangaIdFeedParamsIncludeFutureUpdates = "0"
-	GetMangaIdFeedParamsIncludeFutureUpdatesN1 GetMangaIdFeedParamsIncludeFutureUpdates = "1"
+	GetMangaIdFeedParamsIncludeFutureUpdatesN0	GetMangaIdFeedParamsIncludeFutureUpdates	= "0"
+	GetMangaIdFeedParamsIncludeFutureUpdatesN1	GetMangaIdFeedParamsIncludeFutureUpdates	= "1"
 )
 
 // Defines values for GetMangaIdFeedParamsOrderChapter.
 const (
-	GetMangaIdFeedParamsOrderChapterAsc  GetMangaIdFeedParamsOrderChapter = "asc"
-	GetMangaIdFeedParamsOrderChapterDesc GetMangaIdFeedParamsOrderChapter = "desc"
+	GetMangaIdFeedParamsOrderChapterAsc	GetMangaIdFeedParamsOrderChapter	= "asc"
+	GetMangaIdFeedParamsOrderChapterDesc	GetMangaIdFeedParamsOrderChapter	= "desc"
 )
 
 // Defines values for GetMangaIdFeedParamsOrderCreatedAt.
 const (
-	GetMangaIdFeedParamsOrderCreatedAtAsc  GetMangaIdFeedParamsOrderCreatedAt = "asc"
-	GetMangaIdFeedParamsOrderCreatedAtDesc GetMangaIdFeedParamsOrderCreatedAt = "desc"
+	GetMangaIdFeedParamsOrderCreatedAtAsc	GetMangaIdFeedParamsOrderCreatedAt	= "asc"
+	GetMangaIdFeedParamsOrderCreatedAtDesc	GetMangaIdFeedParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetMangaIdFeedParamsOrderPublishAt.
 const (
-	GetMangaIdFeedParamsOrderPublishAtAsc  GetMangaIdFeedParamsOrderPublishAt = "asc"
-	GetMangaIdFeedParamsOrderPublishAtDesc GetMangaIdFeedParamsOrderPublishAt = "desc"
+	GetMangaIdFeedParamsOrderPublishAtAsc	GetMangaIdFeedParamsOrderPublishAt	= "asc"
+	GetMangaIdFeedParamsOrderPublishAtDesc	GetMangaIdFeedParamsOrderPublishAt	= "desc"
 )
 
 // Defines values for GetMangaIdFeedParamsOrderReadableAt.
 const (
-	GetMangaIdFeedParamsOrderReadableAtAsc  GetMangaIdFeedParamsOrderReadableAt = "asc"
-	GetMangaIdFeedParamsOrderReadableAtDesc GetMangaIdFeedParamsOrderReadableAt = "desc"
+	GetMangaIdFeedParamsOrderReadableAtAsc	GetMangaIdFeedParamsOrderReadableAt	= "asc"
+	GetMangaIdFeedParamsOrderReadableAtDesc	GetMangaIdFeedParamsOrderReadableAt	= "desc"
 )
 
 // Defines values for GetMangaIdFeedParamsOrderUpdatedAt.
 const (
-	GetMangaIdFeedParamsOrderUpdatedAtAsc  GetMangaIdFeedParamsOrderUpdatedAt = "asc"
-	GetMangaIdFeedParamsOrderUpdatedAtDesc GetMangaIdFeedParamsOrderUpdatedAt = "desc"
+	GetMangaIdFeedParamsOrderUpdatedAtAsc	GetMangaIdFeedParamsOrderUpdatedAt	= "asc"
+	GetMangaIdFeedParamsOrderUpdatedAtDesc	GetMangaIdFeedParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetMangaIdFeedParamsOrderVolume.
 const (
-	GetMangaIdFeedParamsOrderVolumeAsc  GetMangaIdFeedParamsOrderVolume = "asc"
-	GetMangaIdFeedParamsOrderVolumeDesc GetMangaIdFeedParamsOrderVolume = "desc"
+	GetMangaIdFeedParamsOrderVolumeAsc	GetMangaIdFeedParamsOrderVolume	= "asc"
+	GetMangaIdFeedParamsOrderVolumeDesc	GetMangaIdFeedParamsOrderVolume	= "desc"
 )
 
 // Defines values for GetMangaIdFeedParamsIncludeEmptyPages.
 const (
-	GetMangaIdFeedParamsIncludeEmptyPagesN0 GetMangaIdFeedParamsIncludeEmptyPages = 0
-	GetMangaIdFeedParamsIncludeEmptyPagesN1 GetMangaIdFeedParamsIncludeEmptyPages = 1
+	GetMangaIdFeedParamsIncludeEmptyPagesN0	GetMangaIdFeedParamsIncludeEmptyPages	= 0
+	GetMangaIdFeedParamsIncludeEmptyPagesN1	GetMangaIdFeedParamsIncludeEmptyPages	= 1
 )
 
 // Defines values for GetMangaIdFeedParamsIncludeFuturePublishAt.
 const (
-	GetMangaIdFeedParamsIncludeFuturePublishAtN0 GetMangaIdFeedParamsIncludeFuturePublishAt = 0
-	GetMangaIdFeedParamsIncludeFuturePublishAtN1 GetMangaIdFeedParamsIncludeFuturePublishAt = 1
+	GetMangaIdFeedParamsIncludeFuturePublishAtN0	GetMangaIdFeedParamsIncludeFuturePublishAt	= 0
+	GetMangaIdFeedParamsIncludeFuturePublishAtN1	GetMangaIdFeedParamsIncludeFuturePublishAt	= 1
 )
 
 // Defines values for GetMangaIdFeedParamsIncludeExternalUrl.
 const (
-	GetMangaIdFeedParamsIncludeExternalUrlN0 GetMangaIdFeedParamsIncludeExternalUrl = 0
-	GetMangaIdFeedParamsIncludeExternalUrlN1 GetMangaIdFeedParamsIncludeExternalUrl = 1
+	GetMangaIdFeedParamsIncludeExternalUrlN0	GetMangaIdFeedParamsIncludeExternalUrl	= 0
+	GetMangaIdFeedParamsIncludeExternalUrlN1	GetMangaIdFeedParamsIncludeExternalUrl	= 1
 )
 
 // Defines values for GetMangaIdFeedParamsIncludeUnavailable.
 const (
-	GetMangaIdFeedParamsIncludeUnavailableN0 GetMangaIdFeedParamsIncludeUnavailable = "0"
-	GetMangaIdFeedParamsIncludeUnavailableN1 GetMangaIdFeedParamsIncludeUnavailable = "1"
+	GetMangaIdFeedParamsIncludeUnavailableN0	GetMangaIdFeedParamsIncludeUnavailable	= "0"
+	GetMangaIdFeedParamsIncludeUnavailableN1	GetMangaIdFeedParamsIncludeUnavailable	= "1"
 )
 
 // Defines values for GetReportsParamsCategory.
 const (
-	GetReportsParamsCategoryAuthor          GetReportsParamsCategory = "author"
-	GetReportsParamsCategoryChapter         GetReportsParamsCategory = "chapter"
-	GetReportsParamsCategoryManga           GetReportsParamsCategory = "manga"
-	GetReportsParamsCategoryScanlationGroup GetReportsParamsCategory = "scanlation_group"
-	GetReportsParamsCategoryUser            GetReportsParamsCategory = "user"
+	GetReportsParamsCategoryAuthor		GetReportsParamsCategory	= "author"
+	GetReportsParamsCategoryChapter		GetReportsParamsCategory	= "chapter"
+	GetReportsParamsCategoryManga		GetReportsParamsCategory	= "manga"
+	GetReportsParamsCategoryScanlationGroup	GetReportsParamsCategory	= "scanlation_group"
+	GetReportsParamsCategoryUser		GetReportsParamsCategory	= "user"
 )
 
 // Defines values for GetReportsParamsStatus.
 const (
-	GetReportsParamsStatusAccepted     GetReportsParamsStatus = "accepted"
-	GetReportsParamsStatusAutoresolved GetReportsParamsStatus = "autoresolved"
-	GetReportsParamsStatusRefused      GetReportsParamsStatus = "refused"
-	GetReportsParamsStatusWaiting      GetReportsParamsStatus = "waiting"
+	GetReportsParamsStatusAccepted		GetReportsParamsStatus	= "accepted"
+	GetReportsParamsStatusAutoresolved	GetReportsParamsStatus	= "autoresolved"
+	GetReportsParamsStatusRefused		GetReportsParamsStatus	= "refused"
+	GetReportsParamsStatusWaiting		GetReportsParamsStatus	= "waiting"
 )
 
 // Defines values for GetReportsParamsOrderCreatedAt.
 const (
-	GetReportsParamsOrderCreatedAtAsc  GetReportsParamsOrderCreatedAt = "asc"
-	GetReportsParamsOrderCreatedAtDesc GetReportsParamsOrderCreatedAt = "desc"
+	GetReportsParamsOrderCreatedAtAsc	GetReportsParamsOrderCreatedAt	= "asc"
+	GetReportsParamsOrderCreatedAtDesc	GetReportsParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for PostReportJSONBodyCategory.
 const (
-	PostReportJSONBodyCategoryAuthor          PostReportJSONBodyCategory = "author"
-	PostReportJSONBodyCategoryChapter         PostReportJSONBodyCategory = "chapter"
-	PostReportJSONBodyCategoryManga           PostReportJSONBodyCategory = "manga"
-	PostReportJSONBodyCategoryScanlationGroup PostReportJSONBodyCategory = "scanlation_group"
-	PostReportJSONBodyCategoryUser            PostReportJSONBodyCategory = "user"
+	PostReportJSONBodyCategoryAuthor		PostReportJSONBodyCategory	= "author"
+	PostReportJSONBodyCategoryChapter		PostReportJSONBodyCategory	= "chapter"
+	PostReportJSONBodyCategoryManga			PostReportJSONBodyCategory	= "manga"
+	PostReportJSONBodyCategoryScanlationGroup	PostReportJSONBodyCategory	= "scanlation_group"
+	PostReportJSONBodyCategoryUser			PostReportJSONBodyCategory	= "user"
 )
 
 // Defines values for GetUserParamsOrderUsername.
 const (
-	GetUserParamsOrderUsernameAsc  GetUserParamsOrderUsername = "asc"
-	GetUserParamsOrderUsernameDesc GetUserParamsOrderUsername = "desc"
+	GetUserParamsOrderUsernameAsc	GetUserParamsOrderUsername	= "asc"
+	GetUserParamsOrderUsernameDesc	GetUserParamsOrderUsername	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsContentRating.
 const (
-	Erotica      GetUserFollowsMangaFeedParamsContentRating = "erotica"
-	Pornographic GetUserFollowsMangaFeedParamsContentRating = "pornographic"
-	Safe         GetUserFollowsMangaFeedParamsContentRating = "safe"
-	Suggestive   GetUserFollowsMangaFeedParamsContentRating = "suggestive"
+	Erotica		GetUserFollowsMangaFeedParamsContentRating	= "erotica"
+	Pornographic	GetUserFollowsMangaFeedParamsContentRating	= "pornographic"
+	Safe		GetUserFollowsMangaFeedParamsContentRating	= "safe"
+	Suggestive	GetUserFollowsMangaFeedParamsContentRating	= "suggestive"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsIncludeFutureUpdates.
 const (
-	GetUserFollowsMangaFeedParamsIncludeFutureUpdatesN0 GetUserFollowsMangaFeedParamsIncludeFutureUpdates = "0"
-	GetUserFollowsMangaFeedParamsIncludeFutureUpdatesN1 GetUserFollowsMangaFeedParamsIncludeFutureUpdates = "1"
+	GetUserFollowsMangaFeedParamsIncludeFutureUpdatesN0	GetUserFollowsMangaFeedParamsIncludeFutureUpdates	= "0"
+	GetUserFollowsMangaFeedParamsIncludeFutureUpdatesN1	GetUserFollowsMangaFeedParamsIncludeFutureUpdates	= "1"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsOrderChapter.
 const (
-	GetUserFollowsMangaFeedParamsOrderChapterAsc  GetUserFollowsMangaFeedParamsOrderChapter = "asc"
-	GetUserFollowsMangaFeedParamsOrderChapterDesc GetUserFollowsMangaFeedParamsOrderChapter = "desc"
+	GetUserFollowsMangaFeedParamsOrderChapterAsc	GetUserFollowsMangaFeedParamsOrderChapter	= "asc"
+	GetUserFollowsMangaFeedParamsOrderChapterDesc	GetUserFollowsMangaFeedParamsOrderChapter	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsOrderCreatedAt.
 const (
-	GetUserFollowsMangaFeedParamsOrderCreatedAtAsc  GetUserFollowsMangaFeedParamsOrderCreatedAt = "asc"
-	GetUserFollowsMangaFeedParamsOrderCreatedAtDesc GetUserFollowsMangaFeedParamsOrderCreatedAt = "desc"
+	GetUserFollowsMangaFeedParamsOrderCreatedAtAsc	GetUserFollowsMangaFeedParamsOrderCreatedAt	= "asc"
+	GetUserFollowsMangaFeedParamsOrderCreatedAtDesc	GetUserFollowsMangaFeedParamsOrderCreatedAt	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsOrderPublishAt.
 const (
-	GetUserFollowsMangaFeedParamsOrderPublishAtAsc  GetUserFollowsMangaFeedParamsOrderPublishAt = "asc"
-	GetUserFollowsMangaFeedParamsOrderPublishAtDesc GetUserFollowsMangaFeedParamsOrderPublishAt = "desc"
+	GetUserFollowsMangaFeedParamsOrderPublishAtAsc	GetUserFollowsMangaFeedParamsOrderPublishAt	= "asc"
+	GetUserFollowsMangaFeedParamsOrderPublishAtDesc	GetUserFollowsMangaFeedParamsOrderPublishAt	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsOrderReadableAt.
 const (
-	GetUserFollowsMangaFeedParamsOrderReadableAtAsc  GetUserFollowsMangaFeedParamsOrderReadableAt = "asc"
-	GetUserFollowsMangaFeedParamsOrderReadableAtDesc GetUserFollowsMangaFeedParamsOrderReadableAt = "desc"
+	GetUserFollowsMangaFeedParamsOrderReadableAtAsc		GetUserFollowsMangaFeedParamsOrderReadableAt	= "asc"
+	GetUserFollowsMangaFeedParamsOrderReadableAtDesc	GetUserFollowsMangaFeedParamsOrderReadableAt	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsOrderUpdatedAt.
 const (
-	GetUserFollowsMangaFeedParamsOrderUpdatedAtAsc  GetUserFollowsMangaFeedParamsOrderUpdatedAt = "asc"
-	GetUserFollowsMangaFeedParamsOrderUpdatedAtDesc GetUserFollowsMangaFeedParamsOrderUpdatedAt = "desc"
+	GetUserFollowsMangaFeedParamsOrderUpdatedAtAsc	GetUserFollowsMangaFeedParamsOrderUpdatedAt	= "asc"
+	GetUserFollowsMangaFeedParamsOrderUpdatedAtDesc	GetUserFollowsMangaFeedParamsOrderUpdatedAt	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsOrderVolume.
 const (
-	GetUserFollowsMangaFeedParamsOrderVolumeAsc  GetUserFollowsMangaFeedParamsOrderVolume = "asc"
-	GetUserFollowsMangaFeedParamsOrderVolumeDesc GetUserFollowsMangaFeedParamsOrderVolume = "desc"
+	GetUserFollowsMangaFeedParamsOrderVolumeAsc	GetUserFollowsMangaFeedParamsOrderVolume	= "asc"
+	GetUserFollowsMangaFeedParamsOrderVolumeDesc	GetUserFollowsMangaFeedParamsOrderVolume	= "desc"
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsIncludeEmptyPages.
 const (
-	GetUserFollowsMangaFeedParamsIncludeEmptyPagesN0 GetUserFollowsMangaFeedParamsIncludeEmptyPages = 0
-	GetUserFollowsMangaFeedParamsIncludeEmptyPagesN1 GetUserFollowsMangaFeedParamsIncludeEmptyPages = 1
+	GetUserFollowsMangaFeedParamsIncludeEmptyPagesN0	GetUserFollowsMangaFeedParamsIncludeEmptyPages	= 0
+	GetUserFollowsMangaFeedParamsIncludeEmptyPagesN1	GetUserFollowsMangaFeedParamsIncludeEmptyPages	= 1
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsIncludeFuturePublishAt.
 const (
-	GetUserFollowsMangaFeedParamsIncludeFuturePublishAtN0 GetUserFollowsMangaFeedParamsIncludeFuturePublishAt = 0
-	GetUserFollowsMangaFeedParamsIncludeFuturePublishAtN1 GetUserFollowsMangaFeedParamsIncludeFuturePublishAt = 1
+	GetUserFollowsMangaFeedParamsIncludeFuturePublishAtN0	GetUserFollowsMangaFeedParamsIncludeFuturePublishAt	= 0
+	GetUserFollowsMangaFeedParamsIncludeFuturePublishAtN1	GetUserFollowsMangaFeedParamsIncludeFuturePublishAt	= 1
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsIncludeExternalUrl.
 const (
-	GetUserFollowsMangaFeedParamsIncludeExternalUrlN0 GetUserFollowsMangaFeedParamsIncludeExternalUrl = 0
-	GetUserFollowsMangaFeedParamsIncludeExternalUrlN1 GetUserFollowsMangaFeedParamsIncludeExternalUrl = 1
+	GetUserFollowsMangaFeedParamsIncludeExternalUrlN0	GetUserFollowsMangaFeedParamsIncludeExternalUrl	= 0
+	GetUserFollowsMangaFeedParamsIncludeExternalUrlN1	GetUserFollowsMangaFeedParamsIncludeExternalUrl	= 1
 )
 
 // Defines values for GetUserFollowsMangaFeedParamsIncludeUnavailable.
 const (
-	GetUserFollowsMangaFeedParamsIncludeUnavailableN0 GetUserFollowsMangaFeedParamsIncludeUnavailable = "0"
-	GetUserFollowsMangaFeedParamsIncludeUnavailableN1 GetUserFollowsMangaFeedParamsIncludeUnavailable = "1"
+	GetUserFollowsMangaFeedParamsIncludeUnavailableN0	GetUserFollowsMangaFeedParamsIncludeUnavailable	= "0"
+	GetUserFollowsMangaFeedParamsIncludeUnavailableN1	GetUserFollowsMangaFeedParamsIncludeUnavailable	= "1"
 )
 
 // ApiClient defines model for ApiClient.
 type ApiClient struct {
-	Attributes    *ApiClientAttributes `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID  `json:"id,omitempty"`
-	Relationships *[]Relationship      `json:"relationships,omitempty"`
-	Type          *ApiClientType       `json:"type,omitempty"`
+	Attributes	*ApiClientAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*ApiClientType		`json:"type,omitempty" bson:"type"`
 }
 
 // ApiClientType defines model for ApiClient.Type.
@@ -1036,15 +1036,15 @@ type ApiClientType string
 
 // ApiClientAttributes defines model for ApiClientAttributes.
 type ApiClientAttributes struct {
-	CreatedAt        *string                   `json:"createdAt,omitempty"`
-	Description      *string                   `json:"description"`
-	ExternalClientId *string                   `json:"externalClientId"`
-	IsActive         *bool                     `json:"isActive,omitempty"`
-	Name             *string                   `json:"name,omitempty"`
-	Profile          *string                   `json:"profile,omitempty"`
-	State            *ApiClientAttributesState `json:"state,omitempty"`
-	UpdatedAt        *string                   `json:"updatedAt,omitempty"`
-	Version          *int                      `json:"version,omitempty"`
+	CreatedAt		*string				`json:"createdAt,omitempty" bson:"createdAt"`
+	Description		*string				`json:"description" bson:"description"`
+	ExternalClientId	*string				`json:"externalClientId" bson:"externalClientId"`
+	IsActive		*bool				`json:"isActive,omitempty" bson:"isActive"`
+	Name			*string				`json:"name,omitempty" bson:"name"`
+	Profile			*string				`json:"profile,omitempty" bson:"profile"`
+	State			*ApiClientAttributesState	`json:"state,omitempty" bson:"state"`
+	UpdatedAt		*string				`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Version			*int				`json:"version,omitempty" bson:"version"`
 }
 
 // ApiClientAttributesState defines model for ApiClientAttributes.State.
@@ -1052,10 +1052,10 @@ type ApiClientAttributesState string
 
 // ApiClientCreate defines model for ApiClientCreate.
 type ApiClientCreate struct {
-	Description *string                `json:"description"`
-	Name        string                 `json:"name"`
-	Profile     ApiClientCreateProfile `json:"profile"`
-	Version     *int                   `json:"version,omitempty"`
+	Description	*string			`json:"description" bson:"description"`
+	Name		string			`json:"name" bson:"name"`
+	Profile		ApiClientCreateProfile	`json:"profile" bson:"profile"`
+	Version		*int			`json:"version,omitempty" bson:"version"`
 }
 
 // ApiClientCreateProfile defines model for ApiClientCreate.Profile.
@@ -1063,33 +1063,33 @@ type ApiClientCreateProfile string
 
 // ApiClientEdit defines model for ApiClientEdit.
 type ApiClientEdit struct {
-	Description *string `json:"description"`
-	Version     int     `json:"version"`
+	Description	*string	`json:"description" bson:"description"`
+	Version		int	`json:"version" bson:"version"`
 }
 
 // ApiClientList defines model for ApiClientList.
 type ApiClientList struct {
-	Data     *[]ApiClient `json:"data,omitempty"`
-	Limit    *int         `json:"limit,omitempty"`
-	Offset   *int         `json:"offset,omitempty"`
-	Response *string      `json:"response,omitempty"`
-	Result   *string      `json:"result,omitempty"`
-	Total    *int         `json:"total,omitempty"`
+	Data		*[]ApiClient	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // ApiClientResponse defines model for ApiClientResponse.
 type ApiClientResponse struct {
-	Data     *ApiClient `json:"data,omitempty"`
-	Response *string    `json:"response,omitempty"`
-	Result   *string    `json:"result,omitempty"`
+	Data		*ApiClient	`json:"data,omitempty" bson:"data"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
 }
 
 // Author defines model for Author.
 type Author struct {
-	Attributes    *AuthorAttributes   `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *AuthorType         `json:"type,omitempty"`
+	Attributes	*AuthorAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*AuthorType		`json:"type,omitempty" bson:"type"`
 }
 
 // AuthorType defines model for Author.Type.
@@ -1097,101 +1097,101 @@ type AuthorType string
 
 // AuthorAttributes defines model for AuthorAttributes.
 type AuthorAttributes struct {
-	Biography *LocalizedString `json:"biography,omitempty"`
-	Booth     *string          `json:"booth"`
-	CreatedAt *string          `json:"createdAt,omitempty"`
-	FanBox    *string          `json:"fanBox"`
-	Fantia    *string          `json:"fantia"`
-	ImageUrl  *string          `json:"imageUrl"`
-	MelonBook *string          `json:"melonBook"`
-	Name      *string          `json:"name,omitempty"`
-	Namicomi  *string          `json:"namicomi"`
-	Naver     *string          `json:"naver"`
-	NicoVideo *string          `json:"nicoVideo"`
-	Pixiv     *string          `json:"pixiv"`
-	Skeb      *string          `json:"skeb"`
-	Tumblr    *string          `json:"tumblr"`
-	Twitter   *string          `json:"twitter"`
-	UpdatedAt *string          `json:"updatedAt,omitempty"`
-	Version   *int             `json:"version,omitempty"`
-	Website   *string          `json:"website"`
-	Weibo     *string          `json:"weibo"`
-	Youtube   *string          `json:"youtube"`
+	Biography	*LocalizedString	`json:"biography,omitempty" bson:"biography"`
+	Booth		*string			`json:"booth" bson:"booth"`
+	CreatedAt	*string			`json:"createdAt,omitempty" bson:"createdAt"`
+	FanBox		*string			`json:"fanBox" bson:"fanBox"`
+	Fantia		*string			`json:"fantia" bson:"fantia"`
+	ImageUrl	*string			`json:"imageUrl" bson:"imageUrl"`
+	MelonBook	*string			`json:"melonBook" bson:"melonBook"`
+	Name		*string			`json:"name,omitempty" bson:"name"`
+	Namicomi	*string			`json:"namicomi" bson:"namicomi"`
+	Naver		*string			`json:"naver" bson:"naver"`
+	NicoVideo	*string			`json:"nicoVideo" bson:"nicoVideo"`
+	Pixiv		*string			`json:"pixiv" bson:"pixiv"`
+	Skeb		*string			`json:"skeb" bson:"skeb"`
+	Tumblr		*string			`json:"tumblr" bson:"tumblr"`
+	Twitter		*string			`json:"twitter" bson:"twitter"`
+	UpdatedAt	*string			`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Version		*int			`json:"version,omitempty" bson:"version"`
+	Website		*string			`json:"website" bson:"website"`
+	Weibo		*string			`json:"weibo" bson:"weibo"`
+	Youtube		*string			`json:"youtube" bson:"youtube"`
 }
 
 // AuthorCreate defines model for AuthorCreate.
 type AuthorCreate struct {
-	Biography *LocalizedString `json:"biography,omitempty"`
-	Booth     *string          `json:"booth"`
-	FanBox    *string          `json:"fanBox"`
-	Fantia    *string          `json:"fantia"`
-	MelonBook *string          `json:"melonBook"`
-	Name      string           `json:"name"`
-	Naver     *string          `json:"naver"`
-	NicoVideo *string          `json:"nicoVideo"`
-	Pixiv     *string          `json:"pixiv"`
-	Skeb      *string          `json:"skeb"`
-	Tumblr    *string          `json:"tumblr"`
-	Twitter   *string          `json:"twitter"`
-	Website   *string          `json:"website"`
-	Weibo     *string          `json:"weibo"`
-	Youtube   *string          `json:"youtube"`
+	Biography	*LocalizedString	`json:"biography,omitempty" bson:"biography"`
+	Booth		*string			`json:"booth" bson:"booth"`
+	FanBox		*string			`json:"fanBox" bson:"fanBox"`
+	Fantia		*string			`json:"fantia" bson:"fantia"`
+	MelonBook	*string			`json:"melonBook" bson:"melonBook"`
+	Name		string			`json:"name" bson:"name"`
+	Naver		*string			`json:"naver" bson:"naver"`
+	NicoVideo	*string			`json:"nicoVideo" bson:"nicoVideo"`
+	Pixiv		*string			`json:"pixiv" bson:"pixiv"`
+	Skeb		*string			`json:"skeb" bson:"skeb"`
+	Tumblr		*string			`json:"tumblr" bson:"tumblr"`
+	Twitter		*string			`json:"twitter" bson:"twitter"`
+	Website		*string			`json:"website" bson:"website"`
+	Weibo		*string			`json:"weibo" bson:"weibo"`
+	Youtube		*string			`json:"youtube" bson:"youtube"`
 }
 
 // AuthorEdit defines model for AuthorEdit.
 type AuthorEdit struct {
-	Biography *LocalizedString `json:"biography,omitempty"`
-	Booth     *string          `json:"booth"`
-	FanBox    *string          `json:"fanBox"`
-	Fantia    *string          `json:"fantia"`
-	MelonBook *string          `json:"melonBook"`
-	Name      *string          `json:"name,omitempty"`
-	Naver     *string          `json:"naver"`
-	NicoVideo *string          `json:"nicoVideo"`
-	Pixiv     *string          `json:"pixiv"`
-	Skeb      *string          `json:"skeb"`
-	Tumblr    *string          `json:"tumblr"`
-	Twitter   *string          `json:"twitter"`
-	Version   int              `json:"version"`
-	Website   *string          `json:"website"`
-	Weibo     *string          `json:"weibo"`
-	Youtube   *string          `json:"youtube"`
+	Biography	*LocalizedString	`json:"biography,omitempty" bson:"biography"`
+	Booth		*string			`json:"booth" bson:"booth"`
+	FanBox		*string			`json:"fanBox" bson:"fanBox"`
+	Fantia		*string			`json:"fantia" bson:"fantia"`
+	MelonBook	*string			`json:"melonBook" bson:"melonBook"`
+	Name		*string			`json:"name,omitempty" bson:"name"`
+	Naver		*string			`json:"naver" bson:"naver"`
+	NicoVideo	*string			`json:"nicoVideo" bson:"nicoVideo"`
+	Pixiv		*string			`json:"pixiv" bson:"pixiv"`
+	Skeb		*string			`json:"skeb" bson:"skeb"`
+	Tumblr		*string			`json:"tumblr" bson:"tumblr"`
+	Twitter		*string			`json:"twitter" bson:"twitter"`
+	Version		int			`json:"version" bson:"version"`
+	Website		*string			`json:"website" bson:"website"`
+	Weibo		*string			`json:"weibo" bson:"weibo"`
+	Youtube		*string			`json:"youtube" bson:"youtube"`
 }
 
 // AuthorList defines model for AuthorList.
 type AuthorList struct {
-	Data     *[]Author `json:"data,omitempty"`
-	Limit    *int      `json:"limit,omitempty"`
-	Offset   *int      `json:"offset,omitempty"`
-	Response *string   `json:"response,omitempty"`
-	Result   *string   `json:"result,omitempty"`
-	Total    *int      `json:"total,omitempty"`
+	Data		*[]Author	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // AuthorResponse defines model for AuthorResponse.
 type AuthorResponse struct {
-	Data     *Author `json:"data,omitempty"`
-	Response *string `json:"response,omitempty"`
-	Result   *string `json:"result,omitempty"`
+	Data		*Author	`json:"data,omitempty" bson:"data"`
+	Response	*string	`json:"response,omitempty" bson:"response"`
+	Result		*string	`json:"result,omitempty" bson:"result"`
 }
 
 // BeginEditSession defines model for BeginEditSession.
 type BeginEditSession struct {
-	Version int `json:"version"`
+	Version int `json:"version" bson:"version"`
 }
 
 // BeginUploadSession defines model for BeginUploadSession.
 type BeginUploadSession struct {
-	Groups []openapi_types.UUID `json:"groups"`
-	Manga  openapi_types.UUID   `json:"manga"`
+	Groups	[]openapi_types.UUID	`json:"groups" bson:"groups"`
+	Manga	openapi_types.UUID	`json:"manga" bson:"manga"`
 }
 
 // Chapter defines model for Chapter.
 type Chapter struct {
-	Attributes    *ChapterAttributes  `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *ChapterType        `json:"type,omitempty"`
+	Attributes	*ChapterAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*ChapterType		`json:"type,omitempty" bson:"type"`
 }
 
 // ChapterType defines model for Chapter.Type.
@@ -1199,60 +1199,60 @@ type ChapterType string
 
 // ChapterAttributes defines model for ChapterAttributes.
 type ChapterAttributes struct {
-	Chapter   *string `json:"chapter"`
-	CreatedAt *string `json:"createdAt,omitempty"`
+	Chapter		*string	`json:"chapter" bson:"chapter"`
+	CreatedAt	*string	`json:"createdAt,omitempty" bson:"createdAt"`
 
 	// ExternalUrl Denotes a chapter that links to an external source.
-	ExternalUrl   *string `json:"externalUrl"`
-	IsUnavailable *bool   `json:"isUnavailable,omitempty"`
+	ExternalUrl	*string	`json:"externalUrl" bson:"externalUrl"`
+	IsUnavailable	*bool	`json:"isUnavailable,omitempty" bson:"isUnavailable"`
 
 	// Pages Count of readable images for this chapter
-	Pages              *int                `json:"pages,omitempty"`
-	PublishAt          *string             `json:"publishAt,omitempty"`
-	ReadableAt         *string             `json:"readableAt,omitempty"`
-	Title              *string             `json:"title"`
-	TranslatedLanguage *string             `json:"translatedLanguage,omitempty"`
-	UpdatedAt          *string             `json:"updatedAt,omitempty"`
-	Uploader           *openapi_types.UUID `json:"uploader,omitempty"`
-	Version            *int                `json:"version,omitempty"`
-	Volume             *string             `json:"volume"`
+	Pages			*int			`json:"pages,omitempty" bson:"pages"`
+	PublishAt		*string			`json:"publishAt,omitempty" bson:"publishAt"`
+	ReadableAt		*string			`json:"readableAt,omitempty" bson:"readableAt"`
+	Title			*string			`json:"title" bson:"title"`
+	TranslatedLanguage	*string			`json:"translatedLanguage,omitempty" bson:"translatedLanguage"`
+	UpdatedAt		*string			`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Uploader		*openapi_types.UUID	`json:"uploader,omitempty" bson:"uploader"`
+	Version			*int			`json:"version,omitempty" bson:"version"`
+	Volume			*string			`json:"volume" bson:"volume"`
 }
 
 // ChapterDraft defines model for ChapterDraft.
 type ChapterDraft struct {
-	Chapter            *ChapterVolume `json:"chapter"`
-	ExternalUrl        *string        `json:"externalUrl"`
-	PublishAt          *string        `json:"publishAt,omitempty"`
-	Title              *string        `json:"title"`
-	TranslatedLanguage string         `json:"translatedLanguage"`
-	Volume             *ChapterVolume `json:"volume"`
+	Chapter			*ChapterVolume	`json:"chapter" bson:"chapter"`
+	ExternalUrl		*string		`json:"externalUrl" bson:"externalUrl"`
+	PublishAt		*string		`json:"publishAt,omitempty" bson:"publishAt"`
+	Title			*string		`json:"title" bson:"title"`
+	TranslatedLanguage	string		`json:"translatedLanguage" bson:"translatedLanguage"`
+	Volume			*ChapterVolume	`json:"volume" bson:"volume"`
 }
 
 // ChapterEdit defines model for ChapterEdit.
 type ChapterEdit struct {
-	Chapter            *ChapterVolume        `json:"chapter"`
-	Groups             *[]openapi_types.UUID `json:"groups,omitempty"`
-	Title              *string               `json:"title"`
-	TranslatedLanguage *string               `json:"translatedLanguage,omitempty"`
-	Version            int                   `json:"version"`
-	Volume             *ChapterVolume        `json:"volume"`
+	Chapter			*ChapterVolume		`json:"chapter" bson:"chapter"`
+	Groups			*[]openapi_types.UUID	`json:"groups,omitempty" bson:"groups"`
+	Title			*string			`json:"title" bson:"title"`
+	TranslatedLanguage	*string			`json:"translatedLanguage,omitempty" bson:"translatedLanguage"`
+	Version			int			`json:"version" bson:"version"`
+	Volume			*ChapterVolume		`json:"volume" bson:"volume"`
 }
 
 // ChapterList defines model for ChapterList.
 type ChapterList struct {
-	Data     *[]Chapter `json:"data,omitempty"`
-	Limit    *int       `json:"limit,omitempty"`
-	Offset   *int       `json:"offset,omitempty"`
-	Response *string    `json:"response,omitempty"`
-	Result   *string    `json:"result,omitempty"`
-	Total    *int       `json:"total,omitempty"`
+	Data		*[]Chapter	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // ChapterReadMarkerBatch defines model for ChapterReadMarkerBatch.
 type ChapterReadMarkerBatch struct {
-	ChapterIdsRead   *[]openapi_types.UUID `json:"chapterIdsRead,omitempty"`
-	ChapterIdsUnread *[]openapi_types.UUID `json:"chapterIdsUnread,omitempty"`
-	union            json.RawMessage
+	ChapterIdsRead		*[]openapi_types.UUID	`json:"chapterIdsRead,omitempty" bson:"chapterIdsRead"`
+	ChapterIdsUnread	*[]openapi_types.UUID	`json:"chapterIdsUnread,omitempty" bson:"chapterIdsUnread"`
+	union			json.RawMessage		`bson:"union"`
 }
 
 // ChapterReadMarkerBatch0 defines model for .
@@ -1263,19 +1263,19 @@ type ChapterReadMarkerBatch1 = interface{}
 
 // ChapterRequest defines model for ChapterRequest.
 type ChapterRequest struct {
-	Chapter            *ChapterVolume        `json:"chapter"`
-	Groups             *[]openapi_types.UUID `json:"groups,omitempty"`
-	Title              *string               `json:"title"`
-	TranslatedLanguage *string               `json:"translatedLanguage,omitempty"`
-	Version            *int                  `json:"version,omitempty"`
-	Volume             *ChapterVolume        `json:"volume"`
+	Chapter			*ChapterVolume		`json:"chapter" bson:"chapter"`
+	Groups			*[]openapi_types.UUID	`json:"groups,omitempty" bson:"groups"`
+	Title			*string			`json:"title" bson:"title"`
+	TranslatedLanguage	*string			`json:"translatedLanguage,omitempty" bson:"translatedLanguage"`
+	Version			*int			`json:"version,omitempty" bson:"version"`
+	Volume			*ChapterVolume		`json:"volume" bson:"volume"`
 }
 
 // ChapterResponse defines model for ChapterResponse.
 type ChapterResponse struct {
-	Data     *Chapter               `json:"data,omitempty"`
-	Response *string                `json:"response,omitempty"`
-	Result   *ChapterResponseResult `json:"result,omitempty"`
+	Data		*Chapter		`json:"data,omitempty" bson:"data"`
+	Response	*string			`json:"response,omitempty" bson:"response"`
+	Result		*ChapterResponseResult	`json:"result,omitempty" bson:"result"`
 }
 
 // ChapterResponseResult defines model for ChapterResponse.Result.
@@ -1286,26 +1286,26 @@ type ChapterVolume = string
 
 // CheckResponse defines model for CheckResponse.
 type CheckResponse struct {
-	IsAuthenticated *bool     `json:"isAuthenticated,omitempty"`
-	Permissions     *[]string `json:"permissions,omitempty"`
-	Result          *string   `json:"result,omitempty"`
-	Roles           *[]string `json:"roles,omitempty"`
+	IsAuthenticated	*bool		`json:"isAuthenticated,omitempty" bson:"isAuthenticated"`
+	Permissions	*[]string	`json:"permissions,omitempty" bson:"permissions"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Roles		*[]string	`json:"roles,omitempty" bson:"roles"`
 }
 
 // CommitUploadSession defines model for CommitUploadSession.
 type CommitUploadSession struct {
-	ChapterDraft *ChapterDraft `json:"chapterDraft,omitempty"`
+	ChapterDraft	*ChapterDraft	`json:"chapterDraft,omitempty" bson:"chapterDraft"`
 
 	// PageOrder ordered list of Upload Session File ids
-	PageOrder *[]openapi_types.UUID `json:"pageOrder,omitempty"`
+	PageOrder	*[]openapi_types.UUID	`json:"pageOrder,omitempty" bson:"pageOrder"`
 }
 
 // Cover defines model for Cover.
 type Cover struct {
-	Attributes    *CoverAttributes    `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *CoverType          `json:"type,omitempty"`
+	Attributes	*CoverAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*CoverType		`json:"type,omitempty" bson:"type"`
 }
 
 // CoverType defines model for Cover.Type.
@@ -1313,38 +1313,38 @@ type CoverType string
 
 // CoverAttributes defines model for CoverAttributes.
 type CoverAttributes struct {
-	CreatedAt   *string `json:"createdAt,omitempty"`
-	Description *string `json:"description"`
-	FileName    *string `json:"fileName,omitempty"`
-	Locale      *string `json:"locale"`
-	UpdatedAt   *string `json:"updatedAt,omitempty"`
-	Version     *int    `json:"version,omitempty"`
-	Volume      *string `json:"volume"`
+	CreatedAt	*string	`json:"createdAt,omitempty" bson:"createdAt"`
+	Description	*string	`json:"description" bson:"description"`
+	FileName	*string	`json:"fileName,omitempty" bson:"fileName"`
+	Locale		*string	`json:"locale" bson:"locale"`
+	UpdatedAt	*string	`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Version		*int	`json:"version,omitempty" bson:"version"`
+	Volume		*string	`json:"volume" bson:"volume"`
 }
 
 // CoverEdit defines model for CoverEdit.
 type CoverEdit struct {
-	Description *string      `json:"description"`
-	Locale      *string      `json:"locale"`
-	Version     int          `json:"version"`
-	Volume      *CoverVolume `json:"volume"`
+	Description	*string		`json:"description" bson:"description"`
+	Locale		*string		`json:"locale" bson:"locale"`
+	Version		int		`json:"version" bson:"version"`
+	Volume		*CoverVolume	`json:"volume" bson:"volume"`
 }
 
 // CoverList defines model for CoverList.
 type CoverList struct {
-	Data     *[]Cover `json:"data,omitempty"`
-	Limit    *int     `json:"limit,omitempty"`
-	Offset   *int     `json:"offset,omitempty"`
-	Response *string  `json:"response,omitempty"`
-	Result   *string  `json:"result,omitempty"`
-	Total    *int     `json:"total,omitempty"`
+	Data		*[]Cover	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // CoverResponse defines model for CoverResponse.
 type CoverResponse struct {
-	Data     *Cover  `json:"data,omitempty"`
-	Response *string `json:"response,omitempty"`
-	Result   *string `json:"result,omitempty"`
+	Data		*Cover	`json:"data,omitempty" bson:"data"`
+	Response	*string	`json:"response,omitempty" bson:"response"`
+	Result		*string	`json:"result,omitempty" bson:"result"`
 }
 
 // CoverVolume defines model for CoverVolume.
@@ -1352,25 +1352,25 @@ type CoverVolume = string
 
 // CreateScanlationGroup defines model for CreateScanlationGroup.
 type CreateScanlationGroup struct {
-	ContactEmail *string `json:"contactEmail"`
-	Description  *string `json:"description"`
-	Discord      *string `json:"discord"`
-	Inactive     *bool   `json:"inactive,omitempty"`
-	IrcChannel   *string `json:"ircChannel"`
-	IrcServer    *string `json:"ircServer"`
-	MangaUpdates *string `json:"mangaUpdates"`
-	Name         string  `json:"name"`
-	PublishDelay *string `json:"publishDelay"`
-	Twitter      *string `json:"twitter"`
-	Website      *string `json:"website"`
+	ContactEmail	*string	`json:"contactEmail" bson:"contactEmail"`
+	Description	*string	`json:"description" bson:"description"`
+	Discord		*string	`json:"discord" bson:"discord"`
+	Inactive	*bool	`json:"inactive,omitempty" bson:"inactive"`
+	IrcChannel	*string	`json:"ircChannel" bson:"ircChannel"`
+	IrcServer	*string	`json:"ircServer" bson:"ircServer"`
+	MangaUpdates	*string	`json:"mangaUpdates" bson:"mangaUpdates"`
+	Name		string	`json:"name" bson:"name"`
+	PublishDelay	*string	`json:"publishDelay" bson:"publishDelay"`
+	Twitter		*string	`json:"twitter" bson:"twitter"`
+	Website		*string	`json:"website" bson:"website"`
 }
 
 // CustomList defines model for CustomList.
 type CustomList struct {
-	Attributes    *CustomListAttributes `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID   `json:"id,omitempty"`
-	Relationships *[]Relationship       `json:"relationships,omitempty"`
-	Type          *CustomListType       `json:"type,omitempty"`
+	Attributes	*CustomListAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*CustomListType		`json:"type,omitempty" bson:"type"`
 }
 
 // CustomListType defines model for CustomList.Type.
@@ -1378,9 +1378,9 @@ type CustomListType string
 
 // CustomListAttributes defines model for CustomListAttributes.
 type CustomListAttributes struct {
-	Name       *string                         `json:"name,omitempty"`
-	Version    *int                            `json:"version,omitempty"`
-	Visibility *CustomListAttributesVisibility `json:"visibility,omitempty"`
+	Name		*string				`json:"name,omitempty" bson:"name"`
+	Version		*int				`json:"version,omitempty" bson:"version"`
+	Visibility	*CustomListAttributesVisibility	`json:"visibility,omitempty" bson:"visibility"`
 }
 
 // CustomListAttributesVisibility defines model for CustomListAttributes.Visibility.
@@ -1388,10 +1388,10 @@ type CustomListAttributesVisibility string
 
 // CustomListCreate defines model for CustomListCreate.
 type CustomListCreate struct {
-	Manga      *[]openapi_types.UUID       `json:"manga,omitempty"`
-	Name       string                      `json:"name"`
-	Version    *int                        `json:"version,omitempty"`
-	Visibility *CustomListCreateVisibility `json:"visibility,omitempty"`
+	Manga		*[]openapi_types.UUID		`json:"manga,omitempty" bson:"manga"`
+	Name		string				`json:"name" bson:"name"`
+	Version		*int				`json:"version,omitempty" bson:"version"`
+	Visibility	*CustomListCreateVisibility	`json:"visibility,omitempty" bson:"visibility"`
 }
 
 // CustomListCreateVisibility defines model for CustomListCreate.Visibility.
@@ -1399,10 +1399,10 @@ type CustomListCreateVisibility string
 
 // CustomListEdit defines model for CustomListEdit.
 type CustomListEdit struct {
-	Manga      *[]openapi_types.UUID     `json:"manga,omitempty"`
-	Name       *string                   `json:"name,omitempty"`
-	Version    int                       `json:"version"`
-	Visibility *CustomListEditVisibility `json:"visibility,omitempty"`
+	Manga		*[]openapi_types.UUID		`json:"manga,omitempty" bson:"manga"`
+	Name		*string				`json:"name,omitempty" bson:"name"`
+	Version		int				`json:"version" bson:"version"`
+	Visibility	*CustomListEditVisibility	`json:"visibility,omitempty" bson:"visibility"`
 }
 
 // CustomListEditVisibility defines model for CustomListEdit.Visibility.
@@ -1410,19 +1410,19 @@ type CustomListEditVisibility string
 
 // CustomListList defines model for CustomListList.
 type CustomListList struct {
-	Data     *[]CustomList `json:"data,omitempty"`
-	Limit    *int          `json:"limit,omitempty"`
-	Offset   *int          `json:"offset,omitempty"`
-	Response *string       `json:"response,omitempty"`
-	Result   *string       `json:"result,omitempty"`
-	Total    *int          `json:"total,omitempty"`
+	Data		*[]CustomList	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // CustomListResponse defines model for CustomListResponse.
 type CustomListResponse struct {
-	Data     *CustomList               `json:"data,omitempty"`
-	Response *string                   `json:"response,omitempty"`
-	Result   *CustomListResponseResult `json:"result,omitempty"`
+	Data		*CustomList			`json:"data,omitempty" bson:"data"`
+	Response	*string				`json:"response,omitempty" bson:"response"`
+	Result		*CustomListResponseResult	`json:"result,omitempty" bson:"result"`
 }
 
 // CustomListResponseResult defines model for CustomListResponse.Result.
@@ -1430,33 +1430,33 @@ type CustomListResponseResult string
 
 // Error defines model for Error.
 type Error struct {
-	Context *string `json:"context"`
-	Detail  *string `json:"detail"`
-	Id      *string `json:"id,omitempty"`
-	Status  *int    `json:"status,omitempty"`
-	Title   *string `json:"title,omitempty"`
+	Context	*string	`json:"context" bson:"context"`
+	Detail	*string	`json:"detail" bson:"detail"`
+	Id	*string	`json:"id,omitempty" bson:"id"`
+	Status	*int	`json:"status,omitempty" bson:"status"`
+	Title	*string	`json:"title,omitempty" bson:"title"`
 }
 
 // ErrorResponse defines model for ErrorResponse.
 type ErrorResponse struct {
-	Errors *[]Error `json:"errors,omitempty"`
-	Result *string  `json:"result,omitempty"`
+	Errors	*[]Error	`json:"errors,omitempty" bson:"errors"`
+	Result	*string		`json:"result,omitempty" bson:"result"`
 }
 
 // ForumsThreadResponse defines model for ForumsThreadResponse.
 type ForumsThreadResponse struct {
-	Data *struct {
-		Attributes *struct {
+	Data	*struct {
+		Attributes	*struct {
 			// RepliesCount The number of replies so far in the forums thread returned
-			RepliesCount *int `json:"repliesCount,omitempty"`
-		} `json:"attributes,omitempty"`
+			RepliesCount *int `json:"repliesCount,omitempty" bson:"repliesCount"`
+		}	`json:"attributes,omitempty" bson:"attributes"`
 
 		// Id The id for the thread on the forums, accessible at `https://forums.mangadex.org/threads/:id`
-		Id   *int    `json:"id,omitempty"`
-		Type *string `json:"type,omitempty"`
-	} `json:"data,omitempty"`
-	Response *string `json:"response,omitempty"`
-	Result   *string `json:"result,omitempty"`
+		Id	*int	`json:"id,omitempty" bson:"id"`
+		Type	*string	`json:"type,omitempty" bson:"type"`
+	}	`json:"data,omitempty" bson:"data"`
+	Response	*string	`json:"response,omitempty" bson:"response"`
+	Result		*string	`json:"result,omitempty" bson:"result"`
 }
 
 // LocalizedString defines model for LocalizedString.
@@ -1464,18 +1464,18 @@ type LocalizedString map[string]string
 
 // Login defines model for Login.
 type Login struct {
-	Email    *string `json:"email,omitempty"`
-	Password string  `json:"password"`
-	Username *string `json:"username,omitempty"`
+	Email		*string	`json:"email,omitempty" bson:"email"`
+	Password	string	`json:"password" bson:"password"`
+	Username	*string	`json:"username,omitempty" bson:"username"`
 }
 
 // LoginResponse defines model for LoginResponse.
 type LoginResponse struct {
-	Result *LoginResponseResult `json:"result,omitempty"`
-	Token  *struct {
-		Refresh *string `json:"refresh,omitempty"`
-		Session *string `json:"session,omitempty"`
-	} `json:"token,omitempty"`
+	Result	*LoginResponseResult	`json:"result,omitempty" bson:"result"`
+	Token	*struct {
+		Refresh	*string	`json:"refresh,omitempty" bson:"refresh"`
+		Session	*string	`json:"session,omitempty" bson:"session"`
+	}	`json:"token,omitempty" bson:"token"`
 }
 
 // LoginResponseResult defines model for LoginResponse.Result.
@@ -1483,7 +1483,7 @@ type LoginResponseResult string
 
 // LogoutResponse defines model for LogoutResponse.
 type LogoutResponse struct {
-	Result *LogoutResponseResult `json:"result,omitempty"`
+	Result *LogoutResponseResult `json:"result,omitempty" bson:"result"`
 }
 
 // LogoutResponseResult defines model for LogoutResponse.Result.
@@ -1491,10 +1491,10 @@ type LogoutResponseResult string
 
 // Manga defines model for Manga.
 type Manga struct {
-	Attributes    *MangaAttributes    `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *MangaType          `json:"type,omitempty"`
+	Attributes	*MangaAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*MangaType		`json:"type,omitempty" bson:"type"`
 }
 
 // MangaType defines model for Manga.Type.
@@ -1502,28 +1502,28 @@ type MangaType string
 
 // MangaAttributes defines model for MangaAttributes.
 type MangaAttributes struct {
-	AltTitles                      *[]LocalizedString                     `json:"altTitles,omitempty"`
-	AvailableTranslatedLanguages   *[]string                              `json:"availableTranslatedLanguages,omitempty"`
-	ChapterNumbersResetOnNewVolume *bool                                  `json:"chapterNumbersResetOnNewVolume,omitempty"`
-	ContentRating                  *MangaAttributesContentRating          `json:"contentRating,omitempty"`
-	CreatedAt                      *string                                `json:"createdAt,omitempty"`
-	Description                    *LocalizedString                       `json:"description,omitempty"`
-	IsLocked                       *bool                                  `json:"isLocked,omitempty"`
-	LastChapter                    *string                                `json:"lastChapter"`
-	LastVolume                     *string                                `json:"lastVolume"`
-	LatestUploadedChapter          *openapi_types.UUID                    `json:"latestUploadedChapter,omitempty"`
-	Links                          *map[string]string                     `json:"links,omitempty"`
-	OriginalLanguage               *string                                `json:"originalLanguage,omitempty"`
-	PublicationDemographic         *MangaAttributesPublicationDemographic `json:"publicationDemographic"`
-	State                          *MangaAttributesState                  `json:"state,omitempty"`
-	Status                         *MangaAttributesStatus                 `json:"status,omitempty"`
-	Tags                           *[]Tag                                 `json:"tags,omitempty"`
-	Title                          *LocalizedString                       `json:"title,omitempty"`
-	UpdatedAt                      *string                                `json:"updatedAt,omitempty"`
-	Version                        *int                                   `json:"version,omitempty"`
+	AltTitles			*[]LocalizedString			`json:"altTitles,omitempty" bson:"altTitles"`
+	AvailableTranslatedLanguages	*[]string				`json:"availableTranslatedLanguages,omitempty" bson:"availableTranslatedLanguages"`
+	ChapterNumbersResetOnNewVolume	*bool					`json:"chapterNumbersResetOnNewVolume,omitempty" bson:"chapterNumbersResetOnNewVolume"`
+	ContentRating			*MangaAttributesContentRating		`json:"contentRating,omitempty" bson:"contentRating"`
+	CreatedAt			*string					`json:"createdAt,omitempty" bson:"createdAt"`
+	Description			*LocalizedString			`json:"description,omitempty" bson:"description"`
+	IsLocked			*bool					`json:"isLocked,omitempty" bson:"isLocked"`
+	LastChapter			*string					`json:"lastChapter" bson:"lastChapter"`
+	LastVolume			*string					`json:"lastVolume" bson:"lastVolume"`
+	LatestUploadedChapter		*openapi_types.UUID			`json:"latestUploadedChapter,omitempty" bson:"latestUploadedChapter"`
+	Links				*map[string]string			`json:"links,omitempty" bson:"links"`
+	OriginalLanguage		*string					`json:"originalLanguage,omitempty" bson:"originalLanguage"`
+	PublicationDemographic		*MangaAttributesPublicationDemographic	`json:"publicationDemographic" bson:"publicationDemographic"`
+	State				*MangaAttributesState			`json:"state,omitempty" bson:"state"`
+	Status				*MangaAttributesStatus			`json:"status,omitempty" bson:"status"`
+	Tags				*[]Tag					`json:"tags,omitempty" bson:"tags"`
+	Title				*LocalizedString			`json:"title,omitempty" bson:"title"`
+	UpdatedAt			*string					`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Version				*int					`json:"version,omitempty" bson:"version"`
 
 	// Year Year of release
-	Year *int `json:"year"`
+	Year	*int	`json:"year" bson:"year"`
 }
 
 // MangaAttributesContentRating defines model for MangaAttributes.ContentRating.
@@ -1540,25 +1540,25 @@ type MangaAttributesStatus string
 
 // MangaCreate defines model for MangaCreate.
 type MangaCreate struct {
-	AltTitles                      *[]LocalizedString                 `json:"altTitles,omitempty"`
-	Artists                        *[]openapi_types.UUID              `json:"artists,omitempty"`
-	Authors                        *[]openapi_types.UUID              `json:"authors,omitempty"`
-	ChapterNumbersResetOnNewVolume *bool                              `json:"chapterNumbersResetOnNewVolume,omitempty"`
-	ContentRating                  MangaCreateContentRating           `json:"contentRating"`
-	Description                    *LocalizedString                   `json:"description,omitempty"`
-	LastChapter                    *string                            `json:"lastChapter"`
-	LastVolume                     *string                            `json:"lastVolume"`
-	Links                          *map[string]string                 `json:"links,omitempty"`
-	OriginalLanguage               string                             `json:"originalLanguage"`
-	PrimaryCover                   *openapi_types.UUID                `json:"primaryCover"`
-	PublicationDemographic         *MangaCreatePublicationDemographic `json:"publicationDemographic"`
-	Status                         MangaCreateStatus                  `json:"status"`
-	Tags                           *[]openapi_types.UUID              `json:"tags,omitempty"`
-	Title                          LocalizedString                    `json:"title"`
-	Version                        *int                               `json:"version,omitempty"`
+	AltTitles			*[]LocalizedString			`json:"altTitles,omitempty" bson:"altTitles"`
+	Artists				*[]openapi_types.UUID			`json:"artists,omitempty" bson:"artists"`
+	Authors				*[]openapi_types.UUID			`json:"authors,omitempty" bson:"authors"`
+	ChapterNumbersResetOnNewVolume	*bool					`json:"chapterNumbersResetOnNewVolume,omitempty" bson:"chapterNumbersResetOnNewVolume"`
+	ContentRating			MangaCreateContentRating		`json:"contentRating" bson:"contentRating"`
+	Description			*LocalizedString			`json:"description,omitempty" bson:"description"`
+	LastChapter			*string					`json:"lastChapter" bson:"lastChapter"`
+	LastVolume			*string					`json:"lastVolume" bson:"lastVolume"`
+	Links				*map[string]string			`json:"links,omitempty" bson:"links"`
+	OriginalLanguage		string					`json:"originalLanguage" bson:"originalLanguage"`
+	PrimaryCover			*openapi_types.UUID			`json:"primaryCover" bson:"primaryCover"`
+	PublicationDemographic		*MangaCreatePublicationDemographic	`json:"publicationDemographic" bson:"publicationDemographic"`
+	Status				MangaCreateStatus			`json:"status" bson:"status"`
+	Tags				*[]openapi_types.UUID			`json:"tags,omitempty" bson:"tags"`
+	Title				LocalizedString				`json:"title" bson:"title"`
+	Version				*int					`json:"version,omitempty" bson:"version"`
 
 	// Year Year of release
-	Year *int `json:"year"`
+	Year	*int	`json:"year" bson:"year"`
 }
 
 // MangaCreateContentRating defines model for MangaCreate.ContentRating.
@@ -1572,25 +1572,25 @@ type MangaCreateStatus string
 
 // MangaEdit defines model for MangaEdit.
 type MangaEdit struct {
-	AltTitles                      *[]LocalizedString               `json:"altTitles,omitempty"`
-	Artists                        *[]openapi_types.UUID            `json:"artists,omitempty"`
-	Authors                        *[]openapi_types.UUID            `json:"authors,omitempty"`
-	ChapterNumbersResetOnNewVolume *bool                            `json:"chapterNumbersResetOnNewVolume,omitempty"`
-	ContentRating                  *MangaEditContentRating          `json:"contentRating,omitempty"`
-	Description                    *LocalizedString                 `json:"description,omitempty"`
-	LastChapter                    *string                          `json:"lastChapter"`
-	LastVolume                     *string                          `json:"lastVolume"`
-	Links                          *map[string]string               `json:"links,omitempty"`
-	OriginalLanguage               *string                          `json:"originalLanguage,omitempty"`
-	PrimaryCover                   *openapi_types.UUID              `json:"primaryCover"`
-	PublicationDemographic         *MangaEditPublicationDemographic `json:"publicationDemographic"`
-	Status                         *MangaEditStatus                 `json:"status,omitempty"`
-	Tags                           *[]openapi_types.UUID            `json:"tags,omitempty"`
-	Title                          *LocalizedString                 `json:"title,omitempty"`
-	Version                        int                              `json:"version"`
+	AltTitles			*[]LocalizedString			`json:"altTitles,omitempty" bson:"altTitles"`
+	Artists				*[]openapi_types.UUID			`json:"artists,omitempty" bson:"artists"`
+	Authors				*[]openapi_types.UUID			`json:"authors,omitempty" bson:"authors"`
+	ChapterNumbersResetOnNewVolume	*bool					`json:"chapterNumbersResetOnNewVolume,omitempty" bson:"chapterNumbersResetOnNewVolume"`
+	ContentRating			*MangaEditContentRating			`json:"contentRating,omitempty" bson:"contentRating"`
+	Description			*LocalizedString			`json:"description,omitempty" bson:"description"`
+	LastChapter			*string					`json:"lastChapter" bson:"lastChapter"`
+	LastVolume			*string					`json:"lastVolume" bson:"lastVolume"`
+	Links				*map[string]string			`json:"links,omitempty" bson:"links"`
+	OriginalLanguage		*string					`json:"originalLanguage,omitempty" bson:"originalLanguage"`
+	PrimaryCover			*openapi_types.UUID			`json:"primaryCover" bson:"primaryCover"`
+	PublicationDemographic		*MangaEditPublicationDemographic	`json:"publicationDemographic" bson:"publicationDemographic"`
+	Status				*MangaEditStatus			`json:"status,omitempty" bson:"status"`
+	Tags				*[]openapi_types.UUID			`json:"tags,omitempty" bson:"tags"`
+	Title				*LocalizedString			`json:"title,omitempty" bson:"title"`
+	Version				int					`json:"version" bson:"version"`
 
 	// Year Year of release
-	Year *int `json:"year"`
+	Year	*int	`json:"year" bson:"year"`
 }
 
 // MangaEditContentRating defines model for MangaEdit.ContentRating.
@@ -1604,20 +1604,20 @@ type MangaEditStatus string
 
 // MangaList defines model for MangaList.
 type MangaList struct {
-	Data     *[]Manga `json:"data,omitempty"`
-	Limit    *int     `json:"limit,omitempty"`
-	Offset   *int     `json:"offset,omitempty"`
-	Response *string  `json:"response,omitempty"`
-	Result   *string  `json:"result,omitempty"`
-	Total    *int     `json:"total,omitempty"`
+	Data		*[]Manga	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // MangaRelation defines model for MangaRelation.
 type MangaRelation struct {
-	Attributes    *MangaRelationAttributes `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID      `json:"id,omitempty"`
-	Relationships *[]Relationship          `json:"relationships,omitempty"`
-	Type          *MangaRelationType       `json:"type,omitempty"`
+	Attributes	*MangaRelationAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID		`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship			`json:"relationships,omitempty" bson:"relationships"`
+	Type		*MangaRelationType		`json:"type,omitempty" bson:"type"`
 }
 
 // MangaRelationType defines model for MangaRelation.Type.
@@ -1625,8 +1625,8 @@ type MangaRelationType string
 
 // MangaRelationAttributes defines model for MangaRelationAttributes.
 type MangaRelationAttributes struct {
-	Relation *MangaRelationAttributesRelation `json:"relation,omitempty"`
-	Version  *int                             `json:"version,omitempty"`
+	Relation	*MangaRelationAttributesRelation	`json:"relation,omitempty" bson:"relation"`
+	Version		*int					`json:"version,omitempty" bson:"version"`
 }
 
 // MangaRelationAttributesRelation defines model for MangaRelationAttributes.Relation.
@@ -1634,8 +1634,8 @@ type MangaRelationAttributesRelation string
 
 // MangaRelationCreate defines model for MangaRelationCreate.
 type MangaRelationCreate struct {
-	Relation    MangaRelationCreateRelation `json:"relation"`
-	TargetManga openapi_types.UUID          `json:"targetManga"`
+	Relation	MangaRelationCreateRelation	`json:"relation" bson:"relation"`
+	TargetManga	openapi_types.UUID		`json:"targetManga" bson:"targetManga"`
 }
 
 // MangaRelationCreateRelation defines model for MangaRelationCreate.Relation.
@@ -1643,18 +1643,18 @@ type MangaRelationCreateRelation string
 
 // MangaRelationList defines model for MangaRelationList.
 type MangaRelationList struct {
-	Data     *[]MangaRelation `json:"data,omitempty"`
-	Limit    *int             `json:"limit,omitempty"`
-	Offset   *int             `json:"offset,omitempty"`
-	Response *string          `json:"response,omitempty"`
-	Result   *string          `json:"result,omitempty"`
-	Total    *int             `json:"total,omitempty"`
+	Data		*[]MangaRelation	`json:"data,omitempty" bson:"data"`
+	Limit		*int			`json:"limit,omitempty" bson:"limit"`
+	Offset		*int			`json:"offset,omitempty" bson:"offset"`
+	Response	*string			`json:"response,omitempty" bson:"response"`
+	Result		*string			`json:"result,omitempty" bson:"result"`
+	Total		*int			`json:"total,omitempty" bson:"total"`
 }
 
 // MangaRelationRequest defines model for MangaRelationRequest.
 type MangaRelationRequest struct {
-	Relation    *MangaRelationRequestRelation `json:"relation,omitempty"`
-	TargetManga *openapi_types.UUID           `json:"targetManga,omitempty"`
+	Relation	*MangaRelationRequestRelation	`json:"relation,omitempty" bson:"relation"`
+	TargetManga	*openapi_types.UUID		`json:"targetManga,omitempty" bson:"targetManga"`
 }
 
 // MangaRelationRequestRelation defines model for MangaRelationRequest.Relation.
@@ -1662,9 +1662,9 @@ type MangaRelationRequestRelation string
 
 // MangaRelationResponse defines model for MangaRelationResponse.
 type MangaRelationResponse struct {
-	Data     *MangaRelation               `json:"data,omitempty"`
-	Response *string                      `json:"response,omitempty"`
-	Result   *MangaRelationResponseResult `json:"result,omitempty"`
+	Data		*MangaRelation			`json:"data,omitempty" bson:"data"`
+	Response	*string				`json:"response,omitempty" bson:"response"`
+	Result		*MangaRelationResponseResult	`json:"result,omitempty" bson:"result"`
 }
 
 // MangaRelationResponseResult defines model for MangaRelationResponse.Result.
@@ -1672,25 +1672,25 @@ type MangaRelationResponseResult string
 
 // MangaRequest defines model for MangaRequest.
 type MangaRequest struct {
-	AltTitles                      *[]LocalizedString                  `json:"altTitles,omitempty"`
-	Artists                        *[]openapi_types.UUID               `json:"artists,omitempty"`
-	Authors                        *[]openapi_types.UUID               `json:"authors,omitempty"`
-	ChapterNumbersResetOnNewVolume *bool                               `json:"chapterNumbersResetOnNewVolume,omitempty"`
-	ContentRating                  *MangaRequestContentRating          `json:"contentRating,omitempty"`
-	Description                    *LocalizedString                    `json:"description,omitempty"`
-	LastChapter                    *string                             `json:"lastChapter"`
-	LastVolume                     *string                             `json:"lastVolume"`
-	Links                          *map[string]string                  `json:"links,omitempty"`
-	OriginalLanguage               *string                             `json:"originalLanguage,omitempty"`
-	PrimaryCover                   *openapi_types.UUID                 `json:"primaryCover"`
-	PublicationDemographic         *MangaRequestPublicationDemographic `json:"publicationDemographic"`
-	Status                         *MangaRequestStatus                 `json:"status,omitempty"`
-	Tags                           *[]openapi_types.UUID               `json:"tags,omitempty"`
-	Title                          *LocalizedString                    `json:"title,omitempty"`
-	Version                        *int                                `json:"version,omitempty"`
+	AltTitles			*[]LocalizedString			`json:"altTitles,omitempty" bson:"altTitles"`
+	Artists				*[]openapi_types.UUID			`json:"artists,omitempty" bson:"artists"`
+	Authors				*[]openapi_types.UUID			`json:"authors,omitempty" bson:"authors"`
+	ChapterNumbersResetOnNewVolume	*bool					`json:"chapterNumbersResetOnNewVolume,omitempty" bson:"chapterNumbersResetOnNewVolume"`
+	ContentRating			*MangaRequestContentRating		`json:"contentRating,omitempty" bson:"contentRating"`
+	Description			*LocalizedString			`json:"description,omitempty" bson:"description"`
+	LastChapter			*string					`json:"lastChapter" bson:"lastChapter"`
+	LastVolume			*string					`json:"lastVolume" bson:"lastVolume"`
+	Links				*map[string]string			`json:"links,omitempty" bson:"links"`
+	OriginalLanguage		*string					`json:"originalLanguage,omitempty" bson:"originalLanguage"`
+	PrimaryCover			*openapi_types.UUID			`json:"primaryCover" bson:"primaryCover"`
+	PublicationDemographic		*MangaRequestPublicationDemographic	`json:"publicationDemographic" bson:"publicationDemographic"`
+	Status				*MangaRequestStatus			`json:"status,omitempty" bson:"status"`
+	Tags				*[]openapi_types.UUID			`json:"tags,omitempty" bson:"tags"`
+	Title				*LocalizedString			`json:"title,omitempty" bson:"title"`
+	Version				*int					`json:"version,omitempty" bson:"version"`
 
 	// Year Year of release
-	Year *int `json:"year"`
+	Year	*int	`json:"year" bson:"year"`
 }
 
 // MangaRequestContentRating defines model for MangaRequest.ContentRating.
@@ -1704,9 +1704,9 @@ type MangaRequestStatus string
 
 // MangaResponse defines model for MangaResponse.
 type MangaResponse struct {
-	Data     *Manga               `json:"data,omitempty"`
-	Response *string              `json:"response,omitempty"`
-	Result   *MangaResponseResult `json:"result,omitempty"`
+	Data		*Manga			`json:"data,omitempty" bson:"data"`
+	Response	*string			`json:"response,omitempty" bson:"response"`
+	Result		*MangaResponseResult	`json:"result,omitempty" bson:"result"`
 }
 
 // MangaResponseResult defines model for MangaResponse.Result.
@@ -1714,10 +1714,10 @@ type MangaResponseResult string
 
 // MappingId defines model for MappingId.
 type MappingId struct {
-	Attributes    *MappingIdAttributes `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID  `json:"id,omitempty"`
-	Relationships *[]Relationship      `json:"relationships,omitempty"`
-	Type          *MappingIdType       `json:"type,omitempty"`
+	Attributes	*MappingIdAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*MappingIdType		`json:"type,omitempty" bson:"type"`
 }
 
 // MappingIdType defines model for MappingId.Type.
@@ -1725,9 +1725,9 @@ type MappingIdType string
 
 // MappingIdAttributes defines model for MappingIdAttributes.
 type MappingIdAttributes struct {
-	LegacyId *int                     `json:"legacyId,omitempty"`
-	NewId    *openapi_types.UUID      `json:"newId,omitempty"`
-	Type     *MappingIdAttributesType `json:"type,omitempty"`
+	LegacyId	*int				`json:"legacyId,omitempty" bson:"legacyId"`
+	NewId		*openapi_types.UUID		`json:"newId,omitempty" bson:"newId"`
+	Type		*MappingIdAttributesType	`json:"type,omitempty" bson:"type"`
 }
 
 // MappingIdAttributesType defines model for MappingIdAttributes.Type.
@@ -1735,8 +1735,8 @@ type MappingIdAttributesType string
 
 // MappingIdBody defines model for MappingIdBody.
 type MappingIdBody struct {
-	Ids  *[]int             `json:"ids,omitempty"`
-	Type *MappingIdBodyType `json:"type,omitempty"`
+	Ids	*[]int			`json:"ids,omitempty" bson:"ids"`
+	Type	*MappingIdBodyType	`json:"type,omitempty" bson:"type"`
 }
 
 // MappingIdBodyType defines model for MappingIdBody.Type.
@@ -1744,12 +1744,12 @@ type MappingIdBodyType string
 
 // MappingIdResponse defines model for MappingIdResponse.
 type MappingIdResponse struct {
-	Data     *[]MappingId `json:"data,omitempty"`
-	Limit    *int         `json:"limit,omitempty"`
-	Offset   *int         `json:"offset,omitempty"`
-	Response *string      `json:"response,omitempty"`
-	Result   *string      `json:"result,omitempty"`
-	Total    *int         `json:"total,omitempty"`
+	Data		*[]MappingId	`json:"data,omitempty" bson:"data"`
+	Limit		*int		`json:"limit,omitempty" bson:"limit"`
+	Offset		*int		`json:"offset,omitempty" bson:"offset"`
+	Response	*string		`json:"response,omitempty" bson:"response"`
+	Result		*string		`json:"result,omitempty" bson:"result"`
+	Total		*int		`json:"total,omitempty" bson:"total"`
 }
 
 // ReferenceExpansionApiClient Reference expansion options for api_client entities or lists
@@ -1778,12 +1778,12 @@ type ReferenceExpansionScanlationGroup = []string
 
 // RefreshResponse defines model for RefreshResponse.
 type RefreshResponse struct {
-	Message *string               `json:"message,omitempty"`
-	Result  RefreshResponseResult `json:"result"`
-	Token   *struct {
-		Refresh *string `json:"refresh,omitempty"`
-		Session *string `json:"session,omitempty"`
-	} `json:"token,omitempty"`
+	Message	*string			`json:"message,omitempty" bson:"message"`
+	Result	RefreshResponseResult	`json:"result" bson:"result"`
+	Token	*struct {
+		Refresh	*string	`json:"refresh,omitempty" bson:"refresh"`
+		Session	*string	`json:"session,omitempty" bson:"session"`
+	}	`json:"token,omitempty" bson:"token"`
 }
 
 // RefreshResponseResult defines model for RefreshResponse.Result.
@@ -1791,18 +1791,18 @@ type RefreshResponseResult string
 
 // RefreshToken defines model for RefreshToken.
 type RefreshToken struct {
-	Token string `json:"token"`
+	Token string `json:"token" bson:"token"`
 }
 
 // Relationship defines model for Relationship.
 type Relationship struct {
 	// Attributes If Reference Expansion is applied, contains objects attributes
-	Attributes *map[string]interface{} `json:"attributes"`
-	Id         *openapi_types.UUID     `json:"id,omitempty"`
+	Attributes	*map[string]interface{}	`json:"attributes" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
 
 	// Related Related Manga type, only present if you are on a Manga entity and a Manga relationship
-	Related *RelationshipRelated `json:"related,omitempty"`
-	Type    *string              `json:"type,omitempty"`
+	Related	*RelationshipRelated	`json:"related,omitempty" bson:"related"`
+	Type	*string			`json:"type,omitempty" bson:"type"`
 }
 
 // RelationshipRelated Related Manga type, only present if you are on a Manga entity and a Manga relationship
@@ -1810,10 +1810,10 @@ type RelationshipRelated string
 
 // Report defines model for Report.
 type Report struct {
-	Attributes    *ReportAttributes   `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *ReportType         `json:"type,omitempty"`
+	Attributes	*ReportAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*ReportType		`json:"type,omitempty" bson:"type"`
 }
 
 // ReportType defines model for Report.Type.
@@ -1821,10 +1821,10 @@ type ReportType string
 
 // ReportAttributes defines model for ReportAttributes.
 type ReportAttributes struct {
-	CreatedAt *string                 `json:"createdAt,omitempty"`
-	Details   *string                 `json:"details,omitempty"`
-	ObjectId  *string                 `json:"objectId,omitempty"`
-	Status    *ReportAttributesStatus `json:"status,omitempty"`
+	CreatedAt	*string			`json:"createdAt,omitempty" bson:"createdAt"`
+	Details		*string			`json:"details,omitempty" bson:"details"`
+	ObjectId	*string			`json:"objectId,omitempty" bson:"objectId"`
+	Status		*ReportAttributesStatus	`json:"status,omitempty" bson:"status"`
 }
 
 // ReportAttributesStatus defines model for ReportAttributes.Status.
@@ -1832,12 +1832,12 @@ type ReportAttributesStatus string
 
 // ReportListResponse defines model for ReportListResponse.
 type ReportListResponse struct {
-	Data     *[]Report                 `json:"data,omitempty"`
-	Limit    *int                      `json:"limit,omitempty"`
-	Offset   *int                      `json:"offset,omitempty"`
-	Response *string                   `json:"response,omitempty"`
-	Result   *ReportListResponseResult `json:"result,omitempty"`
-	Total    *int                      `json:"total,omitempty"`
+	Data		*[]Report			`json:"data,omitempty" bson:"data"`
+	Limit		*int				`json:"limit,omitempty" bson:"limit"`
+	Offset		*int				`json:"offset,omitempty" bson:"offset"`
+	Response	*string				`json:"response,omitempty" bson:"response"`
+	Result		*ReportListResponseResult	`json:"result,omitempty" bson:"result"`
+	Total		*int				`json:"total,omitempty" bson:"total"`
 }
 
 // ReportListResponseResult defines model for ReportListResponse.Result.
@@ -1845,7 +1845,7 @@ type ReportListResponseResult string
 
 // Response defines model for Response.
 type Response struct {
-	Result *ResponseResult `json:"result,omitempty"`
+	Result *ResponseResult `json:"result,omitempty" bson:"result"`
 }
 
 // ResponseResult defines model for Response.Result.
@@ -1853,10 +1853,10 @@ type ResponseResult string
 
 // ScanlationGroup defines model for ScanlationGroup.
 type ScanlationGroup struct {
-	Attributes    *ScanlationGroupAttributes `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID        `json:"id,omitempty"`
-	Relationships *[]Relationship            `json:"relationships,omitempty"`
-	Type          *ScanlationGroupType       `json:"type,omitempty"`
+	Attributes	*ScanlationGroupAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID		`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship			`json:"relationships,omitempty" bson:"relationships"`
+	Type		*ScanlationGroupType		`json:"type,omitempty" bson:"type"`
 }
 
 // ScanlationGroupType defines model for ScanlationGroup.Type.
@@ -1864,65 +1864,65 @@ type ScanlationGroupType string
 
 // ScanlationGroupAttributes defines model for ScanlationGroupAttributes.
 type ScanlationGroupAttributes struct {
-	AltNames        *[]LocalizedString `json:"altNames,omitempty"`
-	ContactEmail    *string            `json:"contactEmail"`
-	CreatedAt       *string            `json:"createdAt,omitempty"`
-	Description     *string            `json:"description"`
-	Discord         *string            `json:"discord"`
-	ExLicensed      *bool              `json:"exLicensed,omitempty"`
-	FocusedLanguage *[]string          `json:"focusedLanguage"`
-	Inactive        *bool              `json:"inactive,omitempty"`
-	IrcChannel      *string            `json:"ircChannel"`
-	IrcServer       *string            `json:"ircServer"`
-	Locked          *bool              `json:"locked,omitempty"`
-	MangaUpdates    *string            `json:"mangaUpdates"`
-	Name            *string            `json:"name,omitempty"`
-	Official        *bool              `json:"official,omitempty"`
+	AltNames	*[]LocalizedString	`json:"altNames,omitempty" bson:"altNames"`
+	ContactEmail	*string			`json:"contactEmail" bson:"contactEmail"`
+	CreatedAt	*string			`json:"createdAt,omitempty" bson:"createdAt"`
+	Description	*string			`json:"description" bson:"description"`
+	Discord		*string			`json:"discord" bson:"discord"`
+	ExLicensed	*bool			`json:"exLicensed,omitempty" bson:"exLicensed"`
+	FocusedLanguage	*[]string		`json:"focusedLanguage" bson:"focusedLanguage"`
+	Inactive	*bool			`json:"inactive,omitempty" bson:"inactive"`
+	IrcChannel	*string			`json:"ircChannel" bson:"ircChannel"`
+	IrcServer	*string			`json:"ircServer" bson:"ircServer"`
+	Locked		*bool			`json:"locked,omitempty" bson:"locked"`
+	MangaUpdates	*string			`json:"mangaUpdates" bson:"mangaUpdates"`
+	Name		*string			`json:"name,omitempty" bson:"name"`
+	Official	*bool			`json:"official,omitempty" bson:"official"`
 
 	// PublishDelay Should respected ISO 8601 duration specification: https://en.wikipedia.org/wiki/ISO_8601#Durations
-	PublishDelay *string `json:"publishDelay,omitempty"`
-	Twitter      *string `json:"twitter"`
-	UpdatedAt    *string `json:"updatedAt,omitempty"`
-	Verified     *bool   `json:"verified,omitempty"`
-	Version      *int    `json:"version,omitempty"`
-	Website      *string `json:"website"`
+	PublishDelay	*string	`json:"publishDelay,omitempty" bson:"publishDelay"`
+	Twitter		*string	`json:"twitter" bson:"twitter"`
+	UpdatedAt	*string	`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Verified	*bool	`json:"verified,omitempty" bson:"verified"`
+	Version		*int	`json:"version,omitempty" bson:"version"`
+	Website		*string	`json:"website" bson:"website"`
 }
 
 // ScanlationGroupEdit defines model for ScanlationGroupEdit.
 type ScanlationGroupEdit struct {
-	ContactEmail     *string               `json:"contactEmail"`
-	Description      *string               `json:"description"`
-	Discord          *string               `json:"discord"`
-	FocusedLanguages *[]string             `json:"focusedLanguages"`
-	Inactive         *bool                 `json:"inactive,omitempty"`
-	IrcChannel       *string               `json:"ircChannel"`
-	IrcServer        *string               `json:"ircServer"`
-	Leader           *openapi_types.UUID   `json:"leader,omitempty"`
-	Locked           *bool                 `json:"locked,omitempty"`
-	MangaUpdates     *string               `json:"mangaUpdates"`
-	Members          *[]openapi_types.UUID `json:"members,omitempty"`
-	Name             *string               `json:"name,omitempty"`
-	PublishDelay     *string               `json:"publishDelay,omitempty"`
-	Twitter          *string               `json:"twitter"`
-	Version          int                   `json:"version"`
-	Website          *string               `json:"website"`
+	ContactEmail		*string			`json:"contactEmail" bson:"contactEmail"`
+	Description		*string			`json:"description" bson:"description"`
+	Discord			*string			`json:"discord" bson:"discord"`
+	FocusedLanguages	*[]string		`json:"focusedLanguages" bson:"focusedLanguages"`
+	Inactive		*bool			`json:"inactive,omitempty" bson:"inactive"`
+	IrcChannel		*string			`json:"ircChannel" bson:"ircChannel"`
+	IrcServer		*string			`json:"ircServer" bson:"ircServer"`
+	Leader			*openapi_types.UUID	`json:"leader,omitempty" bson:"leader"`
+	Locked			*bool			`json:"locked,omitempty" bson:"locked"`
+	MangaUpdates		*string			`json:"mangaUpdates" bson:"mangaUpdates"`
+	Members			*[]openapi_types.UUID	`json:"members,omitempty" bson:"members"`
+	Name			*string			`json:"name,omitempty" bson:"name"`
+	PublishDelay		*string			`json:"publishDelay,omitempty" bson:"publishDelay"`
+	Twitter			*string			`json:"twitter" bson:"twitter"`
+	Version			int			`json:"version" bson:"version"`
+	Website			*string			`json:"website" bson:"website"`
 }
 
 // ScanlationGroupList defines model for ScanlationGroupList.
 type ScanlationGroupList struct {
-	Data     *[]ScanlationGroup `json:"data,omitempty"`
-	Limit    *int               `json:"limit,omitempty"`
-	Offset   *int               `json:"offset,omitempty"`
-	Response *string            `json:"response,omitempty"`
-	Result   *string            `json:"result,omitempty"`
-	Total    *int               `json:"total,omitempty"`
+	Data		*[]ScanlationGroup	`json:"data,omitempty" bson:"data"`
+	Limit		*int			`json:"limit,omitempty" bson:"limit"`
+	Offset		*int			`json:"offset,omitempty" bson:"offset"`
+	Response	*string			`json:"response,omitempty" bson:"response"`
+	Result		*string			`json:"result,omitempty" bson:"result"`
+	Total		*int			`json:"total,omitempty" bson:"total"`
 }
 
 // ScanlationGroupResponse defines model for ScanlationGroupResponse.
 type ScanlationGroupResponse struct {
-	Data     *ScanlationGroup               `json:"data,omitempty"`
-	Response *string                        `json:"response,omitempty"`
-	Result   *ScanlationGroupResponseResult `json:"result,omitempty"`
+	Data		*ScanlationGroup		`json:"data,omitempty" bson:"data"`
+	Response	*string				`json:"response,omitempty" bson:"response"`
+	Result		*ScanlationGroupResponseResult	`json:"result,omitempty" bson:"result"`
 }
 
 // ScanlationGroupResponseResult defines model for ScanlationGroupResponse.Result.
@@ -1932,18 +1932,18 @@ type ScanlationGroupResponseResult string
 // If it is `null`, the entity doesn't have a backing comments thread, and therefore has no comments yet.
 type StatisticsDetailsComments struct {
 	// RepliesCount The number of replies on the MangaDex Forums thread backing this entity's comments. This excludes the initial comment that opens the thread, which is created by our systems.
-	RepliesCount *float32 `json:"repliesCount,omitempty"`
+	RepliesCount	*float32	`json:"repliesCount,omitempty" bson:"repliesCount"`
 
 	// ThreadId The id of the thread backing the comments for that entity on the MangaDex Forums.
-	ThreadId *float32 `json:"threadId,omitempty"`
+	ThreadId	*float32	`json:"threadId,omitempty" bson:"threadId"`
 }
 
 // Tag defines model for Tag.
 type Tag struct {
-	Attributes    *TagAttributes      `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *TagType            `json:"type,omitempty"`
+	Attributes	*TagAttributes		`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*TagType		`json:"type,omitempty" bson:"type"`
 }
 
 // TagType defines model for Tag.Type.
@@ -1951,10 +1951,10 @@ type TagType string
 
 // TagAttributes defines model for TagAttributes.
 type TagAttributes struct {
-	Description *LocalizedString    `json:"description,omitempty"`
-	Group       *TagAttributesGroup `json:"group,omitempty"`
-	Name        *LocalizedString    `json:"name,omitempty"`
-	Version     *int                `json:"version,omitempty"`
+	Description	*LocalizedString	`json:"description,omitempty" bson:"description"`
+	Group		*TagAttributesGroup	`json:"group,omitempty" bson:"group"`
+	Name		*LocalizedString	`json:"name,omitempty" bson:"name"`
+	Version		*int			`json:"version,omitempty" bson:"version"`
 }
 
 // TagAttributesGroup defines model for TagAttributes.Group.
@@ -1962,17 +1962,17 @@ type TagAttributesGroup string
 
 // TagResponse defines model for TagResponse.
 type TagResponse struct {
-	Data     *[]Tag  `json:"data,omitempty"`
-	Limit    *int    `json:"limit,omitempty"`
-	Offset   *int    `json:"offset,omitempty"`
-	Response *string `json:"response,omitempty"`
-	Result   *string `json:"result,omitempty"`
-	Total    *int    `json:"total,omitempty"`
+	Data		*[]Tag	`json:"data,omitempty" bson:"data"`
+	Limit		*int	`json:"limit,omitempty" bson:"limit"`
+	Offset		*int	`json:"offset,omitempty" bson:"offset"`
+	Response	*string	`json:"response,omitempty" bson:"response"`
+	Result		*string	`json:"result,omitempty" bson:"result"`
+	Total		*int	`json:"total,omitempty" bson:"total"`
 }
 
 // UpdateMangaStatus defines model for UpdateMangaStatus.
 type UpdateMangaStatus struct {
-	Status *UpdateMangaStatusStatus `json:"status"`
+	Status *UpdateMangaStatusStatus `json:"status" bson:"status"`
 }
 
 // UpdateMangaStatusStatus defines model for UpdateMangaStatus.Status.
@@ -1980,9 +1980,9 @@ type UpdateMangaStatusStatus string
 
 // UploadSession defines model for UploadSession.
 type UploadSession struct {
-	Attributes *UploadSessionAttributes `json:"attributes,omitempty"`
-	Id         *openapi_types.UUID      `json:"id,omitempty"`
-	Type       *UploadSessionType       `json:"type,omitempty"`
+	Attributes	*UploadSessionAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID		`json:"id,omitempty" bson:"id"`
+	Type		*UploadSessionType		`json:"type,omitempty" bson:"type"`
 }
 
 // UploadSessionType defines model for UploadSession.Type.
@@ -1990,19 +1990,19 @@ type UploadSessionType string
 
 // UploadSessionAttributes defines model for UploadSessionAttributes.
 type UploadSessionAttributes struct {
-	CreatedAt   *string `json:"createdAt,omitempty"`
-	IsCommitted *bool   `json:"isCommitted,omitempty"`
-	IsDeleted   *bool   `json:"isDeleted,omitempty"`
-	IsProcessed *bool   `json:"isProcessed,omitempty"`
-	UpdatedAt   *string `json:"updatedAt,omitempty"`
-	Version     *int    `json:"version,omitempty"`
+	CreatedAt	*string	`json:"createdAt,omitempty" bson:"createdAt"`
+	IsCommitted	*bool	`json:"isCommitted,omitempty" bson:"isCommitted"`
+	IsDeleted	*bool	`json:"isDeleted,omitempty" bson:"isDeleted"`
+	IsProcessed	*bool	`json:"isProcessed,omitempty" bson:"isProcessed"`
+	UpdatedAt	*string	`json:"updatedAt,omitempty" bson:"updatedAt"`
+	Version		*int	`json:"version,omitempty" bson:"version"`
 }
 
 // UploadSessionFile defines model for UploadSessionFile.
 type UploadSessionFile struct {
-	Attributes *UploadSessionFileAttributes `json:"attributes,omitempty"`
-	Id         *openapi_types.UUID          `json:"id,omitempty"`
-	Type       *UploadSessionFileType       `json:"type,omitempty"`
+	Attributes	*UploadSessionFileAttributes	`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID		`json:"id,omitempty" bson:"id"`
+	Type		*UploadSessionFileType		`json:"type,omitempty" bson:"type"`
 }
 
 // UploadSessionFileType defines model for UploadSessionFile.Type.
@@ -2010,12 +2010,12 @@ type UploadSessionFileType string
 
 // UploadSessionFileAttributes defines model for UploadSessionFileAttributes.
 type UploadSessionFileAttributes struct {
-	FileHash         *string                            `json:"fileHash,omitempty"`
-	FileSize         *float32                           `json:"fileSize,omitempty"`
-	MimeType         *string                            `json:"mimeType,omitempty"`
-	OriginalFileName *string                            `json:"originalFileName,omitempty"`
-	Source           *UploadSessionFileAttributesSource `json:"source,omitempty"`
-	Version          *int                               `json:"version,omitempty"`
+	FileHash		*string					`json:"fileHash,omitempty" bson:"fileHash"`
+	FileSize		*float32				`json:"fileSize,omitempty" bson:"fileSize"`
+	MimeType		*string					`json:"mimeType,omitempty" bson:"mimeType"`
+	OriginalFileName	*string					`json:"originalFileName,omitempty" bson:"originalFileName"`
+	Source			*UploadSessionFileAttributesSource	`json:"source,omitempty" bson:"source"`
+	Version			*int					`json:"version,omitempty" bson:"version"`
 }
 
 // UploadSessionFileAttributesSource defines model for UploadSessionFileAttributes.Source.
@@ -2023,10 +2023,10 @@ type UploadSessionFileAttributesSource string
 
 // User defines model for User.
 type User struct {
-	Attributes    *UserAttributes     `json:"attributes,omitempty"`
-	Id            *openapi_types.UUID `json:"id,omitempty"`
-	Relationships *[]Relationship     `json:"relationships,omitempty"`
-	Type          *UserType           `json:"type,omitempty"`
+	Attributes	*UserAttributes		`json:"attributes,omitempty" bson:"attributes"`
+	Id		*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
+	Relationships	*[]Relationship		`json:"relationships,omitempty" bson:"relationships"`
+	Type		*UserType		`json:"type,omitempty" bson:"type"`
 }
 
 // UserType defines model for User.Type.
@@ -2034,26 +2034,26 @@ type UserType string
 
 // UserAttributes defines model for UserAttributes.
 type UserAttributes struct {
-	Roles    *[]string `json:"roles,omitempty"`
-	Username *string   `json:"username,omitempty"`
-	Version  *int      `json:"version,omitempty"`
+	Roles		*[]string	`json:"roles,omitempty" bson:"roles"`
+	Username	*string		`json:"username,omitempty" bson:"username"`
+	Version		*int		`json:"version,omitempty" bson:"version"`
 }
 
 // UserList defines model for UserList.
 type UserList struct {
-	Data     *[]User `json:"data,omitempty"`
-	Limit    *int    `json:"limit,omitempty"`
-	Offset   *int    `json:"offset,omitempty"`
-	Response *string `json:"response,omitempty"`
-	Result   *string `json:"result,omitempty"`
-	Total    *int    `json:"total,omitempty"`
+	Data		*[]User	`json:"data,omitempty" bson:"data"`
+	Limit		*int	`json:"limit,omitempty" bson:"limit"`
+	Offset		*int	`json:"offset,omitempty" bson:"offset"`
+	Response	*string	`json:"response,omitempty" bson:"response"`
+	Result		*string	`json:"result,omitempty" bson:"result"`
+	Total		*int	`json:"total,omitempty" bson:"total"`
 }
 
 // UserResponse defines model for UserResponse.
 type UserResponse struct {
-	Data     *User               `json:"data,omitempty"`
-	Response *string             `json:"response,omitempty"`
-	Result   *UserResponseResult `json:"result,omitempty"`
+	Data		*User			`json:"data,omitempty" bson:"data"`
+	Response	*string			`json:"response,omitempty" bson:"response"`
+	Result		*UserResponseResult	`json:"result,omitempty" bson:"result"`
 }
 
 // UserResponseResult defines model for UserResponse.Result.
@@ -2068,31 +2068,31 @@ type GetAtHomeServerChapterIdParams struct {
 	//
 	// However, some misbehaving school/office network will at time block traffic to non-standard ports, and setting this flag to `true` will ensure
 	// selection of a server that uses these.
-	ForcePort443 *bool `form:"forcePort443,omitempty" json:"forcePort443,omitempty"`
+	ForcePort443 *bool `form:"forcePort443,omitempty" json:"forcePort443,omitempty" bson:"forcePort443"`
 }
 
 // PostAuthLoginParams defines parameters for PostAuthLogin.
 type PostAuthLoginParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PostAuthRefreshParams defines parameters for PostAuthRefresh.
 type PostAuthRefreshParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetAuthorParams defines parameters for GetAuthor.
 type GetAuthorParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 
 	// Ids Author ids (limited to 100 per request)
-	Ids   *[]openapi_types.UUID `form:"ids[],omitempty" json:"ids[],omitempty"`
-	Name  *string               `form:"name,omitempty" json:"name,omitempty"`
-	Order *struct {
-		Name *GetAuthorParamsOrderName `json:"name,omitempty"`
-	} `json:"order,omitempty"`
-	Includes *ReferenceExpansionAuthor `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Ids	*[]openapi_types.UUID	`form:"ids[],omitempty" json:"ids[],omitempty" bson:"ids"`
+	Name	*string			`form:"name,omitempty" json:"name,omitempty" bson:"name"`
+	Order	*struct {
+		Name *GetAuthorParamsOrderName `json:"name,omitempty" bson:"name"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes	*ReferenceExpansionAuthor	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // GetAuthorParamsOrderName defines parameters for GetAuthor.
@@ -2100,71 +2100,71 @@ type GetAuthorParamsOrderName string
 
 // PostAuthorParams defines parameters for PostAuthor.
 type PostAuthorParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetAuthorIdParams defines parameters for GetAuthorId.
 type GetAuthorIdParams struct {
-	Includes *ReferenceExpansionAuthor `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionAuthor `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // PutAuthorIdParams defines parameters for PutAuthorId.
 type PutAuthorIdParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PostCaptchaSolveJSONBody defines parameters for PostCaptchaSolve.
 type PostCaptchaSolveJSONBody struct {
-	CaptchaChallenge string `json:"captchaChallenge"`
+	CaptchaChallenge string `json:"captchaChallenge" bson:"captchaChallenge"`
 }
 
 // PostCaptchaSolveParams defines parameters for PostCaptchaSolve.
 type PostCaptchaSolveParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetChapterParams defines parameters for GetChapter.
 type GetChapterParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 
 	// Ids Chapter ids (limited to 100 per request)
-	Ids      *[]openapi_types.UUID `form:"ids[],omitempty" json:"ids[],omitempty"`
-	Title    *string               `form:"title,omitempty" json:"title,omitempty"`
-	Groups   *[]openapi_types.UUID `form:"groups[],omitempty" json:"groups[],omitempty"`
-	Uploader *struct {
-		union json.RawMessage
-	} `form:"uploader,omitempty" json:"uploader,omitempty"`
-	Manga  *openapi_types.UUID `form:"manga,omitempty" json:"manga,omitempty"`
-	Volume *struct {
-		union json.RawMessage
-	} `form:"volume[],omitempty" json:"volume[],omitempty"`
-	Chapter *struct {
-		union json.RawMessage
-	} `form:"chapter,omitempty" json:"chapter,omitempty"`
-	TranslatedLanguage       *[]string                               `form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty"`
-	OriginalLanguage         *[]string                               `form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty"`
-	ExcludedOriginalLanguage *[]string                               `form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty"`
-	ContentRating            *[]GetChapterParamsContentRating        `form:"contentRating[],omitempty" json:"contentRating[],omitempty"`
-	ExcludedGroups           *[]openapi_types.UUID                   `form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty"`
-	ExcludedUploaders        *[]openapi_types.UUID                   `form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty"`
-	IncludeFutureUpdates     *GetChapterParamsIncludeFutureUpdates   `form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty"`
-	IncludeEmptyPages        *GetChapterParamsIncludeEmptyPages      `form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty"`
-	IncludeFuturePublishAt   *GetChapterParamsIncludeFuturePublishAt `form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty"`
-	IncludeExternalUrl       *GetChapterParamsIncludeExternalUrl     `form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty"`
-	IncludeUnavailable       *GetChapterParamsIncludeUnavailable     `form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty"`
-	CreatedAtSince           *string                                 `form:"createdAtSince,omitempty" json:"createdAtSince,omitempty"`
-	UpdatedAtSince           *string                                 `form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty"`
-	PublishAtSince           *string                                 `form:"publishAtSince,omitempty" json:"publishAtSince,omitempty"`
-	Order                    *struct {
-		Chapter    *GetChapterParamsOrderChapter    `json:"chapter,omitempty"`
-		CreatedAt  *GetChapterParamsOrderCreatedAt  `json:"createdAt,omitempty"`
-		PublishAt  *GetChapterParamsOrderPublishAt  `json:"publishAt,omitempty"`
-		ReadableAt *GetChapterParamsOrderReadableAt `json:"readableAt,omitempty"`
-		UpdatedAt  *GetChapterParamsOrderUpdatedAt  `json:"updatedAt,omitempty"`
-		Volume     *GetChapterParamsOrderVolume     `json:"volume,omitempty"`
-	} `json:"order,omitempty"`
-	Includes *[]GetChapterParamsIncludes `form:"includes,omitempty" json:"includes,omitempty"`
+	Ids		*[]openapi_types.UUID	`form:"ids[],omitempty" json:"ids[],omitempty" bson:"ids"`
+	Title		*string			`form:"title,omitempty" json:"title,omitempty" bson:"title"`
+	Groups		*[]openapi_types.UUID	`form:"groups[],omitempty" json:"groups[],omitempty" bson:"groups"`
+	Uploader	*struct {
+		union json.RawMessage `bson:"union"`
+	}	`form:"uploader,omitempty" json:"uploader,omitempty" bson:"uploader"`
+	Manga	*openapi_types.UUID	`form:"manga,omitempty" json:"manga,omitempty" bson:"manga"`
+	Volume	*struct {
+		union json.RawMessage `bson:"union"`
+	}	`form:"volume[],omitempty" json:"volume[],omitempty" bson:"volume"`
+	Chapter	*struct {
+		union json.RawMessage `bson:"union"`
+	}	`form:"chapter,omitempty" json:"chapter,omitempty" bson:"chapter"`
+	TranslatedLanguage		*[]string				`form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty" bson:"translatedLanguage"`
+	OriginalLanguage		*[]string				`form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty" bson:"originalLanguage"`
+	ExcludedOriginalLanguage	*[]string				`form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty" bson:"excludedOriginalLanguage"`
+	ContentRating			*[]GetChapterParamsContentRating	`form:"contentRating[],omitempty" json:"contentRating[],omitempty" bson:"contentRating"`
+	ExcludedGroups			*[]openapi_types.UUID			`form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty" bson:"excludedGroups"`
+	ExcludedUploaders		*[]openapi_types.UUID			`form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty" bson:"excludedUploaders"`
+	IncludeFutureUpdates		*GetChapterParamsIncludeFutureUpdates	`form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty" bson:"includeFutureUpdates"`
+	IncludeEmptyPages		*GetChapterParamsIncludeEmptyPages	`form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty" bson:"includeEmptyPages"`
+	IncludeFuturePublishAt		*GetChapterParamsIncludeFuturePublishAt	`form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty" bson:"includeFuturePublishAt"`
+	IncludeExternalUrl		*GetChapterParamsIncludeExternalUrl	`form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty" bson:"includeExternalUrl"`
+	IncludeUnavailable		*GetChapterParamsIncludeUnavailable	`form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty" bson:"includeUnavailable"`
+	CreatedAtSince			*string					`form:"createdAtSince,omitempty" json:"createdAtSince,omitempty" bson:"createdAtSince"`
+	UpdatedAtSince			*string					`form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty" bson:"updatedAtSince"`
+	PublishAtSince			*string					`form:"publishAtSince,omitempty" json:"publishAtSince,omitempty" bson:"publishAtSince"`
+	Order				*struct {
+		Chapter		*GetChapterParamsOrderChapter		`json:"chapter,omitempty" bson:"chapter"`
+		CreatedAt	*GetChapterParamsOrderCreatedAt		`json:"createdAt,omitempty" bson:"createdAt"`
+		PublishAt	*GetChapterParamsOrderPublishAt		`json:"publishAt,omitempty" bson:"publishAt"`
+		ReadableAt	*GetChapterParamsOrderReadableAt	`json:"readableAt,omitempty" bson:"readableAt"`
+		UpdatedAt	*GetChapterParamsOrderUpdatedAt		`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Volume		*GetChapterParamsOrderVolume		`json:"volume,omitempty" bson:"volume"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes	*[]GetChapterParamsIncludes	`form:"includes,omitempty" json:"includes,omitempty" bson:"includes"`
 }
 
 // GetChapterParamsUploader0 defines parameters for GetChapter.
@@ -2226,26 +2226,26 @@ type GetChapterParamsIncludes string
 
 // GetChapterIdParams defines parameters for GetChapterId.
 type GetChapterIdParams struct {
-	Includes *ReferenceExpansionChapter `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionChapter `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // PutChapterIdParams defines parameters for PutChapterId.
 type PutChapterIdParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetListApiclientsParams defines parameters for GetListApiclients.
 type GetListApiclientsParams struct {
-	Limit    *int                          `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset   *int                          `form:"offset,omitempty" json:"offset,omitempty"`
-	State    *GetListApiclientsParamsState `form:"state,omitempty" json:"state,omitempty"`
-	Name     *string                       `form:"name,omitempty" json:"name,omitempty"`
-	Includes *ReferenceExpansionApiClient  `form:"includes[],omitempty" json:"includes[],omitempty"`
-	Order    *struct {
-		CreatedAt *GetListApiclientsParamsOrderCreatedAt `json:"createdAt,omitempty"`
-		Name      *GetListApiclientsParamsOrderName      `json:"name,omitempty"`
-		UpdatedAt *GetListApiclientsParamsOrderUpdatedAt `json:"updatedAt,omitempty"`
-	} `json:"order,omitempty"`
+	Limit		*int				`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset		*int				`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	State		*GetListApiclientsParamsState	`form:"state,omitempty" json:"state,omitempty" bson:"state"`
+	Name		*string				`form:"name,omitempty" json:"name,omitempty" bson:"name"`
+	Includes	*ReferenceExpansionApiClient	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	Order		*struct {
+		CreatedAt	*GetListApiclientsParamsOrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		Name		*GetListApiclientsParamsOrderName	`json:"name,omitempty" bson:"name"`
+		UpdatedAt	*GetListApiclientsParamsOrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+	}	`json:"order,omitempty" bson:"order"`
 }
 
 // GetListApiclientsParamsState defines parameters for GetListApiclients.
@@ -2262,22 +2262,22 @@ type GetListApiclientsParamsOrderUpdatedAt string
 
 // PostCreateApiclientParams defines parameters for PostCreateApiclient.
 type PostCreateApiclientParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // DeleteApiclientParams defines parameters for DeleteApiclient.
 type DeleteApiclientParams struct {
-	Version *string `form:"version,omitempty" json:"version,omitempty"`
+	Version *string `form:"version,omitempty" json:"version,omitempty" bson:"version"`
 }
 
 // GetApiclientParams defines parameters for GetApiclient.
 type GetApiclientParams struct {
-	Includes *ReferenceExpansionApiClient `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionApiClient `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // PostEditApiclientParams defines parameters for PostEditApiclient.
 type PostEditApiclientParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PostRegenerateApiclientSecretJSONBody defines parameters for PostRegenerateApiclientSecret.
@@ -2285,31 +2285,31 @@ type PostRegenerateApiclientSecretJSONBody = map[string]interface{}
 
 // PostRegenerateApiclientSecretParams defines parameters for PostRegenerateApiclientSecret.
 type PostRegenerateApiclientSecretParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetCoverParams defines parameters for GetCover.
 type GetCoverParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 
 	// Manga Manga ids (limited to 100 per request)
-	Manga *[]openapi_types.UUID `form:"manga[],omitempty" json:"manga[],omitempty"`
+	Manga	*[]openapi_types.UUID	`form:"manga[],omitempty" json:"manga[],omitempty" bson:"manga"`
 
 	// Ids Covers ids (limited to 100 per request)
-	Ids *[]openapi_types.UUID `form:"ids[],omitempty" json:"ids[],omitempty"`
+	Ids	*[]openapi_types.UUID	`form:"ids[],omitempty" json:"ids[],omitempty" bson:"ids"`
 
 	// Uploaders User ids (limited to 100 per request)
-	Uploaders *[]openapi_types.UUID `form:"uploaders[],omitempty" json:"uploaders[],omitempty"`
+	Uploaders	*[]openapi_types.UUID	`form:"uploaders[],omitempty" json:"uploaders[],omitempty" bson:"uploaders"`
 
 	// Locales Locales of cover art (limited to 100 per request)
-	Locales *[]string `form:"locales[],omitempty" json:"locales[],omitempty"`
-	Order   *struct {
-		CreatedAt *GetCoverParamsOrderCreatedAt `json:"createdAt,omitempty"`
-		UpdatedAt *GetCoverParamsOrderUpdatedAt `json:"updatedAt,omitempty"`
-		Volume    *GetCoverParamsOrderVolume    `json:"volume,omitempty"`
-	} `json:"order,omitempty"`
-	Includes *ReferenceExpansionCoverArt `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Locales	*[]string	`form:"locales[],omitempty" json:"locales[],omitempty" bson:"locales"`
+	Order	*struct {
+		CreatedAt	*GetCoverParamsOrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		UpdatedAt	*GetCoverParamsOrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Volume		*GetCoverParamsOrderVolume	`json:"volume,omitempty" bson:"volume"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes	*ReferenceExpansionCoverArt	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // GetCoverParamsOrderCreatedAt defines parameters for GetCover.
@@ -2323,34 +2323,34 @@ type GetCoverParamsOrderVolume string
 
 // GetCoverIdParams defines parameters for GetCoverId.
 type GetCoverIdParams struct {
-	Includes *ReferenceExpansionCoverArt `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionCoverArt `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // UploadCoverMultipartBody defines parameters for UploadCover.
 type UploadCoverMultipartBody struct {
-	Description *string             `json:"description,omitempty"`
-	File        *openapi_types.File `json:"file,omitempty"`
-	Locale      *string             `json:"locale,omitempty"`
-	Volume      *CoverVolume        `json:"volume"`
+	Description	*string			`json:"description,omitempty" bson:"description"`
+	File		*openapi_types.File	`json:"file,omitempty" bson:"file"`
+	Locale		*string			`json:"locale,omitempty" bson:"locale"`
+	Volume		*CoverVolume		`json:"volume" bson:"volume"`
 }
 
 // UploadCoverParams defines parameters for UploadCover.
 type UploadCoverParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // EditCoverParams defines parameters for EditCover.
 type EditCoverParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // ForumsThreadCreateJSONBody defines parameters for ForumsThreadCreate.
 type ForumsThreadCreateJSONBody struct {
 	// Id The id of the resource
-	Id *openapi_types.UUID `json:"id,omitempty"`
+	Id	*openapi_types.UUID	`json:"id,omitempty" bson:"id"`
 
 	// Type The type of the resource
-	Type *ForumsThreadCreateJSONBodyType `json:"type,omitempty"`
+	Type	*ForumsThreadCreateJSONBodyType	`json:"type,omitempty" bson:"type"`
 }
 
 // ForumsThreadCreateJSONBodyType defines parameters for ForumsThreadCreate.
@@ -2358,21 +2358,21 @@ type ForumsThreadCreateJSONBodyType string
 
 // GetSearchGroupParams defines parameters for GetSearchGroup.
 type GetSearchGroupParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 
 	// Ids ScanlationGroup ids (limited to 100 per request)
-	Ids             *[]openapi_types.UUID              `form:"ids[],omitempty" json:"ids[],omitempty"`
-	Name            *string                            `form:"name,omitempty" json:"name,omitempty"`
-	FocusedLanguage *string                            `form:"focusedLanguage,omitempty" json:"focusedLanguage,omitempty"`
-	Includes        *ReferenceExpansionScanlationGroup `form:"includes[],omitempty" json:"includes[],omitempty"`
-	Order           *struct {
-		CreatedAt     *GetSearchGroupParamsOrderCreatedAt     `json:"createdAt,omitempty"`
-		FollowedCount *GetSearchGroupParamsOrderFollowedCount `json:"followedCount,omitempty"`
-		Name          *GetSearchGroupParamsOrderName          `json:"name,omitempty"`
-		Relevance     *GetSearchGroupParamsOrderRelevance     `json:"relevance,omitempty"`
-		UpdatedAt     *GetSearchGroupParamsOrderUpdatedAt     `json:"updatedAt,omitempty"`
-	} `json:"order,omitempty"`
+	Ids		*[]openapi_types.UUID			`form:"ids[],omitempty" json:"ids[],omitempty" bson:"ids"`
+	Name		*string					`form:"name,omitempty" json:"name,omitempty" bson:"name"`
+	FocusedLanguage	*string					`form:"focusedLanguage,omitempty" json:"focusedLanguage,omitempty" bson:"focusedLanguage"`
+	Includes	*ReferenceExpansionScanlationGroup	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	Order		*struct {
+		CreatedAt	*GetSearchGroupParamsOrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		FollowedCount	*GetSearchGroupParamsOrderFollowedCount	`json:"followedCount,omitempty" bson:"followedCount"`
+		Name		*GetSearchGroupParamsOrderName		`json:"name,omitempty" bson:"name"`
+		Relevance	*GetSearchGroupParamsOrderRelevance	`json:"relevance,omitempty" bson:"relevance"`
+		UpdatedAt	*GetSearchGroupParamsOrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+	}	`json:"order,omitempty" bson:"order"`
 }
 
 // GetSearchGroupParamsOrderCreatedAt defines parameters for GetSearchGroup.
@@ -2392,61 +2392,61 @@ type GetSearchGroupParamsOrderUpdatedAt string
 
 // PostGroupParams defines parameters for PostGroup.
 type PostGroupParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetGroupIdParams defines parameters for GetGroupId.
 type GetGroupIdParams struct {
-	Includes *ReferenceExpansionScanlationGroup `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionScanlationGroup `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // PutGroupIdParams defines parameters for PutGroupId.
 type PutGroupIdParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PostLegacyMappingParams defines parameters for PostLegacyMapping.
 type PostLegacyMappingParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PostListParams defines parameters for PostList.
 type PostListParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PutListIdParams defines parameters for PutListId.
 type PutListIdParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetListIdFeedParams defines parameters for GetListIdFeed.
 type GetListIdFeedParams struct {
-	Limit                    *int                                     `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset                   *int                                     `form:"offset,omitempty" json:"offset,omitempty"`
-	TranslatedLanguage       *[]string                                `form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty"`
-	OriginalLanguage         *[]string                                `form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty"`
-	ExcludedOriginalLanguage *[]string                                `form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty"`
-	ContentRating            *[]GetListIdFeedParamsContentRating      `form:"contentRating[],omitempty" json:"contentRating[],omitempty"`
-	ExcludedGroups           *[]openapi_types.UUID                    `form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty"`
-	ExcludedUploaders        *[]openapi_types.UUID                    `form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty"`
-	IncludeFutureUpdates     *GetListIdFeedParamsIncludeFutureUpdates `form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty"`
-	CreatedAtSince           *string                                  `form:"createdAtSince,omitempty" json:"createdAtSince,omitempty"`
-	UpdatedAtSince           *string                                  `form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty"`
-	PublishAtSince           *string                                  `form:"publishAtSince,omitempty" json:"publishAtSince,omitempty"`
-	Order                    *struct {
-		Chapter    *GetListIdFeedParamsOrderChapter    `json:"chapter,omitempty"`
-		CreatedAt  *GetListIdFeedParamsOrderCreatedAt  `json:"createdAt,omitempty"`
-		PublishAt  *GetListIdFeedParamsOrderPublishAt  `json:"publishAt,omitempty"`
-		ReadableAt *GetListIdFeedParamsOrderReadableAt `json:"readableAt,omitempty"`
-		UpdatedAt  *GetListIdFeedParamsOrderUpdatedAt  `json:"updatedAt,omitempty"`
-		Volume     *GetListIdFeedParamsOrderVolume     `json:"volume,omitempty"`
-	} `json:"order,omitempty"`
-	Includes               *ReferenceExpansionChapter                 `form:"includes[],omitempty" json:"includes[],omitempty"`
-	IncludeEmptyPages      *GetListIdFeedParamsIncludeEmptyPages      `form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty"`
-	IncludeFuturePublishAt *GetListIdFeedParamsIncludeFuturePublishAt `form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty"`
-	IncludeExternalUrl     *GetListIdFeedParamsIncludeExternalUrl     `form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty"`
-	IncludeUnavailable     *GetListIdFeedParamsIncludeUnavailable     `form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty"`
+	Limit				*int						`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset				*int						`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	TranslatedLanguage		*[]string					`form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty" bson:"translatedLanguage"`
+	OriginalLanguage		*[]string					`form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty" bson:"originalLanguage"`
+	ExcludedOriginalLanguage	*[]string					`form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty" bson:"excludedOriginalLanguage"`
+	ContentRating			*[]GetListIdFeedParamsContentRating		`form:"contentRating[],omitempty" json:"contentRating[],omitempty" bson:"contentRating"`
+	ExcludedGroups			*[]openapi_types.UUID				`form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty" bson:"excludedGroups"`
+	ExcludedUploaders		*[]openapi_types.UUID				`form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty" bson:"excludedUploaders"`
+	IncludeFutureUpdates		*GetListIdFeedParamsIncludeFutureUpdates	`form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty" bson:"includeFutureUpdates"`
+	CreatedAtSince			*string						`form:"createdAtSince,omitempty" json:"createdAtSince,omitempty" bson:"createdAtSince"`
+	UpdatedAtSince			*string						`form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty" bson:"updatedAtSince"`
+	PublishAtSince			*string						`form:"publishAtSince,omitempty" json:"publishAtSince,omitempty" bson:"publishAtSince"`
+	Order				*struct {
+		Chapter		*GetListIdFeedParamsOrderChapter	`json:"chapter,omitempty" bson:"chapter"`
+		CreatedAt	*GetListIdFeedParamsOrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		PublishAt	*GetListIdFeedParamsOrderPublishAt	`json:"publishAt,omitempty" bson:"publishAt"`
+		ReadableAt	*GetListIdFeedParamsOrderReadableAt	`json:"readableAt,omitempty" bson:"readableAt"`
+		UpdatedAt	*GetListIdFeedParamsOrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Volume		*GetListIdFeedParamsOrderVolume		`json:"volume,omitempty" bson:"volume"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes		*ReferenceExpansionChapter			`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	IncludeEmptyPages	*GetListIdFeedParamsIncludeEmptyPages		`form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty" bson:"includeEmptyPages"`
+	IncludeFuturePublishAt	*GetListIdFeedParamsIncludeFuturePublishAt	`form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty" bson:"includeFuturePublishAt"`
+	IncludeExternalUrl	*GetListIdFeedParamsIncludeExternalUrl		`form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty" bson:"includeExternalUrl"`
+	IncludeUnavailable	*GetListIdFeedParamsIncludeUnavailable		`form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty" bson:"includeUnavailable"`
 }
 
 // GetListIdFeedParamsContentRating defines parameters for GetListIdFeed.
@@ -2493,51 +2493,51 @@ type FollowListIdJSONBody = map[string]interface{}
 
 // FollowListIdParams defines parameters for FollowListId.
 type FollowListIdParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetSearchMangaParams defines parameters for GetSearchManga.
 type GetSearchMangaParams struct {
-	Limit          *int                  `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset         *int                  `form:"offset,omitempty" json:"offset,omitempty"`
-	Title          *string               `form:"title,omitempty" json:"title,omitempty"`
-	AuthorOrArtist *openapi_types.UUID   `form:"authorOrArtist,omitempty" json:"authorOrArtist,omitempty"`
-	Authors        *[]openapi_types.UUID `form:"authors[],omitempty" json:"authors[],omitempty"`
-	Artists        *[]openapi_types.UUID `form:"artists[],omitempty" json:"artists[],omitempty"`
+	Limit		*int			`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset		*int			`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	Title		*string			`form:"title,omitempty" json:"title,omitempty" bson:"title"`
+	AuthorOrArtist	*openapi_types.UUID	`form:"authorOrArtist,omitempty" json:"authorOrArtist,omitempty" bson:"authorOrArtist"`
+	Authors		*[]openapi_types.UUID	`form:"authors[],omitempty" json:"authors[],omitempty" bson:"authors"`
+	Artists		*[]openapi_types.UUID	`form:"artists[],omitempty" json:"artists[],omitempty" bson:"artists"`
 
 	// Year Year of release or none
-	Year *struct {
-		union json.RawMessage
-	} `form:"year,omitempty" json:"year,omitempty"`
-	IncludedTags                *[]openapi_types.UUID                         `form:"includedTags[],omitempty" json:"includedTags[],omitempty"`
-	IncludedTagsMode            *GetSearchMangaParamsIncludedTagsMode         `form:"includedTagsMode,omitempty" json:"includedTagsMode,omitempty"`
-	ExcludedTags                *[]openapi_types.UUID                         `form:"excludedTags[],omitempty" json:"excludedTags[],omitempty"`
-	ExcludedTagsMode            *GetSearchMangaParamsExcludedTagsMode         `form:"excludedTagsMode,omitempty" json:"excludedTagsMode,omitempty"`
-	Status                      *[]GetSearchMangaParamsStatus                 `form:"status[],omitempty" json:"status[],omitempty"`
-	OriginalLanguage            *[]string                                     `form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty"`
-	ExcludedOriginalLanguage    *[]string                                     `form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty"`
-	AvailableTranslatedLanguage *[]string                                     `form:"availableTranslatedLanguage[],omitempty" json:"availableTranslatedLanguage[],omitempty"`
-	PublicationDemographic      *[]GetSearchMangaParamsPublicationDemographic `form:"publicationDemographic[],omitempty" json:"publicationDemographic[],omitempty"`
+	Year	*struct {
+		union json.RawMessage `bson:"union"`
+	}	`form:"year,omitempty" json:"year,omitempty" bson:"year"`
+	IncludedTags			*[]openapi_types.UUID				`form:"includedTags[],omitempty" json:"includedTags[],omitempty" bson:"includedTags"`
+	IncludedTagsMode		*GetSearchMangaParamsIncludedTagsMode		`form:"includedTagsMode,omitempty" json:"includedTagsMode,omitempty" bson:"includedTagsMode"`
+	ExcludedTags			*[]openapi_types.UUID				`form:"excludedTags[],omitempty" json:"excludedTags[],omitempty" bson:"excludedTags"`
+	ExcludedTagsMode		*GetSearchMangaParamsExcludedTagsMode		`form:"excludedTagsMode,omitempty" json:"excludedTagsMode,omitempty" bson:"excludedTagsMode"`
+	Status				*[]GetSearchMangaParamsStatus			`form:"status[],omitempty" json:"status[],omitempty" bson:"status"`
+	OriginalLanguage		*[]string					`form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty" bson:"originalLanguage"`
+	ExcludedOriginalLanguage	*[]string					`form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty" bson:"excludedOriginalLanguage"`
+	AvailableTranslatedLanguage	*[]string					`form:"availableTranslatedLanguage[],omitempty" json:"availableTranslatedLanguage[],omitempty" bson:"availableTranslatedLanguage"`
+	PublicationDemographic		*[]GetSearchMangaParamsPublicationDemographic	`form:"publicationDemographic[],omitempty" json:"publicationDemographic[],omitempty" bson:"publicationDemographic"`
 
 	// Ids Manga ids (limited to 100 per request)
-	Ids            *[]openapi_types.UUID                `form:"ids[],omitempty" json:"ids[],omitempty"`
-	ContentRating  *[]GetSearchMangaParamsContentRating `form:"contentRating[],omitempty" json:"contentRating[],omitempty"`
-	CreatedAtSince *string                              `form:"createdAtSince,omitempty" json:"createdAtSince,omitempty"`
-	UpdatedAtSince *string                              `form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty"`
-	Order          *struct {
-		CreatedAt             *GetSearchMangaParamsOrderCreatedAt             `json:"createdAt,omitempty"`
-		FollowedCount         *GetSearchMangaParamsOrderFollowedCount         `json:"followedCount,omitempty"`
-		LatestUploadedChapter *GetSearchMangaParamsOrderLatestUploadedChapter `json:"latestUploadedChapter,omitempty"`
-		Rating                *GetSearchMangaParamsOrderRating                `json:"rating,omitempty"`
-		Relevance             *GetSearchMangaParamsOrderRelevance             `json:"relevance,omitempty"`
-		Title                 *GetSearchMangaParamsOrderTitle                 `json:"title,omitempty"`
-		UpdatedAt             *GetSearchMangaParamsOrderUpdatedAt             `json:"updatedAt,omitempty"`
-		Year                  *GetSearchMangaParamsOrderYear                  `json:"year,omitempty"`
-	} `json:"order,omitempty"`
-	Includes               *ReferenceExpansionManga                    `form:"includes[],omitempty" json:"includes[],omitempty"`
-	HasAvailableChapters   *GetSearchMangaParamsHasAvailableChapters   `form:"hasAvailableChapters,omitempty" json:"hasAvailableChapters,omitempty"`
-	HasUnavailableChapters *GetSearchMangaParamsHasUnavailableChapters `form:"hasUnavailableChapters,omitempty" json:"hasUnavailableChapters,omitempty"`
-	Group                  *openapi_types.UUID                         `form:"group,omitempty" json:"group,omitempty"`
+	Ids		*[]openapi_types.UUID			`form:"ids[],omitempty" json:"ids[],omitempty" bson:"ids"`
+	ContentRating	*[]GetSearchMangaParamsContentRating	`form:"contentRating[],omitempty" json:"contentRating[],omitempty" bson:"contentRating"`
+	CreatedAtSince	*string					`form:"createdAtSince,omitempty" json:"createdAtSince,omitempty" bson:"createdAtSince"`
+	UpdatedAtSince	*string					`form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty" bson:"updatedAtSince"`
+	Order		*struct {
+		CreatedAt		*GetSearchMangaParamsOrderCreatedAt		`json:"createdAt,omitempty" bson:"createdAt"`
+		FollowedCount		*GetSearchMangaParamsOrderFollowedCount		`json:"followedCount,omitempty" bson:"followedCount"`
+		LatestUploadedChapter	*GetSearchMangaParamsOrderLatestUploadedChapter	`json:"latestUploadedChapter,omitempty" bson:"latestUploadedChapter"`
+		Rating			*GetSearchMangaParamsOrderRating		`json:"rating,omitempty" bson:"rating"`
+		Relevance		*GetSearchMangaParamsOrderRelevance		`json:"relevance,omitempty" bson:"relevance"`
+		Title			*GetSearchMangaParamsOrderTitle			`json:"title,omitempty" bson:"title"`
+		UpdatedAt		*GetSearchMangaParamsOrderUpdatedAt		`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Year			*GetSearchMangaParamsOrderYear			`json:"year,omitempty" bson:"year"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes		*ReferenceExpansionManga			`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	HasAvailableChapters	*GetSearchMangaParamsHasAvailableChapters	`form:"hasAvailableChapters,omitempty" json:"hasAvailableChapters,omitempty" bson:"hasAvailableChapters"`
+	HasUnavailableChapters	*GetSearchMangaParamsHasUnavailableChapters	`form:"hasUnavailableChapters,omitempty" json:"hasUnavailableChapters,omitempty" bson:"hasUnavailableChapters"`
+	Group			*openapi_types.UUID				`form:"group,omitempty" json:"group,omitempty" bson:"group"`
 }
 
 // GetSearchMangaParamsYear0 defines parameters for GetSearchManga.
@@ -2593,21 +2593,21 @@ type GetSearchMangaParamsHasUnavailableChapters string
 
 // PostMangaParams defines parameters for PostManga.
 type PostMangaParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetMangaDraftsParams defines parameters for GetMangaDrafts.
 type GetMangaDraftsParams struct {
-	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int    `form:"offset,omitempty" json:"offset,omitempty"`
-	State  *string `form:"state,omitempty" json:"state,omitempty"`
-	Order  *struct {
-		CreatedAt *OrderCreatedAt `json:"createdAt,omitempty"`
-		Title     *OrderTitle     `json:"title,omitempty"`
-		UpdatedAt *OrderUpdatedAt `json:"updatedAt,omitempty"`
-		Year      *OrderYear      `json:"year,omitempty"`
-	} `json:"order,omitempty"`
-	Includes *ReferenceExpansionManga `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	State	*string	`form:"state,omitempty" json:"state,omitempty" bson:"state"`
+	Order	*struct {
+		CreatedAt	*OrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		Title		*OrderTitle	`json:"title,omitempty" bson:"title"`
+		UpdatedAt	*OrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Year		*OrderYear	`json:"year,omitempty" bson:"year"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes	*ReferenceExpansionManga	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // OrderCreatedAt defines parameters for GetMangaDrafts.
@@ -2624,22 +2624,22 @@ type OrderYear string
 
 // GetMangaIdDraftParams defines parameters for GetMangaIdDraft.
 type GetMangaIdDraftParams struct {
-	Includes *ReferenceExpansionManga `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionManga `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // CommitMangaDraftJSONBody defines parameters for CommitMangaDraft.
 type CommitMangaDraftJSONBody struct {
-	Version *int `json:"version,omitempty"`
+	Version *int `json:"version,omitempty" bson:"version"`
 }
 
 // GetMangaRandomParams defines parameters for GetMangaRandom.
 type GetMangaRandomParams struct {
-	Includes         *ReferenceExpansionManga              `form:"includes[],omitempty" json:"includes[],omitempty"`
-	ContentRating    *[]GetMangaRandomParamsContentRating  `form:"contentRating[],omitempty" json:"contentRating[],omitempty"`
-	IncludedTags     *[]openapi_types.UUID                 `form:"includedTags[],omitempty" json:"includedTags[],omitempty"`
-	IncludedTagsMode *GetMangaRandomParamsIncludedTagsMode `form:"includedTagsMode,omitempty" json:"includedTagsMode,omitempty"`
-	ExcludedTags     *[]openapi_types.UUID                 `form:"excludedTags[],omitempty" json:"excludedTags[],omitempty"`
-	ExcludedTagsMode *GetMangaRandomParamsExcludedTagsMode `form:"excludedTagsMode,omitempty" json:"excludedTagsMode,omitempty"`
+	Includes		*ReferenceExpansionManga		`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	ContentRating		*[]GetMangaRandomParamsContentRating	`form:"contentRating[],omitempty" json:"contentRating[],omitempty" bson:"contentRating"`
+	IncludedTags		*[]openapi_types.UUID			`form:"includedTags[],omitempty" json:"includedTags[],omitempty" bson:"includedTags"`
+	IncludedTagsMode	*GetMangaRandomParamsIncludedTagsMode	`form:"includedTagsMode,omitempty" json:"includedTagsMode,omitempty" bson:"includedTagsMode"`
+	ExcludedTags		*[]openapi_types.UUID			`form:"excludedTags[],omitempty" json:"excludedTags[],omitempty" bson:"excludedTags"`
+	ExcludedTagsMode	*GetMangaRandomParamsExcludedTagsMode	`form:"excludedTagsMode,omitempty" json:"excludedTagsMode,omitempty" bson:"excludedTagsMode"`
 }
 
 // GetMangaRandomParamsContentRating defines parameters for GetMangaRandom.
@@ -2654,16 +2654,16 @@ type GetMangaRandomParamsExcludedTagsMode string
 // GetMangaChapterReadmarkers2Params defines parameters for GetMangaChapterReadmarkers2.
 type GetMangaChapterReadmarkers2Params struct {
 	// Ids Manga ids
-	Ids []openapi_types.UUID `form:"ids[]" json:"ids[]"`
+	Ids	[]openapi_types.UUID	`form:"ids[]" json:"ids[]" bson:"ids"`
 
 	// Grouped Group results by manga ids
-	Grouped *bool `form:"grouped,omitempty" json:"grouped,omitempty"`
+	Grouped	*bool	`form:"grouped,omitempty" json:"grouped,omitempty" bson:"grouped"`
 }
 
 // GetMangaStatusParams defines parameters for GetMangaStatus.
 type GetMangaStatusParams struct {
 	// Status Used to filter the list by given status
-	Status *GetMangaStatusParamsStatus `form:"status,omitempty" json:"status,omitempty"`
+	Status *GetMangaStatusParamsStatus `form:"status,omitempty" json:"status,omitempty" bson:"status"`
 }
 
 // GetMangaStatusParamsStatus defines parameters for GetMangaStatus.
@@ -2671,35 +2671,35 @@ type GetMangaStatusParamsStatus string
 
 // GetMangaIdParams defines parameters for GetMangaId.
 type GetMangaIdParams struct {
-	Includes *ReferenceExpansionManga `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionManga `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // PutMangaIdJSONBody defines parameters for PutMangaId.
 type PutMangaIdJSONBody struct {
-	AltTitles                      *[]LocalizedString                        `json:"altTitles,omitempty"`
-	Artists                        *[]openapi_types.UUID                     `json:"artists,omitempty"`
-	Authors                        *[]openapi_types.UUID                     `json:"authors,omitempty"`
-	ChapterNumbersResetOnNewVolume *bool                                     `json:"chapterNumbersResetOnNewVolume,omitempty"`
-	ContentRating                  *PutMangaIdJSONBodyContentRating          `json:"contentRating,omitempty"`
-	Description                    *LocalizedString                          `json:"description,omitempty"`
-	LastChapter                    *string                                   `json:"lastChapter"`
-	LastVolume                     *string                                   `json:"lastVolume"`
-	Links                          *map[string]string                        `json:"links,omitempty"`
-	OriginalLanguage               *string                                   `json:"originalLanguage,omitempty"`
-	PrimaryCover                   *openapi_types.UUID                       `json:"primaryCover"`
-	PublicationDemographic         *PutMangaIdJSONBodyPublicationDemographic `json:"publicationDemographic"`
-	Status                         *PutMangaIdJSONBodyStatus                 `json:"status,omitempty"`
-	Tags                           *[]openapi_types.UUID                     `json:"tags,omitempty"`
-	Title                          *LocalizedString                          `json:"title,omitempty"`
-	Version                        int                                       `json:"version"`
+	AltTitles			*[]LocalizedString				`json:"altTitles,omitempty" bson:"altTitles"`
+	Artists				*[]openapi_types.UUID				`json:"artists,omitempty" bson:"artists"`
+	Authors				*[]openapi_types.UUID				`json:"authors,omitempty" bson:"authors"`
+	ChapterNumbersResetOnNewVolume	*bool						`json:"chapterNumbersResetOnNewVolume,omitempty" bson:"chapterNumbersResetOnNewVolume"`
+	ContentRating			*PutMangaIdJSONBodyContentRating		`json:"contentRating,omitempty" bson:"contentRating"`
+	Description			*LocalizedString				`json:"description,omitempty" bson:"description"`
+	LastChapter			*string						`json:"lastChapter" bson:"lastChapter"`
+	LastVolume			*string						`json:"lastVolume" bson:"lastVolume"`
+	Links				*map[string]string				`json:"links,omitempty" bson:"links"`
+	OriginalLanguage		*string						`json:"originalLanguage,omitempty" bson:"originalLanguage"`
+	PrimaryCover			*openapi_types.UUID				`json:"primaryCover" bson:"primaryCover"`
+	PublicationDemographic		*PutMangaIdJSONBodyPublicationDemographic	`json:"publicationDemographic" bson:"publicationDemographic"`
+	Status				*PutMangaIdJSONBodyStatus			`json:"status,omitempty" bson:"status"`
+	Tags				*[]openapi_types.UUID				`json:"tags,omitempty" bson:"tags"`
+	Title				*LocalizedString				`json:"title,omitempty" bson:"title"`
+	Version				int						`json:"version" bson:"version"`
 
 	// Year Year of release
-	Year *int `json:"year"`
+	Year	*int	`json:"year" bson:"year"`
 }
 
 // PutMangaIdParams defines parameters for PutMangaId.
 type PutMangaIdParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PutMangaIdJSONBodyContentRating defines parameters for PutMangaId.
@@ -2713,37 +2713,37 @@ type PutMangaIdJSONBodyStatus string
 
 // GetMangaAggregateParams defines parameters for GetMangaAggregate.
 type GetMangaAggregateParams struct {
-	TranslatedLanguage *[]string             `form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty"`
-	Groups             *[]openapi_types.UUID `form:"groups[],omitempty" json:"groups[],omitempty"`
+	TranslatedLanguage	*[]string		`form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty" bson:"translatedLanguage"`
+	Groups			*[]openapi_types.UUID	`form:"groups[],omitempty" json:"groups[],omitempty" bson:"groups"`
 }
 
 // GetMangaIdFeedParams defines parameters for GetMangaIdFeed.
 type GetMangaIdFeedParams struct {
-	Limit                    *int                                      `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset                   *int                                      `form:"offset,omitempty" json:"offset,omitempty"`
-	TranslatedLanguage       *[]string                                 `form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty"`
-	OriginalLanguage         *[]string                                 `form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty"`
-	ExcludedOriginalLanguage *[]string                                 `form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty"`
-	ContentRating            *[]GetMangaIdFeedParamsContentRating      `form:"contentRating[],omitempty" json:"contentRating[],omitempty"`
-	ExcludedGroups           *[]openapi_types.UUID                     `form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty"`
-	ExcludedUploaders        *[]openapi_types.UUID                     `form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty"`
-	IncludeFutureUpdates     *GetMangaIdFeedParamsIncludeFutureUpdates `form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty"`
-	CreatedAtSince           *string                                   `form:"createdAtSince,omitempty" json:"createdAtSince,omitempty"`
-	UpdatedAtSince           *string                                   `form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty"`
-	PublishAtSince           *string                                   `form:"publishAtSince,omitempty" json:"publishAtSince,omitempty"`
-	Order                    *struct {
-		Chapter    *GetMangaIdFeedParamsOrderChapter    `json:"chapter,omitempty"`
-		CreatedAt  *GetMangaIdFeedParamsOrderCreatedAt  `json:"createdAt,omitempty"`
-		PublishAt  *GetMangaIdFeedParamsOrderPublishAt  `json:"publishAt,omitempty"`
-		ReadableAt *GetMangaIdFeedParamsOrderReadableAt `json:"readableAt,omitempty"`
-		UpdatedAt  *GetMangaIdFeedParamsOrderUpdatedAt  `json:"updatedAt,omitempty"`
-		Volume     *GetMangaIdFeedParamsOrderVolume     `json:"volume,omitempty"`
-	} `json:"order,omitempty"`
-	Includes               *ReferenceExpansionChapter                  `form:"includes[],omitempty" json:"includes[],omitempty"`
-	IncludeEmptyPages      *GetMangaIdFeedParamsIncludeEmptyPages      `form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty"`
-	IncludeFuturePublishAt *GetMangaIdFeedParamsIncludeFuturePublishAt `form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty"`
-	IncludeExternalUrl     *GetMangaIdFeedParamsIncludeExternalUrl     `form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty"`
-	IncludeUnavailable     *GetMangaIdFeedParamsIncludeUnavailable     `form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty"`
+	Limit				*int						`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset				*int						`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	TranslatedLanguage		*[]string					`form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty" bson:"translatedLanguage"`
+	OriginalLanguage		*[]string					`form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty" bson:"originalLanguage"`
+	ExcludedOriginalLanguage	*[]string					`form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty" bson:"excludedOriginalLanguage"`
+	ContentRating			*[]GetMangaIdFeedParamsContentRating		`form:"contentRating[],omitempty" json:"contentRating[],omitempty" bson:"contentRating"`
+	ExcludedGroups			*[]openapi_types.UUID				`form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty" bson:"excludedGroups"`
+	ExcludedUploaders		*[]openapi_types.UUID				`form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty" bson:"excludedUploaders"`
+	IncludeFutureUpdates		*GetMangaIdFeedParamsIncludeFutureUpdates	`form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty" bson:"includeFutureUpdates"`
+	CreatedAtSince			*string						`form:"createdAtSince,omitempty" json:"createdAtSince,omitempty" bson:"createdAtSince"`
+	UpdatedAtSince			*string						`form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty" bson:"updatedAtSince"`
+	PublishAtSince			*string						`form:"publishAtSince,omitempty" json:"publishAtSince,omitempty" bson:"publishAtSince"`
+	Order				*struct {
+		Chapter		*GetMangaIdFeedParamsOrderChapter	`json:"chapter,omitempty" bson:"chapter"`
+		CreatedAt	*GetMangaIdFeedParamsOrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		PublishAt	*GetMangaIdFeedParamsOrderPublishAt	`json:"publishAt,omitempty" bson:"publishAt"`
+		ReadableAt	*GetMangaIdFeedParamsOrderReadableAt	`json:"readableAt,omitempty" bson:"readableAt"`
+		UpdatedAt	*GetMangaIdFeedParamsOrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Volume		*GetMangaIdFeedParamsOrderVolume	`json:"volume,omitempty" bson:"volume"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes		*ReferenceExpansionChapter			`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	IncludeEmptyPages	*GetMangaIdFeedParamsIncludeEmptyPages		`form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty" bson:"includeEmptyPages"`
+	IncludeFuturePublishAt	*GetMangaIdFeedParamsIncludeFuturePublishAt	`form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty" bson:"includeFuturePublishAt"`
+	IncludeExternalUrl	*GetMangaIdFeedParamsIncludeExternalUrl		`form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty" bson:"includeExternalUrl"`
+	IncludeUnavailable	*GetMangaIdFeedParamsIncludeUnavailable		`form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty" bson:"includeUnavailable"`
 }
 
 // GetMangaIdFeedParamsContentRating defines parameters for GetMangaIdFeed.
@@ -2785,46 +2785,46 @@ type GetMangaIdFeedParamsIncludeUnavailable string
 // PostMangaChapterReadmarkersParams defines parameters for PostMangaChapterReadmarkers.
 type PostMangaChapterReadmarkersParams struct {
 	// UpdateHistory Adding this will cause the chapter to be stored in the user's reading history
-	UpdateHistory *bool `form:"updateHistory,omitempty" json:"updateHistory,omitempty"`
+	UpdateHistory *bool `form:"updateHistory,omitempty" json:"updateHistory,omitempty" bson:"updateHistory"`
 }
 
 // PostMangaIdStatusParams defines parameters for PostMangaIdStatus.
 type PostMangaIdStatusParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetMangaRelationParams defines parameters for GetMangaRelation.
 type GetMangaRelationParams struct {
-	Includes *ReferenceExpansionMangaRelation `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Includes *ReferenceExpansionMangaRelation `form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // PostMangaRelationParams defines parameters for PostMangaRelation.
 type PostMangaRelationParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetRatingParams defines parameters for GetRating.
 type GetRatingParams struct {
-	Manga []openapi_types.UUID `json:"manga"`
+	Manga []openapi_types.UUID `json:"manga" bson:"manga"`
 }
 
 // PostRatingMangaIdJSONBody defines parameters for PostRatingMangaId.
 type PostRatingMangaIdJSONBody struct {
-	Rating *int `json:"rating,omitempty"`
+	Rating *int `json:"rating,omitempty" bson:"rating"`
 }
 
 // GetReportsParams defines parameters for GetReports.
 type GetReportsParams struct {
-	Limit    *int                      `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset   *int                      `form:"offset,omitempty" json:"offset,omitempty"`
-	Category *GetReportsParamsCategory `form:"category,omitempty" json:"category,omitempty"`
-	ReasonId *openapi_types.UUID       `form:"reasonId,omitempty" json:"reasonId,omitempty"`
-	ObjectId *openapi_types.UUID       `form:"objectId,omitempty" json:"objectId,omitempty"`
-	Status   *GetReportsParamsStatus   `form:"status,omitempty" json:"status,omitempty"`
-	Order    *struct {
-		CreatedAt *GetReportsParamsOrderCreatedAt `json:"createdAt,omitempty"`
-	} `json:"order,omitempty"`
-	Includes *ReferenceExpansionReport `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Limit		*int				`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset		*int				`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	Category	*GetReportsParamsCategory	`form:"category,omitempty" json:"category,omitempty" bson:"category"`
+	ReasonId	*openapi_types.UUID		`form:"reasonId,omitempty" json:"reasonId,omitempty" bson:"reasonId"`
+	ObjectId	*openapi_types.UUID		`form:"objectId,omitempty" json:"objectId,omitempty" bson:"objectId"`
+	Status		*GetReportsParamsStatus		`form:"status,omitempty" json:"status,omitempty" bson:"status"`
+	Order		*struct {
+		CreatedAt *GetReportsParamsOrderCreatedAt `json:"createdAt,omitempty" bson:"createdAt"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes	*ReferenceExpansionReport	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // GetReportsParamsCategory defines parameters for GetReports.
@@ -2838,15 +2838,15 @@ type GetReportsParamsOrderCreatedAt string
 
 // PostReportJSONBody defines parameters for PostReport.
 type PostReportJSONBody struct {
-	Category *PostReportJSONBodyCategory `json:"category,omitempty"`
-	Details  *string                     `json:"details,omitempty"`
-	ObjectId *openapi_types.UUID         `json:"objectId,omitempty"`
-	Reason   *openapi_types.UUID         `json:"reason,omitempty"`
+	Category	*PostReportJSONBodyCategory	`json:"category,omitempty" bson:"category"`
+	Details		*string				`json:"details,omitempty" bson:"details"`
+	ObjectId	*openapi_types.UUID		`json:"objectId,omitempty" bson:"objectId"`
+	Reason		*openapi_types.UUID		`json:"reason,omitempty" bson:"reason"`
 }
 
 // PostReportParams defines parameters for PostReport.
 type PostReportParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // PostReportJSONBodyCategory defines parameters for PostReport.
@@ -2855,10 +2855,10 @@ type PostReportJSONBodyCategory string
 // PostSettingsJSONBody defines parameters for PostSettings.
 type PostSettingsJSONBody struct {
 	// Settings A JSON object that can be validated against the lastest available template
-	Settings *map[string]interface{} `json:"settings,omitempty"`
+	Settings	*map[string]interface{}	`json:"settings,omitempty" bson:"settings"`
 
 	// UpdatedAt Format: 2022-03-14T13:19:37
-	UpdatedAt *time.Time `json:"updatedAt,omitempty"`
+	UpdatedAt	*time.Time	`json:"updatedAt,omitempty" bson:"updatedAt"`
 }
 
 // PostSettingsTemplateJSONBody defines parameters for PostSettingsTemplate.
@@ -2866,43 +2866,43 @@ type PostSettingsTemplateJSONBody = map[string]interface{}
 
 // GetStatisticsChaptersParams defines parameters for GetStatisticsChapters.
 type GetStatisticsChaptersParams struct {
-	Chapter []openapi_types.UUID `json:"chapter[]"`
+	Chapter []openapi_types.UUID `json:"chapter[]" bson:"chapter"`
 }
 
 // GetStatisticsGroupsParams defines parameters for GetStatisticsGroups.
 type GetStatisticsGroupsParams struct {
-	Group []openapi_types.UUID `json:"group[]"`
+	Group []openapi_types.UUID `json:"group[]" bson:"group"`
 }
 
 // GetStatisticsMangaParams defines parameters for GetStatisticsManga.
 type GetStatisticsMangaParams struct {
-	Manga []openapi_types.UUID `json:"manga[]"`
+	Manga []openapi_types.UUID `json:"manga[]" bson:"manga"`
 }
 
 // BeginUploadSessionParams defines parameters for BeginUploadSession.
 type BeginUploadSessionParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // BeginEditSessionParams defines parameters for BeginEditSession.
 type BeginEditSessionParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // UploadCheckApprovalRequiredJSONBody defines parameters for UploadCheckApprovalRequired.
 type UploadCheckApprovalRequiredJSONBody struct {
-	Locale *string             `json:"locale,omitempty"`
-	Manga  *openapi_types.UUID `json:"manga,omitempty"`
+	Locale	*string			`json:"locale,omitempty" bson:"locale"`
+	Manga	*openapi_types.UUID	`json:"manga,omitempty" bson:"manga"`
 }
 
 // PutUploadSessionFileMultipartBody defines parameters for PutUploadSessionFile.
 type PutUploadSessionFileMultipartBody struct {
-	File *openapi_types.File `json:"file,omitempty"`
+	File *openapi_types.File `json:"file,omitempty" bson:"file"`
 }
 
 // PutUploadSessionFileParams defines parameters for PutUploadSessionFile.
 type PutUploadSessionFileParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // DeleteUploadedSessionFilesJSONBody defines parameters for DeleteUploadedSessionFiles.
@@ -2910,25 +2910,25 @@ type DeleteUploadedSessionFilesJSONBody = []openapi_types.UUID
 
 // DeleteUploadedSessionFilesParams defines parameters for DeleteUploadedSessionFiles.
 type DeleteUploadedSessionFilesParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // CommitUploadSessionParams defines parameters for CommitUploadSession.
 type CommitUploadSessionParams struct {
-	ContentType string `json:"Content-Type"`
+	ContentType string `json:"Content-Type" bson:"contentType"`
 }
 
 // GetUserParams defines parameters for GetUser.
 type GetUserParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 
 	// Ids User ids (limited to 100 per request)
-	Ids      *[]openapi_types.UUID `form:"ids[],omitempty" json:"ids[],omitempty"`
-	Username *string               `form:"username,omitempty" json:"username,omitempty"`
-	Order    *struct {
-		Username *GetUserParamsOrderUsername `json:"username,omitempty"`
-	} `json:"order,omitempty"`
+	Ids		*[]openapi_types.UUID	`form:"ids[],omitempty" json:"ids[],omitempty" bson:"ids"`
+	Username	*string			`form:"username,omitempty" json:"username,omitempty" bson:"username"`
+	Order		*struct {
+		Username *GetUserParamsOrderUsername `json:"username,omitempty" bson:"username"`
+	}	`json:"order,omitempty" bson:"order"`
 }
 
 // GetUserParamsOrderUsername defines parameters for GetUser.
@@ -2936,51 +2936,51 @@ type GetUserParamsOrderUsername string
 
 // GetUserFollowsGroupParams defines parameters for GetUserFollowsGroup.
 type GetUserFollowsGroupParams struct {
-	Limit    *int                               `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset   *int                               `form:"offset,omitempty" json:"offset,omitempty"`
-	Includes *ReferenceExpansionScanlationGroup `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Limit		*int					`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset		*int					`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	Includes	*ReferenceExpansionScanlationGroup	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // GetUserFollowsListParams defines parameters for GetUserFollowsList.
 type GetUserFollowsListParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 }
 
 // GetUserFollowsMangaParams defines parameters for GetUserFollowsManga.
 type GetUserFollowsMangaParams struct {
-	Limit    *int                     `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset   *int                     `form:"offset,omitempty" json:"offset,omitempty"`
-	Includes *ReferenceExpansionManga `form:"includes[],omitempty" json:"includes[],omitempty"`
+	Limit		*int				`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset		*int				`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	Includes	*ReferenceExpansionManga	`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
 }
 
 // GetUserFollowsMangaFeedParams defines parameters for GetUserFollowsMangaFeed.
 type GetUserFollowsMangaFeedParams struct {
-	Limit                    *int                                               `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset                   *int                                               `form:"offset,omitempty" json:"offset,omitempty"`
-	TranslatedLanguage       *[]string                                          `form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty"`
-	OriginalLanguage         *[]string                                          `form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty"`
-	ExcludedOriginalLanguage *[]string                                          `form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty"`
-	ContentRating            *[]GetUserFollowsMangaFeedParamsContentRating      `form:"contentRating[],omitempty" json:"contentRating[],omitempty"`
-	ExcludedGroups           *[]openapi_types.UUID                              `form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty"`
-	ExcludedUploaders        *[]openapi_types.UUID                              `form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty"`
-	IncludeFutureUpdates     *GetUserFollowsMangaFeedParamsIncludeFutureUpdates `form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty"`
-	CreatedAtSince           *string                                            `form:"createdAtSince,omitempty" json:"createdAtSince,omitempty"`
-	UpdatedAtSince           *string                                            `form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty"`
-	PublishAtSince           *string                                            `form:"publishAtSince,omitempty" json:"publishAtSince,omitempty"`
-	Order                    *struct {
-		Chapter    *GetUserFollowsMangaFeedParamsOrderChapter    `json:"chapter,omitempty"`
-		CreatedAt  *GetUserFollowsMangaFeedParamsOrderCreatedAt  `json:"createdAt,omitempty"`
-		PublishAt  *GetUserFollowsMangaFeedParamsOrderPublishAt  `json:"publishAt,omitempty"`
-		ReadableAt *GetUserFollowsMangaFeedParamsOrderReadableAt `json:"readableAt,omitempty"`
-		UpdatedAt  *GetUserFollowsMangaFeedParamsOrderUpdatedAt  `json:"updatedAt,omitempty"`
-		Volume     *GetUserFollowsMangaFeedParamsOrderVolume     `json:"volume,omitempty"`
-	} `json:"order,omitempty"`
-	Includes               *ReferenceExpansionChapter                           `form:"includes[],omitempty" json:"includes[],omitempty"`
-	IncludeEmptyPages      *GetUserFollowsMangaFeedParamsIncludeEmptyPages      `form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty"`
-	IncludeFuturePublishAt *GetUserFollowsMangaFeedParamsIncludeFuturePublishAt `form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty"`
-	IncludeExternalUrl     *GetUserFollowsMangaFeedParamsIncludeExternalUrl     `form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty"`
-	IncludeUnavailable     *GetUserFollowsMangaFeedParamsIncludeUnavailable     `form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty"`
+	Limit				*int							`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset				*int							`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
+	TranslatedLanguage		*[]string						`form:"translatedLanguage[],omitempty" json:"translatedLanguage[],omitempty" bson:"translatedLanguage"`
+	OriginalLanguage		*[]string						`form:"originalLanguage[],omitempty" json:"originalLanguage[],omitempty" bson:"originalLanguage"`
+	ExcludedOriginalLanguage	*[]string						`form:"excludedOriginalLanguage[],omitempty" json:"excludedOriginalLanguage[],omitempty" bson:"excludedOriginalLanguage"`
+	ContentRating			*[]GetUserFollowsMangaFeedParamsContentRating		`form:"contentRating[],omitempty" json:"contentRating[],omitempty" bson:"contentRating"`
+	ExcludedGroups			*[]openapi_types.UUID					`form:"excludedGroups[],omitempty" json:"excludedGroups[],omitempty" bson:"excludedGroups"`
+	ExcludedUploaders		*[]openapi_types.UUID					`form:"excludedUploaders[],omitempty" json:"excludedUploaders[],omitempty" bson:"excludedUploaders"`
+	IncludeFutureUpdates		*GetUserFollowsMangaFeedParamsIncludeFutureUpdates	`form:"includeFutureUpdates,omitempty" json:"includeFutureUpdates,omitempty" bson:"includeFutureUpdates"`
+	CreatedAtSince			*string							`form:"createdAtSince,omitempty" json:"createdAtSince,omitempty" bson:"createdAtSince"`
+	UpdatedAtSince			*string							`form:"updatedAtSince,omitempty" json:"updatedAtSince,omitempty" bson:"updatedAtSince"`
+	PublishAtSince			*string							`form:"publishAtSince,omitempty" json:"publishAtSince,omitempty" bson:"publishAtSince"`
+	Order				*struct {
+		Chapter		*GetUserFollowsMangaFeedParamsOrderChapter	`json:"chapter,omitempty" bson:"chapter"`
+		CreatedAt	*GetUserFollowsMangaFeedParamsOrderCreatedAt	`json:"createdAt,omitempty" bson:"createdAt"`
+		PublishAt	*GetUserFollowsMangaFeedParamsOrderPublishAt	`json:"publishAt,omitempty" bson:"publishAt"`
+		ReadableAt	*GetUserFollowsMangaFeedParamsOrderReadableAt	`json:"readableAt,omitempty" bson:"readableAt"`
+		UpdatedAt	*GetUserFollowsMangaFeedParamsOrderUpdatedAt	`json:"updatedAt,omitempty" bson:"updatedAt"`
+		Volume		*GetUserFollowsMangaFeedParamsOrderVolume	`json:"volume,omitempty" bson:"volume"`
+	}	`json:"order,omitempty" bson:"order"`
+	Includes		*ReferenceExpansionChapter				`form:"includes[],omitempty" json:"includes[],omitempty" bson:"includes"`
+	IncludeEmptyPages	*GetUserFollowsMangaFeedParamsIncludeEmptyPages		`form:"includeEmptyPages,omitempty" json:"includeEmptyPages,omitempty" bson:"includeEmptyPages"`
+	IncludeFuturePublishAt	*GetUserFollowsMangaFeedParamsIncludeFuturePublishAt	`form:"includeFuturePublishAt,omitempty" json:"includeFuturePublishAt,omitempty" bson:"includeFuturePublishAt"`
+	IncludeExternalUrl	*GetUserFollowsMangaFeedParamsIncludeExternalUrl	`form:"includeExternalUrl,omitempty" json:"includeExternalUrl,omitempty" bson:"includeExternalUrl"`
+	IncludeUnavailable	*GetUserFollowsMangaFeedParamsIncludeUnavailable	`form:"includeUnavailable,omitempty" json:"includeUnavailable,omitempty" bson:"includeUnavailable"`
 }
 
 // GetUserFollowsMangaFeedParamsContentRating defines parameters for GetUserFollowsMangaFeed.
@@ -3021,20 +3021,20 @@ type GetUserFollowsMangaFeedParamsIncludeUnavailable string
 
 // GetUserFollowsUserParams defines parameters for GetUserFollowsUser.
 type GetUserFollowsUserParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 }
 
 // GetUserListParams defines parameters for GetUserList.
 type GetUserListParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 }
 
 // GetUserIdListParams defines parameters for GetUserIdList.
 type GetUserIdListParams struct {
-	Limit  *int `form:"limit,omitempty" json:"limit,omitempty"`
-	Offset *int `form:"offset,omitempty" json:"offset,omitempty"`
+	Limit	*int	`form:"limit,omitempty" json:"limit,omitempty" bson:"limit"`
+	Offset	*int	`form:"offset,omitempty" json:"offset,omitempty" bson:"offset"`
 }
 
 // PostAuthLoginJSONRequestBody defines body for PostAuthLogin for application/json ContentType.

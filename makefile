@@ -2,9 +2,10 @@ SWAGGER_URL=https://api.mangadex.org/docs/static/api.yaml
 SWAGGER_FILE=api.yaml
 OUTPUT_DIR=./
 
-.PHONY: all clean generate
+.PHONY: all clean generate bson
 
 all: generate
+all: bson
 
 download:
 	curl -L $(SWAGGER_URL) -o $(SWAGGER_FILE)
@@ -14,5 +15,10 @@ generate: download
 	oapi-codegen --config=model-cfg.yaml api.yaml
 	oapi-codegen --config=cfg.yaml api.yaml
 	go run cache_create/main.go -input client.gen.go -interface ClientWithResponsesInterface -output client_cache.go   -package mangadex
+
 clean:
 	rm -rf $(OUTPUT_DIR) $(SWAGGER_FILE)
+
+bson:
+	go build add_bson_tags.go
+	./add_bson_tags models.gen.go 
