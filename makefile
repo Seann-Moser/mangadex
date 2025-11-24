@@ -20,5 +20,4 @@ clean:
 	rm -rf $(OUTPUT_DIR) $(SWAGGER_FILE)
 
 bson:
-	go build add_bson_tags.go
-	./add_bson_tags models.gen.go 
+	go run ./bson/. models.gen.go 
