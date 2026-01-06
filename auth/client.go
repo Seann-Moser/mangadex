@@ -33,7 +33,7 @@ type OAuthClient struct {
 }
 
 func (c *OAuthClient) Login(ctx context.Context, username string, password string, creds *OAuthCredentials) error {
-	if creds != nil && creds.UserKey == "" {
+	if creds != nil || creds.UserKey == "" {
 		return fmt.Errorf("missing user key")
 	}
 	form := url.Values{}
