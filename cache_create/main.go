@@ -29,7 +29,8 @@ type Cached{{.IfaceName}} struct {
 	cache  Cache
 }
 
-// NewCached{{.IfaceName}} constructs a new Cached{{.IfaceName}}.
+/*
+*/
 func NewCached{{.IfaceName}}(client {{.IfaceName}}, cache Cache) *Cached{{.IfaceName}} {
 	return &Cached{{.IfaceName}}{client: client, cache: cache}
 }
